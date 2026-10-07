@@ -37,7 +37,8 @@ for eid,e in ents.items():
  "classification":e["Classification"],"significance_tier":e["Significance Tier"],"region_id":e["Region ID"],
  "culture_tradition":e["Culture / Tradition"],"visual_treatment":treatment(e),
  "image_policy":"Use only sourced/defensible historical imagery; never invent a likeness.",
- "verified_visual_assets":[{"visual_source_id":a["Visual Source ID"],"asset_type":a["Asset Type"],"source_url":a["Source URL"],"source_organization":a["Source Organization"],"rights":a["License / Rights"],"attribution":a["Attribution"],"local_asset_path":a["Local Asset Path"]} for a in verified_assets.get(eid,[])],
+ "verified_visual_assets":[{"visual_source_id":a["Visual Source ID"],"asset_type":a["Asset Type"],"source_url":a["Source URL"],"source_organization":a["Source Organization"],"rights":a["License / Rights"],"attribution":a["Attribution"],"local_asset_path":a["Local Asset Path"],"verification_status":a["Verification Status"]} for a in verified_assets.get(eid,[])],
+ "preferred_visual_source_id":(verified_assets.get(eid,[{}])[0].get("Visual Source ID","") if verified_assets.get(eid) else ""),
  "date_claim_ids":[c["Date Claim ID"] for c in numeric]})
 OUT.mkdir(exist_ok=True)
 p=OUT/"visual_scene_manifest.json";p.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
