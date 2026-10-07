@@ -11,8 +11,8 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"; OUT=ROOT/"rendered"
-START=-1500; END=500; W=5600; LEFT=430; RIGHT=80; TOP=190
-LANE_H=150
+START=-1500; END=500; PIXELS_PER_YEAR=6.0; LEFT=520; RIGHT=120; TOP=210\nW=int(LEFT+RIGHT+(END-START)*PIXELS_PER_YEAR)
+LANE_H=180
 
 LANES=[
  ("Mesopotamia / Persia", {"REG-0035","REG-0036","REG-0160","REG-0161","REG-0173","REG-0225","REG-0226","REG-0125","REG-0127","REG-0128","REG-0129","REG-0130"}),
@@ -62,7 +62,7 @@ for c in claims:
 height=TOP+len(LANES)*LANE_H+100
 svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}">']
 svg+=['<rect width="100%" height="100%" fill="#f7f4ed"/>',
-'<style>text{font-family:Arial,sans-serif;fill:#171717}.title{font-size:34px;font-weight:700}.sub{font-size:17px}.lane{font-size:19px;font-weight:700}.tick{font-size:14px}.item{font-size:13px}.meta{font-size:11px;fill:#555}</style>',
+'<style>text{font-family:Arial,sans-serif;fill:#171717}.title{font-size:38px;font-weight:700}.sub{font-size:19px}.lane{font-size:21px;font-weight:700}.tick{font-size:15px}.item{font-size:14px}.meta{font-size:12px;fill:#555}</style>',
 '<text x="30" y="48" class="title">Synchronized Human History — v1.0 Foundation</text>',
 f'<text x="30" y="78" class="sub">Canonical render • {START*-1} BCE–{END} CE • one shared chronological axis • generated from normalized data</text>',
 f'<text x="30" y="103" class="meta">Numeric claims only. {skipped} non-numeric/textual date claims remain in the database and are intentionally not assigned invented coordinates.</text>']
@@ -82,7 +82,7 @@ for li,(name,_) in enumerate(LANES):
  svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{LANE_H}" fill="{"#ffffff" if li%2==0 else "#efede7"}" opacity=".65"/>')
  svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
  items=sorted(marks[li],key=lambda z:(z[0],z[1]))
- tracks=[-10**9]*5
+ tracks=[-10**9]*7
  for s,en,e,c in items:
   xs=max(x(START),x(max(s,START))); xe=min(x(END),x(min(en,END)))
   t=next((k for k,v in enumerate(tracks) if xs>v+8),None)
