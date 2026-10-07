@@ -210,6 +210,11 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
     asset_label=esc(a.get("Asset Type","historical asset"))
     rights=esc(a.get("License / Rights",""))
     source_url=esc(a.get("Source URL",""))
+    image_url=esc(a.get("Image URL",""))
+    if image_url:
+     svg.append(f'<defs><clipPath id="clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])}"><rect x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" rx="5"/></clipPath></defs>')
+     svg.append(f'<image href="{image_url}" x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])})"><title>{source_label} | {rights}</title></image>')
+     svg.append(f'<rect x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" rx="5" fill="none" stroke="#806849" stroke-width="1.2"/>')
     svg.append(f'<rect x="{xs-57:.1f}" y="{yy-92:.1f}" width="114" height="17" rx="3" fill="#e4d2ae" stroke="#806849" stroke-width=".7"/>')
     svg.append(f'<text x="{xs:.1f}" y="{yy-80:.1f}" text-anchor="middle" class="meta" font-size="9">SOURCED • {asset_label}</text>')
     svg.append(f'<a href="{source_url}" target="_blank"><title>{source_label} | {rights}</title><rect x="{xs-57:.1f}" y="{yy-100:.1f}" width="114" height="80" fill="transparent"/></a>')
