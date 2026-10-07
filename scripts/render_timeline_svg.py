@@ -5,13 +5,13 @@ No historical content is invented here. Marks are emitted only from canonical
 Entities + Date Claims having normalized numeric coordinates.
 """
 from __future__ import annotations
-import csv, html
+import csv, html, sys
 from collections import defaultdict
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"; OUT=ROOT/"rendered"\n\n# Evidence-class visual encoding. Classification remains descriptive, never a truth score.\nCLASS_STYLES=[\n ("Traditional",("none","4 3")),("religious",("none","4 3")),("Legend",("none","2 3")),("myth",("none","2 3")),\n ("Artifact",("none","")),("inscription",("none","")),("Manuscript",("none","6 2")),("text",("none","6 2")),\n ("Approx",("none","3 2")),("disputed",("none","3 2"))]\n\ndef dash_for(classification):\n s=(classification or "").lower()\n if "legend" in s or "myth" in s:return "2 3"\n if "traditional" in s or "religious" in s:return "4 3"\n if "manuscript" in s or "text" in s:return "6 2"\n if "approx" in s or "disputed" in s:return "3 2"\n return ""
-START=-1500; END=500; PIXELS_PER_YEAR=6.0; LEFT=520; RIGHT=120; TOP=210\nW=int(LEFT+RIGHT+(END-START)*PIXELS_PER_YEAR)
+START=int(sys.argv[1]) if len(sys.argv)>1 else -1500\nEND=int(sys.argv[2]) if len(sys.argv)>2 else 500\nif START==0 or END==0 or START>=END: raise SystemExit("Use signed years with no year zero; START must be < END.")\nPIXELS_PER_YEAR=float(sys.argv[3]) if len(sys.argv)>3 else 6.0\nLEFT=520; RIGHT=120; TOP=210\nW=int(LEFT+RIGHT+(END-START)*PIXELS_PER_YEAR)
 LANE_H=180
 
 LANES=[
