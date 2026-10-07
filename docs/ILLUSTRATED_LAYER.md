@@ -27,3 +27,8 @@ Immediate priority is visible output:
 3. Add verified historical imagery opportunistically; missing imagery must not block the slice.
 4. Judge success by the rendered panorama, not by additional schemas, registries, validators, or pipeline abstractions.
 5. After visual approval, scale the same composition system outward across the master chronology.
+
+
+## Native SVG interaction rule
+
+Do not add custom zoom, pan, navigator, minimap, or other viewport controls to the canonical SVG. Standard SVG viewers already provide native zoom/pan. Preserve the artwork as a clean, portable vector document and spend visual space only on historical content. Interactive-web controls, if ever desired, belong in a separate derivative viewer rather than the master SVG.
