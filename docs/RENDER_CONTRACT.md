@@ -83,3 +83,23 @@ Requirements:
 6. Text must remain actual vector text where practical rather than being flattened into a bitmap.
 7. Future interactive viewers may use tiled/level-of-detail delivery for performance, but the underlying chronology coordinates remain identical to the vector master.
 8. Any raster export intended for close inspection should target at least 300 pixels per printed inch at final physical dimensions when technically practical; archival/inspection exports may exceed this.
+
+
+## Final visual-design target
+The engineering renderer is the chronological chassis, not the intended final appearance.
+
+The final master should preserve the strongest qualities of the project's early illustrated concept while materially improving historical rigor, information density, synchronization, provenance, and zoom clarity. Target presentation: a museum-quality illustrated world-history panorama rather than a spreadsheet, Gantt chart, or plain analytical plot.
+
+Visual composition requirements:
+- chronological civilization/polity bands remain visible as structural context;
+- major figures may receive portrait/statue/coin/name treatments only when historically defensible;
+- major artifacts, manuscripts, inscriptions, monuments, sites, maps, technologies, discoveries, and archaeological evidence should provide visual anchors;
+- text/manuscript layers may expand locally into detailed clusters without losing the global synchronized clock;
+- major wars, migrations, political transitions, climate events, discoveries, and intellectual/religious developments should read as historical narrative, not merely database marks;
+- visual hierarchy must distinguish backbone context from Feature-level focal material and dense Master-level detail;
+- imagery and decorative treatments must never move an item away from its canonical chronological coordinate;
+- when no authentic/defensible likeness exists, use artifacts, statues, manuscripts, sites, neutral iconography, or typography rather than an invented face;
+- at overview zoom the viewer should perceive the sweep of simultaneous world history; at deep zoom the viewer should be able to read labels, inspect evidence classes, and trace individual claims;
+- the result should be aesthetically richer than the early concept art while retaining the canonical data-driven foundation and vector-first large-format requirement.
+
+The design objective is therefore: illustrated historical panorama on top of a mathematically exact synchronized timeline engine.
