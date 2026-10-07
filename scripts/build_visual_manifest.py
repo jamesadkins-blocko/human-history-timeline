@@ -33,6 +33,8 @@ for a in visual_sources:
    raise SystemExit("verified visual asset lacks provenance/rights: "+vid)
   if not a.get("Image URL","").strip() and not a.get("Local Asset Path","").strip():
    print("WARNING verified visual asset has no renderable image yet:",vid)
+  if a.get("Image URL","").strip() and "metmuseum.org" in a.get("Source URL","") and "/original/" not in a.get("Image URL",""):
+   print("WARNING Met asset is not registered with original-resolution image:",vid)
 verified_assets={}
 for a in visual_sources:
  if a.get("Verification Status","").strip().lower()=="verified" and a.get("Entity ID"):
