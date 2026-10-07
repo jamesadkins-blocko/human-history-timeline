@@ -5,7 +5,7 @@ No historical content is invented here. Marks are emitted only from canonical
 Entities + Date Claims having normalized numeric coordinates.
 """
 from __future__ import annotations
-import csv, html, sys
+import csv, html, sys, base64, mimetypes
 from collections import defaultdict
 from pathlib import Path
 
@@ -72,9 +72,9 @@ PIXELS_PER_YEAR=float(sys.argv[3]) if len(sys.argv)>3 else 6.0
 LEFT=520; RIGHT=120; TOP=210
 W=int(LEFT+RIGHT+(CHRONO_SPAN if 'CHRONO_SPAN' in globals() else (END-START))*PIXELS_PER_YEAR)
 BASE_LANE_H=180
+TRACK_STEP=20
 HERO_SLICE=(START==-600 and END==-300)
 HERO_TRACK_STEP=34 if HERO_SLICE else TRACK_STEP
-TRACK_STEP=20
 TRACK_TOP=43
 
 LANES=[
