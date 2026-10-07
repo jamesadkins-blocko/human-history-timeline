@@ -125,6 +125,7 @@ def label_year(y):
 entities={r["Entity ID"]:r for r in rows("entities.csv")}
 claims=rows("date_claims.csv")
 visual_sources=rows("visual_sources.csv") if (DATA/"visual_sources.csv").exists() else []
+visual_manifest_path=OUT/"visual_scene_manifest.json"
 verified_assets={}
 for a in visual_sources:
  if a.get("Verification Status","").strip().lower()=="verified" and a.get("Entity ID"):
