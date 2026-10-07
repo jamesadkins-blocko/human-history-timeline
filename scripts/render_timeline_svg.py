@@ -219,7 +219,9 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
    # Authentic imagery is optional. Without a renderable verified asset, typography alone is preferred.
    renderable_assets=[a for a in assets if (a.get("Image URL") or "").strip() or (a.get("Local Asset Path") or "").strip()]
    if renderable_assets:
-    svg.append(feature_panel(kind,xs,yy-28,nm,title))
+    # Reserve a larger visual anchor in hero mode; authentic imagery remains tied to the exact date x-coordinate.
+    panel_y=yy-38 if HERO_SLICE else yy-28
+    svg.append(feature_panel(kind,xs,panel_y,nm,title))
    if renderable_assets:
     a=renderable_assets[0]
     source_label=esc(a.get("Source Organization","Verified source"))
@@ -228,8 +230,8 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
     source_url=esc(a.get("Source URL",""))
     image_url=esc(image_href(a))
     if image_url:
-     svg.append(f'<defs><clipPath id="clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])}"><rect x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" rx="5"/></clipPath></defs>')
-     svg.append(f'<image href="{image_url}" x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])})"><title>{source_label} | {rights}</title></image>')
+     svg.append(f'<defs><clipPath id="clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])}"><rect x="{xs-(82 if HERO_SLICE else 55):.1f}" y="{yy-(142 if HERO_SLICE else 99):.1f}" width="{164 if HERO_SLICE else 110}" height="{100 if HERO_SLICE else 66}" rx="5"/></clipPath></defs>')
+     svg.append(f'<image href="{image_url}" x="{xs-(82 if HERO_SLICE else 55):.1f}" y="{yy-(142 if HERO_SLICE else 99):.1f}" width="{164 if HERO_SLICE else 110}" height="{100 if HERO_SLICE else 66}" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])})"><title>{source_label} | {rights}</title></image>')
      svg.append(f'<rect x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" rx="5" fill="none" stroke="#806849" stroke-width="1.2"/>')
     svg.append(f'<rect x="{xs-57:.1f}" y="{yy-92:.1f}" width="114" height="17" rx="3" fill="#e4d2ae" stroke="#806849" stroke-width=".7"/>')
     svg.append(f'<text x="{xs:.1f}" y="{yy-80:.1f}" text-anchor="middle" class="meta" font-size="9">SOURCED • {asset_label}</text>')
