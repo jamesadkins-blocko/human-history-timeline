@@ -108,8 +108,17 @@ for li,(name,_) in enumerate(LANES):
 
 height=TOP+sum(z[2] for z in lane_layouts)+100
 svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}">']
-svg+=['<rect width="100%" height="100%" fill="#f7f4ed"/>',
-'<style>text{font-family:Arial,sans-serif;fill:#171717}.title{font-size:38px;font-weight:700}.sub{font-size:19px}.lane{font-size:21px;font-weight:700}.tick{font-size:15px}.item{font-size:14px}.meta{font-size:12px;fill:#555}</style>',
+svg+=['<rect width="100%" height="100%" fill="url(#paper)"/>',
+'''<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f8f2e4"/><stop offset="100%" stop-color="#e8dfca"/></linearGradient>
+ <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity=".18"/></filter>
+</defs>
+<style>
+text{font-family:Georgia,"Times New Roman",serif;fill:#211b14}
+.title{font-size:40px;font-weight:700;letter-spacing:.4px}.sub{font-size:18px;fill:#5c4c3b}
+.lane{font-size:22px;font-weight:700;letter-spacing:.3px}.tick{font-size:14px;fill:#6b5a46}
+.item{font-size:14px;font-weight:600}.meta{font-family:Arial,sans-serif;font-size:12px;fill:#6a6258}
+</style>''',
 '<text x="30" y="48" class="title">Synchronized Human History — v1.0 Foundation</text>',
 f'<text x="30" y="78" class="sub">Canonical render • {START*-1} BCE–{END} CE • one shared chronological axis • generated from normalized data</text>',
 f'<text x="30" y="103" class="meta">Numeric claims only. {skipped} non-numeric/textual date claims remain in the database and are intentionally not assigned invented coordinates.</text>']
@@ -127,16 +136,16 @@ svg.append(f'<text x="{boundary+5:.1f}" y="122" class="meta">1 BCE | 1 CE (no ye
 y_cursor=TOP
 for li,(name,items,lane_h) in enumerate(lane_layouts):
  y0=y_cursor; y_cursor+=lane_h
- svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#ffffff" if li%2==0 else "#efede7"}" opacity=".65"/>')
+ svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#f7f0df" if li%2==0 else "#e8ddc5"}" opacity=".72"/>')
  svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
  for s,en,e,c,xs,xe,t in items:
   yy=y0+TRACK_TOP+t*TRACK_STEP
   cls=esc(e["Classification"]); nm=esc(e["Display Name"] or e["Canonical Name"]); dash=dash_for(e["Classification"])
   title=esc(f'{e["Entity ID"]} | {c["Date Claim ID"]} | {c["Display Date"]} | {e["Classification"]}')
   if abs(xe-xs)<4:
-   svg.append(f'<circle cx="{xs:.1f}" cy="{yy}" r="4"><title>{title}</title></circle>')
+   svg.append(f'<circle cx="{xs:.1f}" cy="{yy}" r="5" fill="#493827" filter="url(#softShadow)"><title>{title}</title></circle>')
   else:
-   svg.append(f'<line x1="{xs:.1f}" y1="{yy}" x2="{xe:.1f}" y2="{yy}" stroke="#222" stroke-width="5" stroke-dasharray="{dash}"><title>{title}</title></line>')
+   svg.append(f'<line x1="{xs:.1f}" y1="{yy}" x2="{xe:.1f}" y2="{yy}" stroke="#493827" stroke-width="6" stroke-linecap="round" stroke-dasharray="{dash}"><title>{title}</title></line>')
   svg.append(f'<text x="{xs+6:.1f}" y="{yy-5}" class="item">{nm}<title>{title}</title></text>')
 
 # legend
