@@ -1,1 +1,243 @@
-source_id,title,author_creator,institution_publisher,source_type,url_or_identifier,date_accessed_or_publication,notes
+Source ID,Title / Institution,Source Type,URL,Use / Scope,Notes
+SRC-0001,Genesis 5:27 / Bible Gateway,Primary text aggregation,https://www.biblegateway.com/verse/en/Gen_5%3A27,Biblical textual claims,Use source text for what Genesis says; chronology placement is separate.
+SRC-0002,Met — Assyria to Iberia chronology,Museum chronology,https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf,Ancient Near East / Mediterranean chronology,Explicitly includes approximate and traditional dates.
+SRC-0003,British Museum — Cyrus Cylinder,Artifact catalog,https://www.britishmuseum.org/collection/object/W_1880-0617-1941,Cyrus/Babylon anchor,Artifact-based anchor at 539 BCE.
+SRC-0004,Perseus — Plato Critias 108e,Primary classical text,https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0180%3Atext%3DCriti.%3Asection%3D108e,Atlantis internal chronology,"Preserve Plato's claim as a textual chronology, not a modern historical verdict."
+SRC-0005,Perseus — Plato Timaeus 25,Primary classical text,https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0180%3Atext%3DTim.%3Apage%3D25,Atlantis destruction narrative,Separate narrative event from text composition.
+SRC-0006,Cuneiform Digital Library Initiative (CDLI),Scholarly digital corpus,https://www.cdli.earth/,Cuneiform artifacts and metadata,Large-scale artifact backbone; preserve catalog identifiers and provenance.
+SRC-0007,ORACC — Open Richly Annotated Cuneiform Corpus,Scholarly digital corpus,https://oracc.museum.upenn.edu/,Cuneiform texts/transliterations/translations,Cross-link to CDLI when identifiers exist.
+SRC-0008,Pleiades,Scholarly gazetteer / linked data,https://pleiades.stoa.org/,Ancient places and connections,Use stable Pleiades IDs and coordinates where available.
+SRC-0009,Trismegistos,Scholarly interdisciplinary portal,https://www.trismegistos.org/,"Ancient texts, people, places, dates",Use stable TM identifiers; access may vary by feature.
+SRC-0010,Seshat Global History Databank,Scholarly historical databank,https://www.seshat-db.com/,Global polities and social/political organization,Useful for broad polity chronology and global coverage.
+SRC-0011,Leon Levy Dead Sea Scrolls Digital Library / IAA,Institutional manuscript library,https://www.deadseascrolls.org.il/,Dead Sea Scroll manuscripts/fragments,Primary digital manuscript catalog and imagery.
+SRC-0012,Perseus Digital Library,Academic digital library,https://www.perseus.tufts.edu/,"Greek/Roman texts, art, archaeology",Copyright varies by component; cite passage-level sources.
+SRC-0013,World Historical Gazetteer,Historical gazetteer / linked data,https://www.worldhistoricalgazetteer.org/,Historical place reconciliation,Complement ancient-place coverage and broader historical geography.
+SRC-0014,"Met — South Asia, 8000–2000 BCE",Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/02/ssa.html,Indus / early South Asia,Chronology and major cultural milestones.
+SRC-0015,"Met — South Asia, 2000–1000 BCE",Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/03/ssa.html,Vedic / Late Harappan South Asia,Chronology and major cultural milestones.
+SRC-0016,"Met — Mesopotamia, 1000 BCE–1 CE",Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/04/wam.html,Mesopotamian empires,Backbone polity chronology.
+SRC-0017,"Met — China, 1000 BCE–1 CE",Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/04/eac.html,Chinese dynasties / periods,Backbone chronology.
+SRC-0018,"Met — Egypt, 8000–2000 BCE",Museum chronology,https://www.metmuseum.org/de/toah/ht/02/afe,Egypt / Nubia,Backbone chronology.
+SRC-0019,"Met — Mesoamerica and Central America, 8000–2000 BCE",Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/02/ca.html,Mesoamerica / Central America,Prehistoric cultural/agricultural chronology.
+SRC-0020,"Met — South Asia, 1000 BCE–1 CE",Museum chronology,https://www.metmuseum.org/zh/toah/ht/04/ssa,South Asian polities,Backbone chronology.
+SRC-0021,"Met — South Asia, 1–500 CE",Museum chronology,https://www.metmuseum.org/es/toah/ht/05/ssa,South Asian polities / religion,Backbone chronology.
+SRC-0022,"Met — Eastern Mediterranean and Syria, 1000 BCE–1 CE",Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/04/wae.html,Levant / Phoenician / imperial chronology,Backbone chronology.
+SRC-0023,Smithsonian Human Origins — Neanderthals,Scientific institutional resource,https://humanorigins.si.edu/evidence/human-fossils/species/homo-neanderthalensis,Human evolution,Species chronology and context.
+SRC-0024,Smithsonian Human Origins — Grotte Mandrin,Scientific institutional resource,https://humanorigins.si.edu/research/whats-hot-human-origins/modern-humans-move-neanderthal-territories,Human migration / contact,Early Homo sapiens presence in Neanderthal territory.
+SRC-0025,IAA — 4Q201 4Q Enoch,Institutional manuscript catalog,https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q201-1?locale=en_US,Enochic manuscript witness,Stable manuscript designation and bibliography.
+SRC-0026,IAA — 4Q530 Book of Giants,Institutional manuscript catalog,https://www.deadseascrolls.org.il/explore-the-archive/manuscript/4Q530-1?locale=en,Book of Giants / Enochic tradition,"Provides site, language, material, manuscript type, and Hasmonean period."
+SRC-0027,Library of Congress — Scrolls from the Dead Sea,National library exhibition / scholarly bibliography,https://www.loc.gov/exhibits/scrolls/bib.html,"Dead Sea Scroll texts, reception, Qumran debates","Useful for Community Rule, Damascus Document, Enoch, and competing Qumran interpretations."
+SRC-0028,British Museum — Epic of Gilgamesh Tablet VI K.231,Museum artifact catalog,https://www.britishmuseum.org/collection/object/W_K-231,"Gilgamesh figure, epic development, physical tablet",Includes 7th-century BCE artifact date and overview of epic development.
+SRC-0029,British Museum — Gilgamesh Flood Tablet SM.1881,Museum artifact catalog,https://www.britishmuseum.org/collection/object/W_SM-1881,Gilgamesh Tablet XI / Flood story,Neo-Assyrian physical witness.
+SRC-0030,Met — Ancient Greece 1000 BCE–1 CE,Museum chronology,https://visitmetmuseum.com/toah/ht/04/eusb.html,Greek figures and events,"Socrates, Plato's Academy, Aristotle's Lyceum, Alexander, and major events."
+SRC-0031,Perseus — Plato Critias/Timaeus,Primary classical text corpus,https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0180%3Atext%3DCriti.%3Asection%3D108e,Plato / Atlantis textual claims,Primary-text layer; internal chronology remains separate from author lifetime.
+SRC-0032,British Library — Codex Sinaiticus Add MS 43725,Institutional manuscript catalog,https://searcharchives.bl.uk/?f%5Broot_ancestor_reference_ssi%5D%5B%5D=Add+MS+43725,Codex Sinaiticus date/content,Catalog date range: second to third quarter of fourth century.
+SRC-0033,British Library — Codex Sinaiticus NT volume,Institutional manuscript catalog,https://searcharchives.bl.uk/catalog/040-002169730,Barnabas and Shepherd of Hermas witness,Documents New Testament contents followed by Barnabas and portions of Hermas.
+SRC-0034,Stanford Encyclopedia of Philosophy — Confucius,Scholarly reference,https://plato.stanford.edu/archives/sum2024/entries/confucius/,Confucius chronology and source caveats,Traditional 551–479 BCE dates; stresses diversity and lateness of biographical sources.
+SRC-0035,Met — China 1000 BCE–1 CE,Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/04/eac.html,"China: Daodejing, Qin, Sima Qian",Cross-civilization chronological backbone.
+SRC-0036,Met — The Year One: South Asia,Museum scholarly publication,https://resources.metmuseum.org/resources/metpublications/pdf/The_Year_One_Art_of_the_Ancient_World_East_and_West.pdf,Buddha chronology; Maurya/Ashoka,Preserves scholarly and traditional Buddha dating in same source.
+SRC-0037,Met — South Asia 1000 BCE–1 CE,Museum chronology,https://www.metmuseum.org/zh/toah/ht/04/ssa.html,"Buddhism, Jainism, Magadha, Ashoka, epics",Major South Asian chronology.
+SRC-0038,Met — Mauryan Empire,Museum essay,https://www.metmuseum.org/de/essays/mauryan-empire-ca-323-185-b-c,Ashoka and inscriptions,Ruler chronology and monumental edicts.
+SRC-0039,Encyclopaedia Iranica — Zoroaster general survey,Specialist scholarly reference,https://www.iranicaonline.org/articles/zoroaster-ii-general-survey/,Zarathustra chronology controversy,Documents wide range of proposed chronologies.
+SRC-0040,Encyclopaedia Iranica — Zoroaster in the Avesta,Specialist scholarly reference,https://www.iranicaonline.org/articles/zoroaster-iii-zoroaster-in-the-avesta/,Avestan biography and dating,"Useful for separating textual biography, authorship claims, and linguistic dating."
+SRC-0041,Met — Qin Dynasty,Museum essay,https://www.metmuseum.org/ko/essays/qin-dynasty-221-206-b-c,Qin Shihuangdi / Terracotta Army,Prominent ruler and artifact complex.
+SRC-0042,Met — Julio-Claudian Dynasty,Museum essay,https://www.metmuseum.org/zh/essays/the-julio-claudian-dynasty-27-b-c-68-a-d,Augustus/Tiberius reigns,Roman synchronization backbone.
+SRC-0043,Met — Age of Spirituality symposium,Museum scholarly publication,https://resources.metmuseum.org/resources/metpublications/pdf/Age_of_Spirituality_A_Symposium.pdf,Jesus chronology discussion,Notes competing death dates and uncertainty.
+SRC-0044,Library of Congress — Dead Sea Scrolls glossary,National library reference,https://loc.gov/exhibits/scrolls/glos.html,"Second Temple period, Septuagint, DSS terminology",Useful for period/textual context.
+SRC-0045,Library of Congress — Scrolls from the Dead Sea bulletin,National library scholarly overview,https://www.loc.gov/loc/lcib/93/9306/deadsea.html,"War Rule, Pesher Habakkuk, Genesis Apocryphon",Prominent DSS works; older interpretive claims require caution.
+SRC-0046,Met — China 1–500 CE,Museum chronology,https://www.metmuseum.org/zh/toah/ht/05/eac.html,Early Buddhism in China / An Shigao,Religious diffusion and translation history.
+SRC-0047,Met — Italian Peninsula 1–500 CE,Museum chronology,https://www.metmuseum.org/it/toah/ht/05/eust,Roman events / Jerusalem 70 CE,Hard synchronization anchors.
+SRC-0048,Met — Olmec Art,Museum scholarly essay,https://www.metmuseum.org/es/essays/olmec-art,Olmec chronology and significance,"Major Mesoamerican Formative tradition, c. 1200–400 BCE florescence."
+SRC-0049,Met — Mexico 1000 BCE–1 CE,Museum chronology,https://www.metmuseum.org/de/toah/ht/04/cam.html,"Olmec, Monte Albán, Teotihuacan",Regional chronology.
+SRC-0050,Met — Maya Area 1000 BCE–1 CE,Museum chronology,https://www.metmuseum.org/es/toah/ht/04/caa.html,Maya Preclassic and Long Count epoch,Separates cultural chronology from mythic calendrical epoch.
+SRC-0051,Met — Central/Southern Andes 1–500 CE,Museum chronology,https://www.metmuseum.org/pt/toah/ht/05/sac.html,"Paracas, Nazca, Moche, Tiwanaku, Wari",Andean backbone.
+SRC-0052,Met — Central/Southern Andes 1000–1400 CE,Museum chronology,https://www.metmuseum.org/toah/ht/07/sac,"Tiwanaku, early Inca, Chimú and others",Later Andean backbone.
+SRC-0053,Met — North America 1000 BCE–1 CE,Museum chronology,https://www.metmuseum.org/de/toah/ht/04/na.html,"Adena, Eastern Woodlands, Arctic/Southwest context",North American chronology.
+SRC-0054,Met — North America 1–500 CE,Museum chronology,https://www.metmuseum.org/zh/toah/ht/05/na.html,"Hopewell, Hohokam, Ipiutak",North American chronology.
+SRC-0055,Met — North America 500–1000 CE,Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/06/na.html,"Puebloan, Mississippian, Chaco",North American chronology.
+SRC-0056,Met — Oceania 8000–2000 BCE,Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/02/oc.html,"Sahul settlement context, New Guinea agriculture, Austronesian expansion",Pacific deep-history backbone.
+SRC-0057,Met — Oceania 2000–1000 BCE,Museum chronology,https://www.metmuseum.org/de/toah/ht/03/oc.html,Lapita expansion and island settlement,Pacific chronology.
+SRC-0058,Met — Lapita Pottery,Museum scholarly essay,https://www.metmuseum.org/pt/essays/lapita-pottery-ca-1500-500-b-c,Lapita material culture and chronology,Landmark Pacific archaeological tradition.
+SRC-0059,Met — Nok Terracottas,Museum scholarly essay,https://www.metmuseum.org/ko/essays/nok-terracottas-500-b-c-200-a-d,Nok sculpture chronology,Cautions against unsupported continuity claims.
+SRC-0060,Met — Egypt/Nubia 1–500 CE,Museum chronology,https://www.metmuseum.org/toah/ht/05/afe,Kush and Roman/Byzantine Egypt,African/Mediterranean synchronization.
+SRC-0061,Met — Foundations of Aksumite Civilization,Museum scholarly essay,https://www.metmuseum.org/it/essays/foundations-of-aksumite-civilization-and-its-christian-legacy-1st-7th-century,Aksum and Christian legacy,Red Sea/East African backbone.
+SRC-0062,Met — Western Sudan 500–1000 CE,Museum chronology,https://82nd-and-fifth.metmuseum.org/toah/ht/06/afu.html,"Ghana, Jenne-jeno, early Songhai/Kanem context",West African chronology and trade.
+SRC-0063,Met — Eastern/Southern Africa 500–1000 CE,Museum chronology,https://www.metmuseum.org/de/toah/ht/06/afa.html,"Aksum, Bantu/iron-working context, Swahili Coast",East/Southern African chronology.
+SRC-0064,Met publication — Chavín style,Museum publication,https://resources.metmuseum.org/resources/metpublications/pdf/Recent_Acquisitions_A_Selection_1988_1989_The_Metropolitan_Museum_of_Art_Bulletin_v_47_no_2_Fall_1989.pdf,Chavín horizon c. 900–200 BCE,Andean artistic/religious horizon.
+SRC-0065,Met — Byzantium 330–1453,Museum scholarly essay,https://www.metmuseum.org/essays/byzantium-330-1453,Byzantine chronology,Long-duration Eastern Roman backbone.
+SRC-0066,Met — Byzantium 500–1000,Museum chronology,https://www.metmuseum.org/toah/ht/06/eusb.html,Justinian and medieval Byzantium,Regional chronology.
+SRC-0067,Met — Hagia Sophia,Museum scholarly essay,https://www.metmuseum.org/essays/hagia-sophia-532-37,Hagia Sophia 532–537,Architecture anchor.
+SRC-0068,Met — Birth of Islam,Museum scholarly essay,https://www.metmuseum.org/essays/the-birth-of-islam,Muhammad/Hijra/early Islam,Religious and historical chronology.
+SRC-0069,Met — Umayyad Period,Museum scholarly essay,https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750,Umayyad chronology,Early caliphate art/politics.
+SRC-0070,Met — Abbasid Period,Museum scholarly essay,https://www.metmuseum.org/essays/the-art-of-the-abbasid-period-750-1258,Abbasid chronology,Islamic imperial backbone.
+SRC-0071,Met — China 500–1000,Museum chronology,https://www.metmuseum.org/toah/ht/06/eac.html,Tang China,East Asian chronology.
+SRC-0072,Met — China 1000–1400,Museum chronology,https://www.metmuseum.org/toah/ht/07/eac.html,Song/Yuan China,East Asian chronology.
+SRC-0073,Met — Yuan Dynasty,Museum scholarly essay,https://www.metmuseum.org/essays/yuan-dynasty-1271-1368,Yuan chronology,Mongol China.
+SRC-0074,Met — Legacy of Genghis Khan,Museum scholarly essay,https://www.metmuseum.org/essays/the-legacy-of-genghis-khan,Mongol imperial network,Eurasian synchronization.
+SRC-0075,Met — Gupta Period,Museum scholarly essay,https://www.metmuseum.org/essays/the-gupta-period-of-india,Gupta India,South Asian chronology.
+SRC-0076,Met — Chola Dynasty,Museum scholarly essay,https://www.metmuseum.org/essays/the-chola-dynasty-300-b-c-1279-a-d,Chola chronology,South India / Indian Ocean.
+SRC-0077,Met — Khmer Art and Architecture,Museum scholarly essay,https://www.metmuseum.org/essays/khmer-art-and-architecture,Khmer/Angkor chronology,Southeast Asian backbone.
+SRC-0078,Met — Empires of Western Sudan,Museum scholarly essay,https://www.metmuseum.org/essays/the-empires-of-the-western-sudan-ghana-mali-and-songhai,Ghana/Mali/Songhai,West African imperial chronology.
+SRC-0079,Met — Great Zimbabwe,Museum scholarly essay,https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century,Great Zimbabwe,Southern African chronology.
+SRC-0080,Met — Trade and Spread of Islam in Africa,Museum scholarly essay,https://www.metmuseum.org/essays/trade-and-the-spread-of-islam-in-africa,Swahili and African trade networks,Africa/Indian Ocean connections.
+SRC-0081,Met — Vikings,Museum scholarly essay,https://www.metmuseum.org/essays/vikings-780-1100,Viking Age,Northern Europe/North Atlantic.
+SRC-0082,UNESCO — L'Anse aux Meadows,World Heritage record,https://whc.unesco.org/en/list/4/,Norse North America,Archaeological cross-Atlantic anchor.
+SRC-0083,UNESCO — Cahokia Mounds,World Heritage record,https://whc.unesco.org/en/list/198/,Cahokia,North American urban/ceremonial center.
+SRC-0084,Met — Maya Art,Museum scholarly essay,https://www.metmuseum.org/essays/maya-art,Classic Maya,Mesoamerican chronology.
+SRC-0085,Met — Aztec Art,Museum scholarly essay,https://www.metmuseum.org/essays/aztec-art,Mexica/Aztec chronology,Late Mesoamerican empire.
+SRC-0086,Met — Inca Art,Museum scholarly essay,https://www.metmuseum.org/essays/inca-art,Inca imperial chronology,Andean empire.
+SRC-0087,Met — Crusades 1095–1291,Museum scholarly essay,https://www.metmuseum.org/essays/the-crusades-1095-1291,Crusades,Mediterranean conflict/network.
+SRC-0088,Met — Ming Dynasty,Museum scholarly essay,https://www.metmuseum.org/essays/ming-dynasty-1368-1644,Ming/Zheng He context,China / Indian Ocean.
+SRC-0089,Britannica — History of Printing,Reference synthesis,https://www.britannica.com/technology/printing-publishing/History-of-printing,Bi Sheng / movable type,Technology chronology; replace/augment with specialist primary scholarship later.
+SRC-0090,Britannica — Black Death,Reference synthesis,https://www.britannica.com/event/Black-Death,Black Death chronology,Pandemic overview; genomic/specialist sources later.
+SRC-0091,Te Ara — New Zealand history,National encyclopedia,https://teara.govt.nz/en/history/page-1,Polynesian settlement of New Zealand,National historical synthesis.
+SRC-0092,Met — Oceania 1000–1400,Museum chronology,https://www.metmuseum.org/toah/ht/07/oc.html,Polynesian settlement/arts,Pacific medieval chronology.
+SRC-0093,Met — Ottomans before 1600,Museum scholarly essay,https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600,Ottoman chronology,Early-modern imperial backbone.
+SRC-0094,Met — Age of Süleyman,Museum scholarly essay,https://www.metmuseum.org/essays/the-age-of-suleyman-the-magnificent-1520-1566,Suleiman reign,Ottoman ruler chronology.
+SRC-0095,Met — Safavids before 1600,Museum scholarly essay,https://www.metmuseum.org/essays/the-art-of-the-safavids-before-1600,Safavid chronology,Iranian imperial backbone.
+SRC-0096,Met — Mughals before 1600,Museum scholarly essay,https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600,Mughal chronology,South Asian imperial backbone.
+SRC-0097,UNESCO — Taj Mahal,World Heritage record,https://whc.unesco.org/en/list/252/,Taj Mahal,Architecture anchor.
+SRC-0098,Met — Edo Period,Museum scholarly essay,https://www.metmuseum.org/essays/art-of-the-edo-period-1615-1868,Tokugawa/Edo Japan,Japanese chronology.
+SRC-0099,Met — Qing Dynasty,Museum scholarly essay,https://www.metmuseum.org/essays/the-qing-dynasty-1644-1911,Qing China,East Asian chronology.
+SRC-0100,Met — Art of Benin,Museum scholarly essay,https://www.metmuseum.org/essays/the-art-of-benin,Benin kingdom/court art,West African chronology.
+SRC-0101,Met — Kongo Power and Majesty,Museum scholarly essay,https://www.metmuseum.org/essays/kongo-power-and-majesty,Kongo kingdom,Central African chronology.
+SRC-0102,SlaveVoyages,Scholarly historical database,https://www.slavevoyages.org/,Atlantic slave trade,Quantitative specialist backbone for voyages/forced migration.
+SRC-0103,Library of Congress — 1492 exhibition,National library exhibition,https://www.loc.gov/exhibits/1492/,Columbus / Atlantic encounters,Encounter context.
+SRC-0104,Smithsonian NMAH — Columbian Exchange,Museum historical resource,https://americanhistory.si.edu/explore/exhibitions/food/online/transforming-american-table/columbian-exchange,Columbian Exchange,Environmental/food history.
+SRC-0105,Library of Congress — Kislak collection/exhibition,National library collection,https://www.loc.gov/exhibits/kislak/kislak-exhibit.html,Mesoamerican conquest/context,Primary/rare materials.
+SRC-0106,Library of Congress — Reformation Collection,National library collection,https://www.loc.gov/collections/reformation-collection/about-this-collection/,Reformation,Textual/religious history.
+SRC-0107,Library of Congress — Copernicus item,National library rare book record,https://www.loc.gov/item/2021667004/,Copernicus / De revolutionibus,Scientific publication.
+SRC-0108,Royal Society — Isaac Newton,Scientific institution history,https://royalsociety.org/about-us/who-we-are/history/isaac-newton/,Newton,Scientific biography.
+SRC-0109,Library of Congress — Gutenberg Bible,National library rare book record,https://www.loc.gov/item/2021667602/,Gutenberg Bible,European printing milestone.
+SRC-0110,Library of Congress — Discovery and Exploration,National library collection,https://www.loc.gov/collections/discovery-and-exploration/about-this-collection/,Global maritime exploration,Maps and voyage context.
+SRC-0111,National Park Service — Jamestown,Federal historical resource,https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm,Jamestown/Powhatan,Colonial/Indigenous context.
+SRC-0112,Smithsonian NMAI — Rethinking Thanksgiving,Indigenous museum educational resource,https://americanindian.si.edu/nk360/informational/rethinking-thanksgiving,Wampanoag/Plymouth context,Counters simplified colonial mythology.
+SRC-0113,Library of Congress — American Revolution,National library educational collection,https://www.loc.gov/classroom-materials/american-revolution-1763-1783/,American Revolution,Political/military chronology.
+SRC-0114,National Archives — Declaration of Independence,Government primary document,https://www.archives.gov/founding-docs/declaration,Declaration of Independence,Primary political text.
+SRC-0116,Library of Congress — Hispanic/Portuguese collections,National library collection,https://www.loc.gov/collections/hispanic-and-portuguese-collections/about-this-collection/,Latin American independence/context,Regional primary/secondary materials.
+SRC-0117,Smithsonian — Steam engine collections,Museum collection,https://americanhistory.si.edu/collections/search/object/nmah_846528,Steam technology,Industrialization.
+SRC-0118,Met — Meiji Period,Museum scholarly essay,https://www.metmuseum.org/essays/art-of-the-meiji-period-1868-1912,Meiji Japan,Modern East Asian chronology.
+SRC-0119,British Library — India Office Records,National library archive,https://www.bl.uk/collection-guides/india-office-records,British India,Colonial South Asian records.
+SRC-0120,Library of Congress — Africa maps,National library map collection,https://www.loc.gov/maps/?fa=location:africa&dates=1800-1899,19th-century Africa,Imperial/cartographic context.
+SRC-0121,Met — Southern Africa 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/afs.html,Southern African states,Zulu and regional context.
+SRC-0122,Library of Congress — Civil War Maps,National library collection,https://www.loc.gov/collections/civil-war-maps/about-this-collection/,American Civil War,Military/political chronology.
+SRC-0123,National Archives — Emancipation Proclamation,Government primary document,https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation,Emancipation,Primary legal/political document.
+SRC-0124,Smithsonian NASM — 1903 Wright Flyer,Museum scientific/historical resource,https://airandspace.si.edu/stories/editorial/1903-wright-flyer,Powered flight,Aviation milestone.
+SRC-0125,Library of Congress — World War I Rotogravures,National library collection,https://www.loc.gov/collections/world-war-i-rotogravures/about-this-collection/,World War I,Global conflict documentation.
+SRC-0126,USHMM — Armenian Genocide,Specialist museum encyclopedia,https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-in-depth,Armenian genocide,Mass atrocity chronology.
+SRC-0127,CDC — 1918 Pandemic,Public health institutional history,https://www.cdc.gov/flu-pandemic/about/1918-pandemic.html,1918 influenza,Pandemic chronology.
+SRC-0128,Federal Reserve History — Great Depression,Institutional economic history,https://www.federalreservehistory.org/essays/great-depression,Great Depression,Economic chronology.
+SRC-0129,National Archives — World War II,Government archive,https://www.archives.gov/research/military/ww2,World War II,Conflict documentation.
+SRC-0130,USHMM — Introduction to the Holocaust,Specialist museum encyclopedia,https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust,Holocaust,Genocide chronology.
+SRC-0131,United Nations — History,International institution,https://www.un.org/en/about-us/history-of-the-un,United Nations,Institutional chronology.
+SRC-0132,United Nations — Decolonization,International institution,https://www.un.org/dppa/decolonization/en/about,Decolonization,Global decolonization framework.
+SRC-0133,National Archives — Cold War,Government archive,https://www.archives.gov/research/foreign-policy/cold-war,Cold War,Geopolitical chronology.
+SRC-0134,Library of Congress — Civil Rights Act exhibition,National library exhibition,https://www.loc.gov/exhibits/civil-rights-act/,Civil Rights Movement,U.S. civil-rights history.
+SRC-0135,NASA — Apollo 11,Space agency mission archive,https://www.nasa.gov/mission/apollo-11/,Apollo 11,Spaceflight milestone.
+SRC-0136,CERN — Birth of the Web,Scientific institution history,https://home.cern/science/computing/birth-web,World Wide Web,Computing/network history.
+SRC-0137,NHGRI — Human Genome Project,Scientific institution,https://www.genome.gov/human-genome-project,Human Genome Project,Genomics milestone.
+SRC-0138,World Health Organization — COVID-19,International public health institution,https://www.who.int/europe/emergencies/situations/covid-19,COVID-19,Pandemic chronology.
+SRC-0139,NASA — James Webb Space Telescope,Space agency mission resource,https://science.nasa.gov/mission/webb/,JWST,Contemporary science milestone.
+SRC-0140,Smithsonian Human Origins — Homo sapiens,Scientific museum resource,https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens,Homo sapiens evolution,Deep prehistory backbone.
+SRC-0141,UNESCO — Chauvet / Pont d’Arc,World Heritage record,https://whc.unesco.org/en/list/1426/,Paleolithic cave art,Landmark prehistoric art.
+SRC-0142,UNESCO — Göbekli Tepe,World Heritage record,https://whc.unesco.org/en/list/1572/,Göbekli Tepe,Early monumental Neolithic site.
+SRC-0143,UNESCO — Tell es-Sultan/Jericho,World Heritage record,https://whc.unesco.org/en/list/1687/,Early Jericho,Neolithic settlement.
+SRC-0144,UNESCO — Çatalhöyük,World Heritage record,https://whc.unesco.org/en/list/1405/,Çatalhöyük,Neolithic settlement.
+SRC-0145,UNESCO — Jomon Prehistoric Sites,World Heritage record,https://whc.unesco.org/en/list/1632/,Jōmon chronology,East Asian prehistory.
+SRC-0146,Met — Uruk Period,Museum scholarly essay,https://www.metmuseum.org/essays/the-uruk-period-ca-4000-3100-b-c,Uruk urbanization,Mesopotamian backbone.
+SRC-0147,Met — Cuneiform,Museum scholarly essay,https://www.metmuseum.org/essays/cuneiform,Writing history,Mesopotamian textual backbone.
+SRC-0148,Met — Akkadian Period,Museum scholarly essay,https://www.metmuseum.org/essays/akkadian-period-ca-2350-2150-b-c,Akkadian Empire,Mesopotamian chronology.
+SRC-0149,Met — Third Dynasty of Ur,Museum scholarly essay,https://www.metmuseum.org/essays/the-third-dynasty-of-ur-ca-2112-2004-b-c,Ur III,Mesopotamian chronology.
+SRC-0150,Louvre — Law Code of Hammurabi,Museum object/essay,https://www.louvre.fr/en/oeuvre-notices/law-code-hammurabi-king-babylon,Hammurabi,Legal inscription.
+SRC-0151,Met — Egypt New Kingdom,Museum scholarly essay,https://www.metmuseum.org/essays/egypt-in-the-new-kingdom-ca-1550-1070-b-c,New Kingdom Egypt,Egyptian chronology.
+SRC-0152,Met — Hatshepsut,Museum scholarly essay,https://www.metmuseum.org/essays/hatshepsut,Hatshepsut,Egyptian ruler.
+SRC-0153,Met — Hittites,Museum scholarly essay,https://www.metmuseum.org/essays/the-hittites,Hittite Empire,Anatolian chronology.
+SRC-0154,Met — Mycenaean Civilization,Museum scholarly essay,https://www.metmuseum.org/essays/mycenaean-civilization,Mycenaean Greece,Aegean chronology.
+SRC-0155,Met — Shang and Zhou,Museum scholarly essay,https://www.metmuseum.org/essays/shang-and-zhou-dynasties-the-bronze-age-of-china,Shang/Zhou China,Chinese Bronze Age.
+SRC-0156,UNESCO — Mohenjo-daro,World Heritage record,https://whc.unesco.org/en/list/138/,Indus urbanism,South Asian Bronze Age.
+SRC-0157,Perseus — Plato Timaeus,Primary classical text,https://www.perseus.tufts.edu/hopper/text?doc=Plat.%20Tim.%2024e,Atlantis narrative chronology,Primary textual claim.
+SRC-0158,Bible / Genesis tradition,Primary religious text,https://www.biblegateway.com/passage/?search=Genesis%2011-25&version=NRSVUE,Abraham tradition,Primary textual tradition; chronology requires system-specific interpretation.
+SRC-0159,Bible / Exodus tradition,Primary religious text,https://www.biblegateway.com/passage/?search=Exodus%201-20&version=NRSVUE,Moses/Exodus tradition,Primary textual tradition.
+SRC-0160,Met — Assyria to Iberia,Museum exhibition scholarship,https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia,Neo-Assyria / Levant / Mediterranean networks,Iron Age Near East.
+SRC-0161,Met — Iran 1000 BCE–1 CE,Museum chronology,https://www.metmuseum.org/toah/ht/04/wai.html,Achaemenid/Parthian Iran,Iranian chronology.
+SRC-0162,British Museum — Cyrus Cylinder,Museum object record,https://www.britishmuseum.org/collection/object/W_1880-0617-1941,Cyrus / Babylon,Primary artifact.
+SRC-0163,Met — China 1000 BCE–1 CE,Museum chronology,https://www.metmuseum.org/toah/ht/04/eac.html,Zhou/Qin/Han and Chinese thought,East Asian chronology.
+SRC-0164,Met — South Asia 1000 BCE–1 CE,Museum chronology,https://www.metmuseum.org/toah/ht/04/ssa.html,Buddhism/Jainism/Maurya,South Asian chronology.
+SRC-0165,Met — Han Dynasty,Museum scholarly essay,https://www.metmuseum.org/TOAH/hd/hand/hd_hand.htm,Han state/culture,Chinese imperial chronology.
+SRC-0166,IAA — Dead Sea Scrolls Digital Library,National antiquities manuscript database,https://www.deadseascrolls.org.il/,Dead Sea Scroll corpus,Primary manuscript catalog/digital images.
+SRC-0167,Israel Museum — Great Isaiah Scroll,Museum digital manuscript,https://dss.collections.imj.org.il/isaiah,1QIsa-a,Physical manuscript witness.
+SRC-0168,Met — Hellenistic Age,Museum scholarly essay,https://www.metmuseum.org/essays/the-art-of-the-hellenistic-age-and-the-hellenistic-tradition,Hellenistic period,Mediterranean/West Asian chronology.
+SRC-0169,Met — Roman Republic,Museum scholarly essay,https://www.metmuseum.org/essays/roman-republic,Roman Republic,Roman chronology.
+SRC-0170,Met — Augustan Rule,Museum scholarly essay,https://www.metmuseum.org/essays/augustan-rule-27-b-c-14-a-d,Augustus,Roman imperial transition.
+SRC-0171,Met — Early Christian Art,Museum scholarly essay,https://www.metmuseum.org/essays/early-christian-art,Early Christianity,Late antique religious history.
+SRC-0172,UNESCO — First Qin Emperor Mausoleum,World Heritage record,https://whc.unesco.org/en/list/441/,Terracotta Army/Qin,Archaeological anchor.
+SRC-0173,Met — Kingdom of Kush,Museum scholarly essay,https://www.metmuseum.org/essays/the-kingdom-of-kush,Kush/Meroë,Nubian chronology.
+SRC-0174,UNESCO — Chavín,World Heritage record,https://whc.unesco.org/en/list/330/,Chavín de Huántar,Andean archaeology.
+SRC-0175,Met — Iran 500–1000 CE,Museum chronology,https://www.metmuseum.org/toah/ht/06/wai.html,Sasanian and early Islamic Iran,Late-antique/medieval Iran.
+SRC-0176,Met — Eastern Mediterranean 500–1000 CE,Museum chronology,https://www.metmuseum.org/toah/ht/06/wae.html,Byzantine/Islamic eastern Mediterranean,Regional synchronization.
+SRC-0177,Met — Iraq 500–1000 CE,Museum chronology,https://www.metmuseum.org/toah/ht/06/wam.html,Sasanian/Abbasid Mesopotamia,Regional synchronization.
+SRC-0178,Met — Arabian Peninsula 500–1000 CE,Museum chronology,https://www.metmuseum.org/toah/ht/06/wap.html,Early Islam/Arabia,Religious-political chronology.
+SRC-0179,Met — Balkans 500–1000 CE,Museum chronology,https://www.metmuseum.org/toah/ht/06/eusb.html,Byzantium/Bulgaria,Balkan chronology.
+SRC-0180,Met — Anatolia/Caucasus 500–1000 CE,Museum chronology,https://www.metmuseum.org/toah/ht/06/waa.html,Byzantium/Caucasus,Regional chronology.
+SRC-0181,UNESCO — Aksum,World Heritage record,https://whc.unesco.org/en/list/15/,Aksum,African late-antique chronology.
+SRC-0182,Met — Tang Dynasty,Museum scholarly essay,https://www.metmuseum.org/essays/tang-dynasty-618-907,Tang China,East Asian chronology.
+SRC-0183,Met — Heian Period,Museum scholarly essay,https://www.metmuseum.org/essays/heian-period-794-1185,Heian Japan,Japanese chronology.
+SRC-0184,Met — Chola Dynasty,Museum scholarly essay,https://www.metmuseum.org/essays/the-chola-dynasty-300-b-c-1279-a-d,Chola South India,South Asian chronology.
+SRC-0185,UNESCO — Borobudur,World Heritage record,https://whc.unesco.org/en/list/592/,Borobudur,Southeast Asian Buddhist monument.
+SRC-0186,UNESCO — Angkor,World Heritage record,https://whc.unesco.org/en/list/668/,Khmer/Angkor,Southeast Asian chronology.
+SRC-0187,UNESCO — Tikal,World Heritage record,https://whc.unesco.org/en/list/64/,Classic Maya/Tikal,Mesoamerican chronology.
+SRC-0188,UNESCO — Teotihuacan,World Heritage record,https://whc.unesco.org/en/list/414/,Teotihuacan,Mesoamerican urban chronology.
+SRC-0189,NPS — Hopewell Culture,Federal archaeological resource,https://www.nps.gov/hocu/learn/historyculture/index.htm,Hopewell,Eastern North American archaeology.
+SRC-0190,Met — China 1000–1400,Museum chronology,https://www.metmuseum.org/toah/ht/07/eac.html,Song/Mongol/Yuan China,East Asian medieval chronology.
+SRC-0191,Met — Legacy of Genghis Khan,Museum scholarly essay,https://www.metmuseum.org/essays/the-legacy-of-genghis-khan,Mongol Empire,Eurasian synchronization.
+SRC-0192,Met — Crusades,Museum scholarly essay,https://www.metmuseum.org/essays/the-crusades-1095-1291,Crusades,Mediterranean medieval chronology.
+SRC-0193,Met — Empires of Western Sudan,Museum scholarly essay,https://www.metmuseum.org/essays/empires-of-the-western-sudan,Ghana/Mali/Songhai,West African chronology.
+SRC-0194,Met — Trans-Saharan Gold Trade,Museum scholarly essay,https://www.metmuseum.org/essays/trans-saharan-gold-trade-7th-14th-century,Trans-Saharan trade/Mali,African commercial networks.
+SRC-0195,UNESCO — Kilwa Kisiwani,World Heritage record,https://whc.unesco.org/en/list/144/,Kilwa/Swahili Coast,Indian Ocean African chronology.
+SRC-0196,NPS — Cahokia Mounds,Federal archaeological resource,https://www.nps.gov/articles/000/cahokia-mounds-state-historic-site-world-heritage-site.htm,Cahokia/Mississippian,North American chronology.
+SRC-0197,Te Ara — New Zealand settlement,National encyclopedia,https://teara.govt.nz/en/when-was-new-zealand-first-settled,Polynesian settlement of Aotearoa,Pacific migration chronology.
+SRC-0198,Te Ara — Genealogical dating,National encyclopedia,https://teara.govt.nz/en/when-was-new-zealand-first-settled/page-2,Māori oral traditions/settlement chronology,Traditional and archaeological chronology comparison.
+SRC-0199,Met — Mexico 1400–1600,Museum chronology,https://www.metmuseum.org/toah/ht/08/canm.html,Mexica/Aztec,Mesoamerican chronology.
+SRC-0200,Met — Inca ritual vessel/context,Museum object record,https://www.metmuseum.org/art/collection/search/314955,Inca,Andean chronology.
+SRC-0201,Britannica — Black Death,Reference encyclopedia,https://www.britannica.com/event/Black-Death,Black Death,Pandemic chronology.
+SRC-0202,Met — Marco Polo context,Museum scholarly publication,https://resources.metmuseum.org/resources/metpublications/pdf/A_Venetian_Vignette_One_Hundred_Years_after_Marco_Polo_The_Metropolitan_Museum_Journal_v_44_2009.pdf,Marco Polo/Mongol Eurasia,Travel/interconnection chronology.
+SRC-0203,Met — China 1400–1600,Museum chronology,https://www.metmuseum.org/toah/ht/08/eac.html,Ming/Zheng He,East Asian chronology.
+SRC-0204,Met — Anatolia/Caucasus 1400–1600,Museum chronology,https://www.metmuseum.org/toah/ht/08/waa.html,Ottoman/Safavid frontier,Early modern West Asia.
+SRC-0205,Met — Iran 1400–1600,Museum chronology,https://www.metmuseum.org/toah/ht/08/wai.html,Safavid Iran,Early modern Iran.
+SRC-0206,Met — South Asia 1600–1800,Museum chronology,https://www.metmuseum.org/toah/ht/09/ssa.html,Mughal/South Asian states,Early modern South Asia.
+SRC-0207,Met — Japan 1600–1800,Museum chronology,https://www.metmuseum.org/toah/ht/09/eaj.html,Tokugawa Japan,Early modern Japan.
+SRC-0208,Met — Central Africa 1400–1600,Museum chronology,https://www.metmuseum.org/toah/ht/08/afc.html,Kongo,Central African chronology.
+SRC-0209,Met — Central Africa 1600–1800,Museum chronology,https://www.metmuseum.org/toah/ht/09/afc.html,Luba/Lunda/Kuba,Central African chronology.
+SRC-0210,Met — Guinea Coast 1600–1800,Museum chronology,https://www.metmuseum.org/toah/ht/09/afg.html,Asante/Oyo/Benin,West African chronology.
+SRC-0211,Met — Eastern Africa 1600–1800,Museum chronology,https://www.metmuseum.org/toah/ht/09/afa.html,Ethiopia/Rwanda/Harar/Oman,East African chronology.
+SRC-0212,Library of Congress — African American Odyssey,National library exhibition,https://www.loc.gov/exhibits/odyssey/educate/wildfire.html,Atlantic slavery,Forced migration history.
+SRC-0213,Library of Congress — 1492 exhibition,National library exhibition,https://www.loc.gov/exhibits/1492/,Columbus/Atlantic encounter,Atlantic world.
+SRC-0214,NPS — Jamestown history,Federal historical resource,https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm,Jamestown/Powhatan,Colonial-Indigenous history.
+SRC-0215,NPS — Pueblo Revolt,Federal historical resource,https://www.nps.gov/articles/000/pueblo-revolt.htm,Pueblo Revolt,Indigenous resistance.
+SRC-0216,Library of Congress — Gutenberg Bible,National library exhibition,https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html,European printing,Technology/text history.
+SRC-0217,National Archives — Declaration of Independence,Government primary document,https://www.archives.gov/founding-docs/declaration,American Revolution,Primary political document.
+SRC-0218,Met — Africa 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/af.html,African nineteenth century,Africa-wide chronology.
+SRC-0219,Met — Western Africa 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/afw.html,Sokoto/West Africa,West African chronology.
+SRC-0220,Met — Southern Africa 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/afs.html,Zulu/Southern Africa,Southern African chronology.
+SRC-0221,Met — Ethiopia 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/afe.html,Ethiopia,Horn of Africa chronology.
+SRC-0222,Met — South Asia 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/ssa.html,India/British Raj,South Asian chronology.
+SRC-0223,Met — Japan 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/eaj.html,Meiji Japan,East Asian chronology.
+SRC-0224,Met — China 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/eac.html,Qing China,East Asian chronology.
+SRC-0225,Met — Anatolia 1800–1900,Museum chronology,https://www.metmuseum.org/toah/ht/10/waa.html,Ottoman Tanzimat,West Asian chronology.
+SRC-0226,National Archives — Civil War,Government archive,https://www.archives.gov/research/military/civil-war,US Civil War,Primary archival gateway.
+SRC-0227,National Archives — Emancipation Proclamation,Government primary document,https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation,US emancipation,Primary document.
+SRC-0228,NPS — Trail of Tears,Federal historical resource,https://www.nps.gov/trte/learn/historyculture/index.htm,Indian Removal,Indigenous/US history.
+SRC-0229,NZ History — New Zealand Wars,National historical resource,https://nzhistory.govt.nz/war/new-zealand-wars,New Zealand Wars,Māori-colonial history.
+SRC-0230,Smithsonian — America on the Move,Museum exhibition,https://americanhistory.si.edu/explore/exhibitions/america-on-the-move,Rail/transport history,Technology diffusion.
+SRC-0231,Smithsonian — Electricity,Museum collections,https://americanhistory.si.edu/collections/subjects/electricity,Electrification,Technology history.
+SRC-0232,National Archives — World War I,Government archive,https://www.archives.gov/research/military/ww1,World War I,US archival gateway and global-war context.
+SRC-0233,USHMM — Armenian Genocide,Museum encyclopedia,https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-overview,Armenian genocide,Genocide chronology.
+SRC-0234,CDC — 1918 Pandemic,Government public-health history,https://www.cdc.gov/flu-pandemic/about/1918-pandemic.html,1918 influenza,Pandemic chronology.
+SRC-0235,USHMM — Holocaust introduction,Museum encyclopedia,https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust,Holocaust,Genocide chronology.
+SRC-0236,National Archives — World War II,Government archive,https://www.archives.gov/research/military/ww2,World War II,War chronology and archival gateway.
+SRC-0237,United Nations — History,International organization,https://www.un.org/en/about-us/history-of-the-un,United Nations,Institutional chronology.
+SRC-0238,Nobel Prize — Penicillin,Scientific institutional source,https://www.nobelprize.org/prizes/medicine/1945/summary/,Penicillin,Medical history.
+SRC-0239,Nobel Prize — Insulin,Scientific institutional source,https://www.nobelprize.org/prizes/medicine/1923/summary/,Insulin,Medical history.
+SRC-0240,Smithsonian NASM — 1903 Wright Flyer,Museum object record,https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000,Powered flight,Aviation chronology.
+SRC-0241,Library of Congress — Harlem Renaissance,National library education resource,https://www.loc.gov/classroom-materials/harlem-renaissance/,Harlem Renaissance,Cultural chronology.
+SRC-0242,Library of Congress — Great Migration,National library education resource,https://www.loc.gov/classroom-materials/immigration/african/great-migration/,Great Migration,Demographic chronology.
+SRC-0243,National Archives — Atlantic Charter,Government primary document,https://www.archives.gov/milestone-documents/atlantic-charter,Atlantic Charter,Wartime diplomacy/decolonization context.
