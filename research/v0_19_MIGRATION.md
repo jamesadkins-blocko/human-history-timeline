@@ -1,6 +1,6 @@
 # v0.19 Canonical Database Migration
 
-Status: IN PROGRESS — workbook export verified; repository row promotion pending transport
+Status: COMPLETE — canonical v0.18 normalized data promoted and integrity-checked
 
 ## Authoritative migration input
 Actual workbook: Human_History_Master_Timeline_v0_18.xlsx
@@ -56,3 +56,27 @@ Total payload: 538809 bytes.
 
 ### Confirmed connector boundary
 The local runtime has no GitHub CLI or GitHub credential/token. The authenticated GitHub connector accepts blob/file content only as an argument; it has no action that imports an arbitrary local runtime path. Therefore the remaining migration problem is transport between the local artifact runtime and the authenticated connector, not GitHub file size or historical-data validation.
+
+
+## Completion validation
+
+Canonical /data promotion completed.
+
+Validated counts:
+- 546 entities
+- 600 date claims
+- 374 relationships
+- 245 places/regions
+- 376 traditions/corpora
+- 242 sources
+
+Integrity results:
+- Entity IDs unique
+- Date Claim IDs unique
+- Relationship IDs unique
+- Date Claim entity foreign keys resolve
+- Relationship subject/object foreign keys resolve
+- normalized year-zero violations: 0
+- Legacy lineage coverage via Entities.Legacy HT ID(s): exactly 600 mentions, 600 unique IDs, HT-0001 through HT-0600 complete, no duplicates
+
+Schema clarification discovered during validation: the normalized v0.18 Date Claims table does not carry a Legacy HT ID column. Legacy lineage is preserved on Entities in Legacy HT ID(s); merged conceptual entities may therefore carry multiple HT IDs while retaining separate Date Claims. Validation must test lineage through that field rather than expecting a nonexistent Date Claims column.
