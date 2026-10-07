@@ -180,8 +180,9 @@ f'<text x="30" y="48" class="title">{"The World, 600–300 BCE" if HERO_SLICE el
 f'<text x="30" y="78" class="sub">{"Illustrated synchronized panorama • " if HERO_SLICE else "Canonical render • "}{label_year(START)}–{label_year(END)} • one shared chronological axis</text>',
 f'<text x="30" y="103" class="meta">Numeric claims only. {skipped} non-numeric/textual date claims remain in the database and are intentionally not assigned invented coordinates.</text>']
 
-# axis: skip display year zero
-for yr in range(START,END+1,100):
+# axis: skip display year zero. Hero slice gets a denser 50-year museum grid.
+axis_step=50 if HERO_SLICE else 100
+for yr in range(START,END+1,axis_step):
  if yr==0: continue
  xx=x(yr); svg.append(f'<line x1="{xx:.1f}" y1="125" x2="{xx:.1f}" y2="{height-55}" stroke="#bbb" stroke-width="1"/>')
  svg.append(f'<text x="{xx:.1f}" y="145" text-anchor="middle" class="tick">{esc(label_year(yr))}</text>')
@@ -195,6 +196,17 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
  y0=y_cursor; y_cursor+=lane_h
  svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#f7f0df" if li%2==0 else "#e8ddc5"}" opacity=".72"/>')
  svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
+ # In the hero panorama, long-lived civilization/polity/dynasty/period records form
+ # broad contextual ribbons behind people, events, texts and artifacts.
+ if HERO_SLICE:
+  backbone_words=("empire","kingdom","dynasty","period","civilization","cultural tradition")
+  for s,en,e,c,xs,xe,t in items:
+   descriptor=(" ".join([e.get("Record Type",""),e.get("Subtype","")])).lower()
+   if any(word in descriptor for word in backbone_words) and xe-xs>80:
+    ribbon_y=y0+34
+    ribbon_h=24
+    svg.append(f'<rect x="{xs:.1f}" y="{ribbon_y:.1f}" width="{max(3,xe-xs):.1f}" height="{ribbon_h}" rx="7" fill="#b89b69" fill-opacity=".28" stroke="#8f754e" stroke-width=".8"><title>{esc(e["Entity ID"])} | {esc(c["Date Claim ID"])} | {esc(c["Display Date"])}</title></rect>')
+    svg.append(f'<text x="{xs+7:.1f}" y="{ribbon_y+16:.1f}" class="meta" font-weight="700">{esc(e["Display Name"] or e["Canonical Name"])}</text>')
  for s,en,e,c,xs,xe,t in items:
   yy=y0+TRACK_TOP+t*HERO_TRACK_STEP
   cls=esc(e["Classification"]); nm=esc(e["Display Name"] or e["Canonical Name"]); dash=dash_for(e["Classification"])
