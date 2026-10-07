@@ -105,7 +105,11 @@ for li,(name,_) in enumerate(LANES):
  for s,en,e,c in items:
   xs=max(x(START),x(max(s,START))); xe=min(x(END),x(min(en,END)))
   t=next((k for k,v in enumerate(tracks) if xs>v+8),None)
-  if t is None: continue
+  if t is None:
+   # Never discard canonical marks because a presentation lane is crowded.
+   # Extend the track set; a later layout pass may increase lane height.
+   tracks.append(-10**9)
+   t=len(tracks)-1
   yy=y0+43+t*20; tracks[t]=max(xe,xs+65)
   cls=esc(e["Classification"]); nm=esc(e["Display Name"] or e["Canonical Name"]); dash=dash_for(e["Classification"])
   title=esc(f'{e["Entity ID"]} | {c["Date Claim ID"]} | {c["Display Date"]} | {e["Classification"]}')
