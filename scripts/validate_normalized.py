@@ -45,31 +45,31 @@ def main():
     claims = tables["date_claims.csv"]
     rels = tables["relationships.csv"]
 
-    entity_ids = {nonblank(r, "entity_id") for r in entities}
+    entity_ids = {nonblank(r, "Entity ID", "entity_id") for r in entities}
     entity_ids.discard(None)
     if len(entity_ids) != len(entities):
         errors.append("entities.csv: blank or duplicate entity_id")
 
-    claim_ids = [nonblank(r, "date_claim_id") for r in claims]
+    claim_ids = [nonblank(r, "Date Claim ID", "date_claim_id") for r in claims]
     if None in claim_ids or len(set(claim_ids)) != len(claim_ids):
         errors.append("date_claims.csv: blank or duplicate date_claim_id")
 
-    rel_ids = [nonblank(r, "relationship_id") for r in rels]
+    rel_ids = [nonblank(r, "Relationship ID", "relationship_id") for r in rels]
     if None in rel_ids or len(set(rel_ids)) != len(rel_ids):
         errors.append("relationships.csv: blank or duplicate relationship_id")
 
     for r in claims:
-        eid = nonblank(r, "entity_id")
+        eid = nonblank(r, "Entity ID", "entity_id")
         if eid not in entity_ids:
             errors.append(f"orphan date claim entity: {eid}")
-        for field in ("start_min","start_preferred","start_max",
-                      "end_min","end_preferred","end_max"):
+        for field in ("Start Min","Start Preferred","Start Max",
+                      "End Min","End Preferred","End Max"):
             if str(r.get(field, "")).strip() == "0":
-                errors.append(f"year zero prohibited: {r.get('date_claim_id')} {field}")
+                errors.append(f"year zero prohibited: {nonblank(r, 'Date Claim ID', 'date_claim_id')} {field}")
 
     for r in rels:
-        s = nonblank(r, "subject_entity_id")
-        o = nonblank(r, "object_entity_id")
+        s = nonblank(r, "Subject Entity ID", "subject_entity_id")
+        o = nonblank(r, "Object Entity ID", "object_entity_id")
         if s not in entity_ids:
             errors.append(f"orphan relationship subject: {s}")
         if o not in entity_ids:
