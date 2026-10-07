@@ -75,19 +75,25 @@ def main():
         if o not in entity_ids:
             errors.append(f"orphan relationship object: {o}")
 
+    # Legacy lineage is preserved on Entities, not Date Claims.
+    # Merged conceptual entities may carry multiple HT IDs in Legacy HT ID(s).
+    import re
     legacy = []
-    for r in claims:
-        v = nonblank(r, "legacy_ht_id")
+    for r in entities:
+        v = nonblank(r, "Legacy HT ID(s)", "legacy_ht_ids")
         if v:
-            legacy.extend(x.strip() for x in str(v).replace(";",",").split(",") if x.strip())
+            legacy.extend(re.findall(r"HT-\\d{4}", str(v)))
     expected_ht = {f"HT-{i:04d}" for i in range(1,601)}
     got_ht = set(legacy)
     missing = sorted(expected_ht - got_ht)
     extra = sorted(got_ht - expected_ht)
+    duplicates = sorted(x for x in got_ht if legacy.count(x) != 1)
     if missing:
         errors.append(f"missing legacy HT IDs: {missing[:20]}")
     if extra:
         errors.append(f"unexpected legacy HT IDs: {extra[:20]}")
+    if len(legacy) != 600 or len(got_ht) != 600 or duplicates:
+        errors.append("legacy HT lineage must contain HT-0001..HT-0600 exactly once")
 
     if errors:
         print("VALIDATION FAILED")
