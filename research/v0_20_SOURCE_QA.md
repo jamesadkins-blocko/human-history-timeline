@@ -45,3 +45,17 @@ The previously suspected USHMM Nanjing URL should not be treated as verified mer
 The U.S. Department of State Office of the Historian has primary diplomatic records in *Foreign Relations of the United States, Diplomatic Papers, 1937, The Far East*, documenting events at Nanking in December 1937, including the Panay incident and contemporary reporting from the theater.
 
 QA disposition: replace/augment the questionable legacy Nanjing URL with authoritative archival/diplomatic material and, in a later source-enrichment pass, add a modern scholarly source specifically addressing the Nanjing Massacre. Do not silently broaden a Panay-specific document into evidence for every massacre claim.
+
+
+## Nanjing source enrichment — verified
+A dedicated archival source has now been identified: Yale University Library's Nanking Massacre Project, a digital archive from Yale Divinity Library Special Collections. It contains letters, diaries, reports, photographs, and films from American missionaries and other witnesses who remained in Nanking during the 1937–1938 occupation. The project explicitly describes these as firsthand accounts and warns that the collection is an important historical lens rather than a comprehensive account.
+
+Examples in the archive include Miner Searle Bates's December 1937 / January 1938 notes and reports and John Magee film material documenting victims and refugee conditions.
+
+A modern scholarly complement is Zhang Sheng, "The Nanjing Massacre as recorded in American sources," Chinese Studies in History 50(4), 2017/2018, pp. 279–298.
+
+QA disposition:
+- Yale Nanking Massacre Project: suitable primary-source archival collection for the Nanjing Massacre claim.
+- Zhang Sheng article: suitable modern scholarly secondary source focused on the evidentiary value of American records.
+- retain FRUS/Panay documentation only for diplomatic and contextual claims it directly supports.
+- retire the unverified legacy USHMM Nanjing URL from preferred-source status; do not delete frozen lineage.
