@@ -19,6 +19,7 @@ check("vector text retained", "<text" in src)
 check("no raster canvas", "<canvas" not in src.lower())
 # Prevent regression to the old five-track cap.
 check("old five-track cap absent", "tracks=[-10**9]*5" not in src)
+check("crowded marks are not dropped", "if t is None: continue" not in src and "tracks.append" in src)
 failed=[n for n,v in checks if not v]
 for n,v in checks: print(("PASS " if v else "FAIL ")+n)
 if failed:
