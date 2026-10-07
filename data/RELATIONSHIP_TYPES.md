@@ -56,3 +56,13 @@ Use paired inverse labels only when reversing the row would otherwise obscure th
 ## v0.20 retyping guardrail
 
 A RELATED_TO row may be promoted only when the relationship is explicit in the entity semantics or supported source context. Chronological overlap alone is never sufficient.
+
+
+## Direction-preserving inverse types added in v0.20
+- `INCLUDES_PERIOD` — subject is a broader polity/period/system that includes the object period or phase.
+- `FOUNDED` — subject founder established the object institution/event represented in the dataset.
+- `RULED` — subject ruler governed the object polity.
+- `ENDED` — subject event terminated or conventionally marks the end of the object polity/period.
+- `INCLUDES_COMPONENT` — subject whole/system includes the object component/process.
+
+These inverse labels preserve imported Subject -> Object orientation. Do not reverse a legacy relationship merely to fit a preferred verb.
