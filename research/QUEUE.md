@@ -23,7 +23,7 @@
 
 ## NEXT — v1.0 normalization operational / render gate
 - [ ] Run final validation after v0.20 canonical mutations.
-- [ ] Freeze normalized migration architecture and rendering contract.
+- [x] Freeze normalized migration architecture and rendering contract.
 - [ ] Declare 600-record foundation render-ready.
 - [ ] Rebuild synchronized graphical timeline from canonical dataset.
 
