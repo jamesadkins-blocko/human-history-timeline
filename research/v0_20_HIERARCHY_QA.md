@@ -59,3 +59,47 @@ The safe v0.20 hierarchy strategy is therefore:
 - REG-0073 `Earth orbit`, REG-0164 `Moon`, and REG-0217 `Sun-Earth L2 / deep space` require an astronomical-location type rather than terrestrial region hierarchy.
 
 These are classification issues, not grounds to discard the associated historical records.
+
+
+## Controlled label-kind vocabulary — v0.20
+
+### Places & Regions label kinds
+Legacy labels remain unchanged. Classification describes what a label represents; it does not rewrite historical content or imply geographic containment.
+- Geographic region
+- Modern country / territory
+- City / settlement / archaeological site
+- Political entity / empire
+- Composite synchronization scope
+- Conceptual scope
+- Astronomical location / body
+- Traditional / textual setting
+- Narrative geographic claim
+- Misclassified non-place
+- Unclassified legacy label
+
+Immediate deterministic classifications:
+- REG-0073 `Earth orbit` — Astronomical location / body
+- REG-0164 `Moon` — Astronomical location / body
+- REG-0217 `Sun-Earth L2 / deep space` — Astronomical location / body
+- REG-0069 `Codex Sinaiticus` — Misclassified non-place
+- REG-0192 `Primeval biblical world` — Traditional / textual setting
+- REG-0026 `Atlantic (as described by Plato)` — Narrative geographic claim
+- REG-0031 `Atlantic / legendary` — Narrative geographic claim
+- REG-0113 `Global science` — Conceptual scope
+- REG-0051 `CERN / global` — Composite synchronization scope
+
+### Traditions & Corpora label kinds
+Do not derive hierarchy automatically from slash-separated or compound labels.
+- Culture / civilization
+- Religious tradition
+- Political / dynastic identity
+- Intellectual / scientific tradition
+- Archaeological culture
+- Textual / corpus tradition
+- Coalition / conflict context
+- Modern national identity
+- Composite interaction / synchronization label
+- Unclassified legacy label
+
+## Parentage rule
+Parent IDs remain optional. v0.20 does not assign a parent merely because a broader label appears textually plausible. Parentage requires explicit, unambiguous containment appropriate to the ontology. Classification can therefore advance independently of parent assignment.
