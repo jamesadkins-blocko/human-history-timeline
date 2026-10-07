@@ -3,7 +3,7 @@ REL-0001,ENT-0003,ASSOCIATED_WITH,ENT-0004,SRC-0162,Legacy explicit relation,v0.
 REL-0002,ENT-0005,TEXT_DESCRIBES,ENT-0006,SRC-0031,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0003,ENT-0007,OCCURRED_WITHIN,ENT-0003,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0004,ENT-0011,RESULTED_IN,ENT-0003,SRC-0016,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0005,ENT-0011,RELATED_TO,ENT-0004,SRC-0016,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0005,ENT-0011,ASSOCIATED_WITH,ENT-0004,SRC-0016,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0006,ENT-0015,PART_OF,ENT-0016,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0007,ENT-0015,PART_OF,ENT-0017,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0008,ENT-0017,SUCCEEDED_BY,ENT-0018,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -34,13 +34,13 @@ REL-0033,ENT-0061,COMMISSIONED_INSCRIPTIONS,ENT-0062,SRC-0038,High-confidence se
 REL-0035,ENT-0067,RULER_ASSOCIATED_WITH_FUNERARY_COMPLEX,ENT-0068,SRC-0041,High-confidence semantic typing,Mausoleum complex
 REL-0036,ENT-0069,AUTHORED,ENT-0070,SRC-0035,High-confidence semantic typing,Authorship
 REL-0037,ENT-0071,SUCCEEDED_BY,ENT-0072,SRC-0042,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0038,ENT-0073,RELATED_TO,ENT-0071,SRC-0043,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0039,ENT-0073,RELATED_TO,ENT-0072,SRC-0043,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0038,ENT-0073,CONTEMPORARY_WITH,ENT-0071,SRC-0043,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
+REL-0039,ENT-0073,CONTEMPORARY_WITH,ENT-0072,SRC-0043,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0040,ENT-0074,OCCURRED_WITHIN,ENT-0038,SRC-0044,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0041,ENT-0074,OCCURRED_WITHIN,ENT-0039,SRC-0044,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0042,ENT-0074,INCLUDES_EVENT,ENT-0075,SRC-0044,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0043,ENT-0077,ASSOCIATED_WITH,ENT-0076,SRC-0046,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0044,ENT-0084,RELATED_TO,ENT-0085,SRC-0050,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0044,ENT-0084,TRADITIONALLY_ASSOCIATED_WITH,ENT-0085,SRC-0050,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0045,ENT-0094,PRECEDED_BY,ENT-0095,SRC-0053,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0046,ENT-0097,OCCURRED_WITHIN,ENT-0098,SRC-0055,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0047,ENT-0100,RESULTED_IN,ENT-0101,SRC-0056,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
@@ -121,7 +121,7 @@ REL-0121,ENT-0242,RESULTED_IN,ENT-0218,,Legacy explicit relation,v0.20 high-conf
 REL-0122,ENT-0242,RESULTED_IN,ENT-0231,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0123,ENT-0243,RESULTED_IN,ENT-0244,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0124,ENT-0245,RESULTED_IN,ENT-0246,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0125,ENT-0251,RELATED_TO,ENT-0031,SRC-0140,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0125,ENT-0251,CONTEMPORARY_WITH,ENT-0031,SRC-0140,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0126,ENT-0251,ASSOCIATED_WITH,ENT-0252,SRC-0140,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0127,ENT-0253,PART_OF,ENT-0251,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0128,ENT-0253,RESULTED_IN,ENT-0103,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
@@ -140,7 +140,7 @@ REL-0140,ENT-0275,RULED_BY,ENT-0278,SRC-0151,Legacy explicit relation,v0.20 high
 REL-0141,ENT-0277,SUCCEEDED_BY,ENT-0278,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0142,ENT-0279,PARTICIPATED_IN_EVENT,ENT-0280,SRC-0151,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0143,ENT-0280,PARTICIPATED_IN_EVENT,ENT-0281,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0144,ENT-0282,RELATED_TO,ENT-0283,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0144,ENT-0282,PRECEDED_BY,ENT-0283,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0145,ENT-0283,ASSOCIATED_WITH,ENT-0284,SRC-0154,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0146,ENT-0285,ASSOCIATED_WITH,ENT-0286,SRC-0155,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0147,ENT-0287,ASSOCIATED_WITH,ENT-0008,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -154,9 +154,9 @@ REL-0154,ENT-0294,TEXT_DESCRIBES,ENT-0291,,Legacy explicit relation,v0.20 high-c
 REL-0155,ENT-0294,FIGURE_CENTRAL_TO_TEXT,ENT-0292,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0156,ENT-0294,FIGURE_CENTRAL_TO_TEXT,ENT-0293,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0157,ENT-0295,TEXT_DESCRIBES,ENT-0296,SRC-0157,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0158,ENT-0296,RELATED_TO,ENT-0044,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0158,ENT-0296,TEXT_DESCRIBES,ENT-0044,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0159,ENT-0299,SUCCEEDED_BY,ENT-0300,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0160,ENT-0301,RELATED_TO,ENT-0302,SRC-0160,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0160,ENT-0301,CONTEMPORARY_WITH,ENT-0302,SRC-0160,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0161,ENT-0301,RESULTED_IN,ENT-0303,SRC-0160,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0162,ENT-0302,RESULTED_IN,ENT-0304,SRC-0160,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0163,ENT-0303,OCCURRED_WITHIN,ENT-0010,SRC-0160,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -193,7 +193,7 @@ REL-0193,ENT-0323,ASSOCIATED_WITH,ENT-0071,,Legacy explicit relation,v0.20 seman
 REL-0194,ENT-0324,OCCURRED_WITHIN,ENT-0074,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0195,ENT-0324,SUCCEEDED_BY,ENT-0325,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0196,ENT-0325,OCCURRED_WITHIN,ENT-0074,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0197,ENT-0325,RELATED_TO,ENT-0326,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0197,ENT-0325,CONTEMPORARY_WITH,ENT-0326,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0198,ENT-0326,CONTAINS_TEXT,ENT-0327,SRC-0166,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0199,ENT-0326,CONTAINS_TEXT,ENT-0328,SRC-0166,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0200,ENT-0326,CONTAINS_TEXT,ENT-0329,SRC-0166,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -207,14 +207,14 @@ REL-0207,ENT-0067,RULED_BY,ENT-0018,SRC-0163,Legacy explicit relation,v0.20 high
 REL-0208,ENT-0067,RULER_ASSOCIATED_WITH_FUNERARY_COMPLEX,ENT-0068,SRC-0163,High-confidence semantic typing,Mausoleum complex
 REL-0209,ENT-0337,RULED_BY,ENT-0019,SRC-0165,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0210,ENT-0337,ASSOCIATED_WITH,ENT-0069,SRC-0165,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0211,ENT-0339,RELATED_TO,ENT-0104,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0212,ENT-0340,RELATED_TO,ENT-0094,SRC-0174,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0213,ENT-0341,RELATED_TO,ENT-0098,SRC-0189,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0211,ENT-0339,RELATED_TO,ENT-0104,,Legacy explicit relation,v0.20 reviewed: intentional cross-regional synchronization/comparison link; no causal or structural relationship asserted.
+REL-0212,ENT-0340,RELATED_TO,ENT-0094,SRC-0174,Legacy explicit relation,v0.20 reviewed: intentional cross-regional synchronization/comparison link; no causal or structural relationship asserted.
+REL-0213,ENT-0341,RELATED_TO,ENT-0098,SRC-0189,Legacy explicit relation,v0.20 reviewed: intentional cross-regional synchronization/comparison link; no causal or structural relationship asserted.
 REL-0214,ENT-0342,RULED_BY,ENT-0343,SRC-0175,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0215,ENT-0342,OCCURRED_WITHIN,ENT-0345,SRC-0175,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0216,ENT-0343,RELATED_TO,ENT-0115,SRC-0175,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0216,ENT-0343,CONTEMPORARY_WITH,ENT-0115,SRC-0175,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0217,ENT-0115,PATRON_OF_BUILDING_PROJECT,ENT-0344,SRC-0179,High-confidence semantic typing,Imperial rebuilding
-REL-0218,ENT-0345,RELATED_TO,ENT-0117,SRC-0176,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0218,ENT-0345,CONTEMPORARY_WITH,ENT-0117,SRC-0176,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0219,ENT-0117,PARTICIPATED_IN_EVENT,ENT-0346,SRC-0178,High-confidence semantic typing,Central participant
 REL-0220,ENT-0117,SUCCEEDED_BY,ENT-0347,SRC-0178,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0221,ENT-0347,SUCCEEDED_BY,ENT-0348,SRC-0176,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -242,7 +242,7 @@ REL-0242,ENT-0379,ASSOCIATED_WITH,ENT-0380,SRC-0188,Legacy explicit relation,v0.
 REL-0243,ENT-0380,OCCURRED_WITHIN,ENT-0139,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0244,ENT-0381,ASSOCIATED_WITH,ENT-0382,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0245,ENT-0383,CONTEMPORARY_WITH,ENT-0384,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0246,ENT-0385,RELATED_TO,ENT-0386,SRC-0189,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0246,ENT-0385,RELATED_TO,ENT-0386,SRC-0189,Legacy explicit relation,v0.20 reviewed: intentional cross-regional synchronization/comparison link; no causal or structural relationship asserted.
 REL-0247,ENT-0386,ASSOCIATED_WITH,ENT-0387,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0248,ENT-0386,ASSOCIATED_WITH,ENT-0388,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0249,ENT-0389,FOUNDED_BY,ENT-0390,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -258,9 +258,9 @@ REL-0258,ENT-0398,RESULTED_IN,ENT-0399,SRC-0192,Legacy explicit relation,v0.20 h
 REL-0259,ENT-0399,ASSOCIATED_WITH,ENT-0400,SRC-0192,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0260,ENT-0130,RULED_BY,ENT-0401,SRC-0193,High-confidence semantic typing,Ruler of Mali
 REL-0261,ENT-0401,PARTICIPATED_IN_EVENT,ENT-0402,SRC-0193,High-confidence semantic typing,Pilgrimage
-REL-0262,ENT-0403,RELATED_TO,ENT-0404,SRC-0079,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0263,ENT-0405,RELATED_TO,ENT-0406,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0264,ENT-0407,RELATED_TO,ENT-0408,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0262,ENT-0403,CONTEMPORARY_WITH,ENT-0404,SRC-0079,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
+REL-0263,ENT-0405,CONTEMPORARY_WITH,ENT-0406,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
+REL-0264,ENT-0407,CONTEMPORARY_WITH,ENT-0408,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0265,ENT-0408,ASSOCIATED_WITH,ENT-0129,SRC-0186,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0266,ENT-0409,PART_OF,ENT-0410,SRC-0196,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0267,ENT-0143,TRADITIONALLY_ASSOCIATED_WITH,ENT-0412,SRC-0197,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -270,15 +270,15 @@ REL-0270,ENT-0416,PRECEDED_BY,ENT-0417,SRC-0199,Legacy explicit relation,v0.20 h
 REL-0271,ENT-0417,RULED_BY,ENT-0418,SRC-0199,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0272,ENT-0419,PART_OF,ENT-0420,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0273,ENT-0421,CONTEMPORARY_WITH,ENT-0422,SRC-0201,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0274,ENT-0422,RELATED_TO,ENT-0401,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0274,ENT-0422,ASSOCIATED_WITH,ENT-0401,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0275,ENT-0423,ASSOCIATED_WITH,ENT-0391,SRC-0202,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0276,ENT-0423,OCCURRED_WITHIN,ENT-0124,SRC-0202,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0277,ENT-0424,PARTICIPATED_IN_EVENT,ENT-0425,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0278,ENT-0426,RESULTED_IN,ENT-0114,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0279,ENT-0149,SPONSORED_BY,ENT-0427,SRC-0203,High-confidence semantic typing,Ming sponsorship
 REL-0280,ENT-0428,ASSOCIATED_WITH,ENT-0386,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0281,ENT-0429,RELATED_TO,ENT-0428,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0282,ENT-0432,RELATED_TO,ENT-0433,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0281,ENT-0429,CONTEMPORARY_WITH,ENT-0428,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
+REL-0282,ENT-0432,CONTEMPORARY_WITH,ENT-0433,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0283,ENT-0434,ASSOCIATED_WITH,ENT-0173,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0284,ENT-0174,PRECEDED_BY,ENT-0176,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0285,ENT-0176,PRECEDED_BY,ENT-0178,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
@@ -292,8 +292,8 @@ REL-0292,ENT-0441,RULED_BY,ENT-0155,SRC-0206,High-confidence semantic typing,Mug
 REL-0293,ENT-0441,PATRON_OF_BUILDING_PROJECT,ENT-0442,SRC-0206,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0294,ENT-0443,RULED_BY,ENT-0444,SRC-0207,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0295,ENT-0445,RULED_BY,ENT-0446,SRC-0208,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0296,ENT-0447,RELATED_TO,ENT-0448,SRC-0209,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0297,ENT-0449,RELATED_TO,ENT-0450,SRC-0210,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0296,ENT-0447,CONTEMPORARY_WITH,ENT-0448,SRC-0209,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
+REL-0297,ENT-0449,CONTEMPORARY_WITH,ENT-0450,SRC-0210,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0298,ENT-0453,RESULTED_IN,ENT-0168,SRC-0213,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0299,ENT-0168,ASSOCIATED_WITH,ENT-0454,SRC-0213,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0300,ENT-0454,ASSOCIATED_WITH,ENT-0445,SRC-0212,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
@@ -301,7 +301,7 @@ REL-0301,ENT-0455,RESULTED_IN,ENT-0417,,Legacy explicit relation,v0.20 high-conf
 REL-0302,ENT-0456,RESULTED_IN,ENT-0420,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0303,ENT-0457,ASSOCIATED_WITH,ENT-0458,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0304,ENT-0463,RESULTED_IN,ENT-0462,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0305,ENT-0464,RELATED_TO,ENT-0387,SRC-0216,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0305,ENT-0464,CONTEMPORARY_WITH,ENT-0387,SRC-0216,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0306,ENT-0466,RESULTED_IN,ENT-0467,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0307,ENT-0189,PRODUCED_DOCUMENT,ENT-0469,SRC-0113,High-confidence semantic typing,Political document
 REL-0308,ENT-0470,ASSOCIATED_WITH,ENT-0191,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -323,11 +323,11 @@ REL-0323,ENT-0491,INCLUDES_EVENT,ENT-0492,SRC-0221,Legacy explicit relation,v0.2
 REL-0324,ENT-0493,OCCURRED_WITHIN,ENT-0492,SRC-0218,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0325,ENT-0493,INCLUDES_EVENT,ENT-0206,SRC-0218,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0326,ENT-0201,OCCURRED_WITHIN,ENT-0494,SRC-0223,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0327,ENT-0494,RELATED_TO,ENT-0495,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0328,ENT-0495,RELATED_TO,ENT-0200,SRC-0224,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0327,ENT-0494,OCCURRED_WITHIN,ENT-0495,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
+REL-0328,ENT-0495,SUCCEEDED_BY,ENT-0200,SRC-0224,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0329,ENT-0496,RESULTED_IN,ENT-0495,SRC-0224,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0330,ENT-0497,RELATED_TO,ENT-0498,SRC-0225,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0331,ENT-0499,RELATED_TO,ENT-0500,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0330,ENT-0497,SUCCEEDED_BY,ENT-0498,SRC-0225,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
+REL-0331,ENT-0499,CONTEMPORARY_WITH,ENT-0500,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0332,ENT-0502,ASSOCIATED_WITH,ENT-0503,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0333,ENT-0504,INCLUDES_EVENT,ENT-0505,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0334,ENT-0506,SUCCEEDED_BY,ENT-0477,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
@@ -357,7 +357,7 @@ REL-0357,ENT-0531,RESULTED_IN,ENT-0222,,Legacy explicit relation,v0.20 semantic 
 REL-0358,ENT-0532,ASSOCIATED_WITH,ENT-0223,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0359,ENT-0223,OCCURRED_WITHIN,ENT-0531,SRC-0235,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0360,ENT-0533,INCLUDES_EVENT,ENT-0534,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0361,ENT-0534,RELATED_TO,ENT-0492,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0361,ENT-0534,ASSOCIATED_WITH,ENT-0492,,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0362,ENT-0534,ASSOCIATED_WITH,ENT-0520,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0363,ENT-0535,ASSOCIATED_WITH,ENT-0536,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0364,ENT-0537,INCLUDES_EVENT,ENT-0538,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
@@ -365,7 +365,7 @@ REL-0365,ENT-0222,INCLUDES_EVENT,ENT-0539,SRC-0236,High-confidence semantic typi
 REL-0366,ENT-0222,INCLUDES_EVENT,ENT-0540,SRC-0236,High-confidence semantic typing,War battle
 REL-0367,ENT-0222,INCLUDES_EVENT,ENT-0541,SRC-0236,High-confidence semantic typing,War operation
 REL-0368,ENT-0542,DEVELOPED_WEAPONS_USED_IN,ENT-0224,,High-confidence semantic typing,Project produced atomic weapons
-REL-0369,ENT-0543,RELATED_TO,ENT-0544,SRC-0238,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0369,ENT-0543,CONTEMPORARY_WITH,ENT-0544,SRC-0238,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
 REL-0370,ENT-0545,INCLUDES_EVENT,ENT-0546,SRC-0240,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0371,ENT-0548,CONTEMPORARY_WITH,ENT-0549,SRC-0241,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0372,ENT-0550,RESULTED_IN,ENT-0551,,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
