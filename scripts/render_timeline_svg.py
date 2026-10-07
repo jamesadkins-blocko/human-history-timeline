@@ -55,9 +55,15 @@ def num(v):
  try:return float(v) if str(v).strip() else None
  except:return None
 def esc(s):return html.escape(str(s or ""))
+def chrono(year):
+ # Historical signed-year coordinate: -1 (1 BCE) is immediately followed by +1 (1 CE).
+ # There is no year-zero slot on the rendered clock.
+ if year == 0: raise ValueError("year zero is not a valid historical coordinate")
+ return year if year < 0 else year - 1
+
+CHRONO_START=chrono(START); CHRONO_END=chrono(END)
 def x(year):
- # astronomical-like continuous rendering coordinate with no displayed year zero.
- return LEFT+(year-START)/(END-START)*(W-LEFT-RIGHT)
+ return LEFT+(chrono(year)-CHRONO_START)/(CHRONO_END-CHRONO_START)*(W-LEFT-RIGHT)
 def label_year(y):
  y=int(y)
  return f"{abs(y)} BCE" if y<0 else f"{y} CE"
@@ -68,8 +74,11 @@ marks=defaultdict(list); skipped=0
 for c in claims:
  e=entities.get(c["Entity ID"])
  if not e: continue
- s=num(c["Start Preferred"]) or num(c["Start Min"])
- en=num(c["End Preferred"]) or num(c["End Max"]) or s
+ s=num(c["Start Preferred"])
+ if s is None: s=num(c["Start Min"])
+ en=num(c["End Preferred"])
+ if en is None: en=num(c["End Max"])
+ if en is None: en=s
  if s is None: skipped+=1; continue
  if en is None: en=s
  if en<START or s>END: continue
