@@ -21,6 +21,11 @@ def treatment(e):
  return "typographic-or-neutral"
 ents={r["Entity ID"]:r for r in rows("entities.csv")}
 claims=rows("date_claims.csv")
+visual_sources=rows("visual_sources.csv") if (DATA/"visual_sources.csv").exists() else []
+verified_assets={}
+for a in visual_sources:
+ if a.get("Verification Status","").strip().lower()=="verified" and a.get("Entity ID"):
+  verified_assets.setdefault(a["Entity ID"],[]).append(a)
 by={}; 
 for c in claims: by.setdefault(c["Entity ID"],[]).append(c)
 out=[]
@@ -32,6 +37,7 @@ for eid,e in ents.items():
  "classification":e["Classification"],"significance_tier":e["Significance Tier"],"region_id":e["Region ID"],
  "culture_tradition":e["Culture / Tradition"],"visual_treatment":treatment(e),
  "image_policy":"Use only sourced/defensible historical imagery; never invent a likeness.",
+ "verified_visual_assets":[{"visual_source_id":a["Visual Source ID"],"asset_type":a["Asset Type"],"source_url":a["Source URL"],"source_organization":a["Source Organization"],"rights":a["License / Rights"],"attribution":a["Attribution"],"local_asset_path":a["Local Asset Path"]} for a in verified_assets.get(eid,[])],
  "date_claim_ids":[c["Date Claim ID"] for c in numeric]})
 OUT.mkdir(exist_ok=True)
 p=OUT/"visual_scene_manifest.json";p.write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding="utf-8")
