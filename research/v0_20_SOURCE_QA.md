@@ -32,3 +32,16 @@ Library of Congress item 17021628 is a digitized primary-source record titled "M
 - Nanjing Massacre source replacement/verification
 - systematic HTTP reachability sweep for legacy URLs
 - source-quality tiering (primary/institutional scholarly/reference/secondary)
+
+
+## Russian Revolution reference review
+The legacy Library of Congress Soviet Archives exhibit is real and useful as an archival collection, but it is broader than the specific 1917 timeline claim. A more directly scoped Library of Congress primary-source item is Melville Elijah Stone, *The Russian revolution* (1917), LCCN 17023073. LOC also holds contemporary/near-contemporary materials and a dedicated subject collection for the Revolution of 1917–1921.
+
+QA disposition: retain the Soviet Archives exhibit as a broader archival resource, but prefer a directly scoped 1917 LOC item for the specific Russian Revolution timeline claim.
+
+## Nanjing / Nanking source review
+The previously suspected USHMM Nanjing URL should not be treated as verified merely because it resembles a USHMM article path. Live search did not establish that page as a dependable current source.
+
+The U.S. Department of State Office of the Historian has primary diplomatic records in *Foreign Relations of the United States, Diplomatic Papers, 1937, The Far East*, documenting events at Nanking in December 1937, including the Panay incident and contemporary reporting from the theater.
+
+QA disposition: replace/augment the questionable legacy Nanjing URL with authoritative archival/diplomatic material and, in a later source-enrichment pass, add a modern scholarly source specifically addressing the Nanjing Massacre. Do not silently broaden a Panay-specific document into evidence for every massacre claim.
