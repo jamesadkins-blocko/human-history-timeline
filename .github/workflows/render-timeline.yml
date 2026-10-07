@@ -22,6 +22,7 @@ on:
       - 'scripts/build_visual_manifest.py'
       - '.github/workflows/render-timeline.yml'
       - 'scripts/test_render_contract.py'
+      - 'scripts/render_timeline_svg.py'
 jobs:
   render:
     runs-on: ubuntu-latest
