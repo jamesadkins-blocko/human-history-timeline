@@ -177,6 +177,10 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
   if feature:
    box_w=min(300,max(105,8.0*len(nm)+18))
    svg.append(f'<rect x="{label_x-5:.1f}" y="{label_y-17:.1f}" width="{box_w:.1f}" height="22" rx="4" fill="#fbf6e9" fill-opacity=".94" stroke="#a98f68" stroke-width=".8" filter="url(#softShadow)"/>')
+   # Feature anchors get a larger medallion and chronology tether. This remains neutral until a verified image asset exists.
+   svg.append(f'<line x1="{xs:.1f}" y1="{yy:.1f}" x2="{xs:.1f}" y2="{yy-27:.1f}" stroke="#a98f68" stroke-width="1"/>')
+   svg.append(f'<circle cx="{xs:.1f}" cy="{yy-34:.1f}" r="13" fill="#efe2c6" stroke="#7d6547" stroke-width="1.4" filter="url(#softShadow)"/>')
+   svg.append(glyph(kind,xs,yy-34))
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="15">{nm}<title>{title}</title></text>')
   else:
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item">{nm}<title>{title}</title></text>')
