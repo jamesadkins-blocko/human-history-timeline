@@ -81,7 +81,7 @@ LANES=[
  ("Egypt", {"REG-0086","REG-0081","REG-0087","REG-0088","REG-0089","REG-0090"}),
  ("Kush / Nubia", {"REG-0149","REG-0186"}),
  ("Levant / Judea", {"REG-0147","REG-0140","REG-0139","REG-0144","REG-0193","REG-0194","REG-0201","REG-0105"}),
- ("Greece / Rome", {"REG-0001","REG-0023","REG-0114","REG-0155","REG-0195","REG-0196","REG-0134"}),
+ ("Greece / Rome", {"REG-0001","REG-0023","REG-0024","REG-0026","REG-0031","REG-0114","REG-0155","REG-0195","REG-0196","REG-0134"}),
  ("South Asia", {"REG-0122","REG-0124","REG-0179","REG-0185","REG-0204","REG-0205"}),
  ("China / East Asia", {"REG-0066","REG-0076","REG-0150"}),
  ("Central Asia", {"REG-0058","REG-0059","REG-0079","REG-0230","REG-0238"}),
