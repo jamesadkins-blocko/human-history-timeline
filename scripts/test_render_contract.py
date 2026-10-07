@@ -20,6 +20,9 @@ check("no raster canvas", "<canvas" not in src.lower())
 # Prevent regression to the old five-track cap.
 check("old five-track cap absent", "tracks=[-10**9]*5" not in src)
 check("crowded marks are not dropped", "if t is None: continue" not in src and "tracks.append" in src)
+check("historical coordinate transform exists", "def chrono(year):" in src and "return year if year < 0 else year - 1" in src)
+check("year zero coordinate rejected", 'raise ValueError("year zero is not a valid historical coordinate")' in src)
+check("date fallback uses explicit None checks", 's=num(c["Start Preferred"]) or' not in src)
 failed=[n for n,v in checks if not v]
 for n,v in checks: print(("PASS " if v else "FAIL ")+n)
 if failed:
