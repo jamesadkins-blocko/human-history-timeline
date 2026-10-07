@@ -214,9 +214,12 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
    # Feature anchors get a larger medallion and chronology tether. This remains neutral until a verified image asset exists.
    svg.append(f'<line x1="{xs:.1f}" y1="{yy:.1f}" x2="{xs:.1f}" y2="{yy-27:.1f}" stroke="#a98f68" stroke-width="1"/>')
    assets=verified_assets.get(e["Entity ID"],[])
-   svg.append(feature_panel(kind,xs,yy-28,nm,title))
-   if assets:
-    a=assets[0]
+   # Authentic imagery is optional. Without a renderable verified asset, typography alone is preferred.
+   renderable_assets=[a for a in assets if (a.get("Image URL") or "").strip() or (a.get("Local Asset Path") or "").strip()]
+   if renderable_assets:
+    svg.append(feature_panel(kind,xs,yy-28,nm,title))
+   if renderable_assets:
+    a=renderable_assets[0]
     source_label=esc(a.get("Source Organization","Verified source"))
     asset_label=esc(a.get("Asset Type","historical asset"))
     rights=esc(a.get("License / Rights",""))
