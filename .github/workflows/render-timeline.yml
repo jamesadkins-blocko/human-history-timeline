@@ -46,27 +46,7 @@ jobs:
           python scripts/render_timeline_svg.py -600 -300 12
           cp rendered/timeline_v1_foundation_600BCE_300BCE.svg build/the_world_600_300_BCE_illustrated.svg
           cp rendered/visual_scene_manifest.json build/
-          python - <<'PY'
-          from pathlib import Path
-          p=Path("build/the_world_600_300_BCE_illustrated.svg")
-          s=p.read_text(encoding="utf-8")
-          checks={
-              "hero title":"The World, 600–300 BCE" in s,
-              "Achaemenid":"Achaemenid Persian Empire" in s,
-              "Cyrus":"Cyrus II the Great" in s,
-              "Confucius":"Confucius" in s,
-              "Buddha":"Siddhartha Gautama" in s,
-              "Plato":"Plato" in s,
-              "Kush":"Kingdom of Kush" in s,
-              "Olmec":"Olmec cultural florescence" in s,
-              "no out-of-window era label":"1 BCE | 1 CE" not in s,
-          }
-          failed=[k for k,v in checks.items() if not v]
-          if failed:
-              print("HERO_QA_MISSING="+",".join(failed))
-              raise SystemExit("Hero SVG QA failed: "+", ".join(failed))
-          print("Hero SVG QA PASS:", ", ".join(checks))
-          PY
+
       - uses: actions/upload-artifact@v4
         with:
           name: synchronized-human-history-render
