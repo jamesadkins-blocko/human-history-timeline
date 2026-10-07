@@ -177,7 +177,7 @@ svg+=['<rect width="100%" height="100%" fill="url(#paper)"/>',
 <style>
 text{font-family:Georgia,"Times New Roman",serif;fill:#211b14}
 .title{font-size:40px;font-weight:700;letter-spacing:.4px}.sub{font-size:18px;fill:#5c4c3b}
-.lane{font-size:22px;font-weight:700;letter-spacing:.3px}.tick{font-size:14px;fill:#6b5a46}
+.lane{font-size:22px;font-weight:700;letter-spacing:.3px}.lane-rule{stroke:#8f754e;stroke-width:1;opacity:.45}.tick{font-size:14px;fill:#6b5a46}
 .item{font-size:14px;font-weight:600}.meta{font-family:Arial,sans-serif;font-size:12px;fill:#6a6258}
 </style>''',
 f'<text x="30" y="48" class="title">{"The World, 600–300 BCE" if HERO_SLICE else "Synchronized Human History — v1.0 Foundation"}</text>',
@@ -200,6 +200,8 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
  y0=y_cursor; y_cursor+=lane_h
  svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#f7f0df" if li%2==0 else "#e8ddc5"}" opacity=".72"/>')
  svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
+ if HERO_SLICE:
+  svg.append(f'<line x1="25" y1="{y0+34}" x2="{LEFT-24}" y2="{y0+34}" class="lane-rule"/>')
  # In the hero panorama, long-lived civilization/polity/dynasty/period records form
  # broad contextual ribbons behind people, events, texts and artifacts.
  if HERO_SLICE:
@@ -218,7 +220,11 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
   kind=visual_kind(e)
   svg.append(glyph(kind,xs,yy))
   if abs(xe-xs)<4:
-   svg.append(f'<circle cx="{xs:.1f}" cy="{yy}" r="5" fill="#493827" filter="url(#softShadow)"><title>{title}</title></circle>')
+   # Point events read as museum-map pins rather than generic data dots in the hero panorama.
+   if HERO_SLICE and kind=="event":
+    svg.append(f'<path d="M {xs:.1f} {yy-7:.1f} L {xs+7:.1f} {yy:.1f} L {xs:.1f} {yy+7:.1f} L {xs-7:.1f} {yy:.1f} Z" fill="#493827" filter="url(#softShadow)"><title>{title}</title></path>')
+   else:
+    svg.append(f'<circle cx="{xs:.1f}" cy="{yy}" r="5" fill="#493827" filter="url(#softShadow)"><title>{title}</title></circle>')
   else:
    svg.append(f'<line x1="{xs:.1f}" y1="{yy}" x2="{xe:.1f}" y2="{yy}" stroke="#493827" stroke-width="6" stroke-linecap="round" stroke-dasharray="{dash}"><title>{title}</title></line>')
   # Label cards create a readable museum-caption hierarchy while preserving the exact mark coordinate.
