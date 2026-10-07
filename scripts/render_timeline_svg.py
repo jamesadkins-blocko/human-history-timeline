@@ -221,6 +221,11 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
     svg.append(f'<text x="{xs+7:.1f}" y="{ribbon_y+16:.1f}" class="meta" font-weight="700">{esc(e["Display Name"] or e["Canonical Name"])}</text>')
  for s,en,e,c,xs,xe,t in items:
   yy=y0+TRACK_TOP+t*HERO_TRACK_STEP
+  if HERO_SLICE:
+   descriptor=(" ".join([e.get("Record Type",""),e.get("Subtype","")])).lower()
+   if any(word in descriptor for word in ("empire","kingdom","dynasty","period","civilization","cultural tradition")) and xe-xs>80:
+    # Backbone already appears as a contextual ribbon; avoid duplicating it as a chart-like bar.
+    continue
   cls=esc(e["Classification"]); nm=esc(e["Display Name"] or e["Canonical Name"]); dash=dash_for(e["Classification"])
   title=esc(f'{e["Entity ID"]} | {c["Date Claim ID"]} | {c["Display Date"]} | {e["Classification"]}')
   kind=visual_kind(e)
@@ -273,6 +278,14 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
      svg.append(f'<text x="{label_x:.1f}" y="{label_y+28:.1f}" class="meta" font-size="9">{subtype}</text>')
   else:
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item">{nm}<title>{title}</title></text>')
+
+# Hero visual key: compact, pictorial, and subordinate to the panorama.
+if HERO_SLICE:
+ key_y=height-92
+ svg.append(f'<text x="30" y="{key_y}" class="meta" font-weight="700">VISUAL KEY</text>')
+ svg.append(f'<path d="M 120 {key_y-5} L 127 {key_y+2} L 120 {key_y+9} L 113 {key_y+2} Z" fill="#493827"/><text x="136" y="{key_y+5}" class="meta">event</text>')
+ svg.append(f'<line x1="205" y1="{key_y+2}" x2="255" y2="{key_y+2}" stroke="#493827" stroke-width="6" stroke-linecap="round"/><text x="266" y="{key_y+5}" class="meta">life / duration</text>')
+ svg.append(f'<rect x="370" y="{key_y-8}" width="72" height="18" rx="6" fill="#b89b69" fill-opacity=".28" stroke="#8f754e"/><text x="453" y="{key_y+5}" class="meta">civilization / period</text>')
 
 # legend
 ly=height-62
