@@ -11,11 +11,11 @@
 - [x] Add no-year-zero and one-entity/multiple-claims rules to v0.17.
 - [x] Generate v0.17 normalized workbook.
 - [x] Run formula/error validation (clean).
-- [ ] Refine non-exact duplicate candidates (Buddha, Zarathustra, Jesus, Enoch/text/manuscript boundaries, Qin Shi Huang/Terracotta, Second Temple, modern density duplicates, etc.).
-- [ ] Type legacy relationships beyond generic RELATED_TO where sources support the semantics.
+- [x] Refine first high-confidence non-exact duplicate candidates (Buddha, Zarathustra, Jesus, Enoch figure, Qin Shi Huang/Terracotta, Second Temple destruction); continue lower-confidence candidate review.
+- [ ] Type legacy relationships beyond generic RELATED_TO where sources support the semantics. (33 high-confidence relationships typed in v0.18; continue.)
 - [ ] Refine Places & Regions hierarchy.
 - [ ] Refine Traditions & Corpora hierarchy.
-- [ ] Correct known source-QA defects and validate suspect URLs.
+- [ ] Correct known source-QA defects and validate suspect URLs. (Source QA sheet created; HT-0277 replacement reference verified; An Shigao queued.)
 - [ ] Persist canonical normalized CSV/JSON datasets in GitHub.
 - [ ] Complete referential-integrity and duplicate-candidate validation suite.
 - [ ] Mark Phase 1 normalization operational.
