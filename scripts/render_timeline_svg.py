@@ -97,6 +97,16 @@ def num(v):
  try:return float(v) if str(v).strip() else None
  except:return None
 def esc(s):return html.escape(str(s or ""))
+def image_href(asset):
+ # Prefer a repository-local, rights-reviewed asset so the SVG works offline on Android.
+ local=(asset.get("Local Asset Path") or "").strip()
+ if local:
+  p=ROOT/local
+  if p.exists():
+   mime=mimetypes.guess_type(str(p))[0] or "image/jpeg"
+   return "data:"+mime+";base64,"+base64.b64encode(p.read_bytes()).decode("ascii")
+ # Remote URL remains a development fallback; final archival SVGs should use local embedded assets.
+ return (asset.get("Image URL") or "").strip()
 def chrono(year):
  # Historical signed-year coordinate: -1 (1 BCE) is immediately followed by +1 (1 CE).
  # There is no year-zero slot on the rendered clock.
@@ -210,7 +220,7 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
     asset_label=esc(a.get("Asset Type","historical asset"))
     rights=esc(a.get("License / Rights",""))
     source_url=esc(a.get("Source URL",""))
-    image_url=esc(a.get("Image URL",""))
+    image_url=esc(image_href(a))
     if image_url:
      svg.append(f'<defs><clipPath id="clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])}"><rect x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" rx="5"/></clipPath></defs>')
      svg.append(f'<image href="{image_url}" x="{xs-55:.1f}" y="{yy-99:.1f}" width="110" height="66" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-{esc(e["Entity ID"])}-{esc(c["Date Claim ID"])})"><title>{source_label} | {rights}</title></image>')
