@@ -22,6 +22,17 @@ def treatment(e):
 ents={r["Entity ID"]:r for r in rows("entities.csv")}
 claims=rows("date_claims.csv")
 visual_sources=rows("visual_sources.csv") if (DATA/"visual_sources.csv").exists() else []
+seen_visual_ids=set()
+for a in visual_sources:
+ vid=a.get("Visual Source ID","").strip()
+ if not vid: raise SystemExit("visual_sources.csv contains a blank Visual Source ID")
+ if vid in seen_visual_ids: raise SystemExit("duplicate Visual Source ID: "+vid)
+ seen_visual_ids.add(vid)
+ if a.get("Verification Status","").strip().lower()=="verified":
+  if not a.get("Source URL","").strip() or not a.get("Source Organization","").strip() or not a.get("License / Rights","").strip():
+   raise SystemExit("verified visual asset lacks provenance/rights: "+vid)
+  if not a.get("Image URL","").strip() and not a.get("Local Asset Path","").strip():
+   print("WARNING verified visual asset has no renderable image yet:",vid)
 verified_assets={}
 for a in visual_sources:
  if a.get("Verification Status","").strip().lower()=="verified" and a.get("Entity ID"):
