@@ -82,7 +82,7 @@ def main():
     for r in entities:
         v = nonblank(r, "Legacy HT ID(s)", "legacy_ht_ids")
         if v:
-            legacy.extend(re.findall(r"HT-\\d{4}", str(v)))
+            legacy.extend(re.findall(r"HT-\d{4}", str(v)))
     expected_ht = {f"HT-{i:04d}" for i in range(1,601)}
     got_ht = set(legacy)
     missing = sorted(expected_ht - got_ht)
