@@ -1,0 +1,47 @@
+name: Build Timeline SVG
+on:
+  workflow_dispatch:
+    inputs:
+      start_year:
+        description: 'Signed start year; negative = BCE'
+        required: false
+        default: '-1500'
+      end_year:
+        description: 'Signed end year; positive = CE; year zero prohibited'
+        required: false
+        default: '500'
+      pixels_per_year:
+        description: 'Vector layout scale'
+        required: false
+        default: '6'
+  push:
+    paths:
+      - 'data/**.csv'
+      - 'scripts/render_timeline_svg.py'
+      - 'scripts/build_visual_manifest.py'
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate canonical data
+        run: python scripts/validate_normalized.py
+      - name: Validate render contract
+        run: python scripts/test_render_contract.py
+      - name: Build visual manifest
+        run: python scripts/build_visual_manifest.py
+      - name: Render synchronized SVG
+        run: python scripts/render_timeline_svg.py "${{ github.event.inputs.start_year || '-1500' }}" "${{ github.event.inputs.end_year || '500' }}" "${{ github.event.inputs.pixels_per_year || '6' }}"
+      - name: Package render
+        run: |
+          mkdir -p build
+          cp rendered/*.svg build/
+          cp rendered/visual_scene_manifest.json build/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: synchronized-human-history-render
+          path: build/
+          if-no-files-found: error
