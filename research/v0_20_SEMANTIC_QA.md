@@ -54,3 +54,16 @@ Intentional synchronization links:
 These rows do not assert causation, contact, descent, or influence. They exist to support the project's core synchronization function.
 
 Next v0.20 workstream: Places & Regions hierarchy, Traditions & Corpora hierarchy, and Source QA.
+
+
+## Directionality audit — COMPLETE
+The known directionality defects were corrected without reversing imported Subject -> Object orientation:
+REL-0006 and REL-0007 -> INCLUDES_PERIOD; REL-0025 -> FOUNDED; REL-0032 -> RULED; REL-0050 -> INCLUDES_PERIOD; REL-0065 -> ENDED; REL-0076 -> INCLUDES_COMPONENT; REL-0078 -> ENDED.
+Controlled inverse labels were added to data/RELATIONSHIP_TYPES.md.
+Post-mutation GitHub Actions validation passed (run 37555564204).
+
+## Hierarchy classification contract — ESTABLISHED
+v0.20 hierarchy QA now defines controlled label kinds for geographic, political, composite, conceptual, astronomical, traditional/textual, narrative, and misclassified-place labels, plus corresponding tradition/corpus categories. Parentage remains optional unless containment is explicit and unambiguous.
+
+## Render-gate disposition
+The remaining source-QA work is enrichment rather than a structural blocker. Frozen provenance remains preserved, and unresolved/weak legacy references are documented rather than silently rewritten. The normalized architecture is therefore structurally ready for the v1.0 render contract, subject to a final canonical validation after milestone documentation updates.
