@@ -22,10 +22,10 @@
 - [x] Freeze v0.20 structural semantic/QA milestone.
 
 ## NEXT — v1.0 normalization operational / render gate
-- [ ] Run final validation after v0.20 canonical mutations.
+- [x] Run final validation after v0.20 canonical mutations.
 - [x] Freeze normalized migration architecture and rendering contract.
-- [ ] Declare 600-record foundation render-ready.
-- [ ] Rebuild synchronized graphical timeline from canonical dataset.
+- [x] Declare 600-record foundation render-ready.
+- [ ] Rebuild synchronized graphical timeline from canonical dataset. **ACTIVE NEXT PHASE**
 
 ## AFTER RENDER GATE — Phase 2 expansion
 Resume historical expansion at HT-0601 while the graphical timeline regenerates from the same canonical data model.
