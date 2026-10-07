@@ -114,6 +114,11 @@ def label_year(y):
 
 entities={r["Entity ID"]:r for r in rows("entities.csv")}
 claims=rows("date_claims.csv")
+visual_sources=rows("visual_sources.csv") if (DATA/"visual_sources.csv").exists() else []
+verified_assets={}
+for a in visual_sources:
+ if a.get("Verification Status","").strip().lower()=="verified" and a.get("Entity ID"):
+  verified_assets.setdefault(a["Entity ID"],[]).append(a)
 marks=defaultdict(list); skipped=0
 for c in claims:
  e=entities.get(c["Entity ID"])
@@ -197,7 +202,17 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
    svg.append(f'<rect x="{label_x-5:.1f}" y="{label_y-17:.1f}" width="{box_w:.1f}" height="22" rx="4" fill="#fbf6e9" fill-opacity=".94" stroke="#a98f68" stroke-width=".8" filter="url(#softShadow)"/>')
    # Feature anchors get a larger medallion and chronology tether. This remains neutral until a verified image asset exists.
    svg.append(f'<line x1="{xs:.1f}" y1="{yy:.1f}" x2="{xs:.1f}" y2="{yy-27:.1f}" stroke="#a98f68" stroke-width="1"/>')
+   assets=verified_assets.get(e["Entity ID"],[])
    svg.append(feature_panel(kind,xs,yy-28,nm,title))
+   if assets:
+    a=assets[0]
+    source_label=esc(a.get("Source Organization","Verified source"))
+    asset_label=esc(a.get("Asset Type","historical asset"))
+    rights=esc(a.get("License / Rights",""))
+    source_url=esc(a.get("Source URL",""))
+    svg.append(f'<rect x="{xs-57:.1f}" y="{yy-92:.1f}" width="114" height="17" rx="3" fill="#e4d2ae" stroke="#806849" stroke-width=".7"/>')
+    svg.append(f'<text x="{xs:.1f}" y="{yy-80:.1f}" text-anchor="middle" class="meta" font-size="9">SOURCED • {asset_label}</text>')
+    svg.append(f'<a href="{source_url}" target="_blank"><title>{source_label} | {rights}</title><rect x="{xs-57:.1f}" y="{yy-100:.1f}" width="114" height="80" fill="transparent"/></a>')
    svg.append(f'<line x1="{xs:.1f}" y1="{yy-28:.1f}" x2="{xs:.1f}" y2="{yy-18:.1f}" stroke="#7d6547" stroke-width="1"/>')
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="15">{nm}<title>{title}</title></text>')
   else:
