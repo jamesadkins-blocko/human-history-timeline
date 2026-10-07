@@ -206,6 +206,11 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
  # In the hero panorama, long-lived civilization/polity/dynasty/period records form
  # broad contextual ribbons behind people, events, texts and artifacts.
  if HERO_SLICE:
+  # A restrained region cartouche gives the wall graphic a museum-panel feel without
+  # changing chronology or implying historical relationships.
+  cart_w=min(410, max(170, 15*len(name)+36))
+  svg.append(f'<rect x="18" y="{y0+5}" width="{cart_w}" height="31" rx="6" fill="#f6edd9" fill-opacity=".9" stroke="#8f754e" stroke-width="1"/>')
+ if HERO_SLICE:
   backbone_words=("empire","kingdom","dynasty","period","civilization","cultural tradition")
   for s,en,e,c,xs,xe,t in items:
    descriptor=(" ".join([e.get("Record Type",""),e.get("Subtype","")])).lower()
@@ -262,7 +267,10 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="{'18' if HERO_SLICE else '15'}">{nm}<title>{title}</title></text>')
    if HERO_SLICE:
     date_caption=esc(c.get("Display Date",""))
+    subtype=esc(e.get("Subtype","") or e.get("Record Type",""))
     svg.append(f'<text x="{label_x:.1f}" y="{label_y+15:.1f}" class="meta" font-size="10">{date_caption}</text>')
+    if subtype:
+     svg.append(f'<text x="{label_x:.1f}" y="{label_y+28:.1f}" class="meta" font-size="9">{subtype}</text>')
   else:
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item">{nm}<title>{title}</title></text>')
 
