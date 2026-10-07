@@ -69,3 +69,17 @@ A render is acceptable only if:
 The initial render foundation consists of 546 normalized entities, 600 date claims, 374 relationships, 245 legacy place/region labels, 376 legacy tradition/corpus labels, and 242 source records preserving complete HT-0001 through HT-0600 lineage.
 
 Future expansion begins at HT-0601 and must use this same rendering contract unless the contract is explicitly versioned.
+
+
+## Resolution and large-format master requirement
+The authoritative graphical master is vector-first. SVG is the primary master format for timeline geometry, chronology axes, text, labels, bars, symbols, borders, synchronization lines, and other generated graphical elements.
+
+Requirements:
+1. The master must not depend on a fixed raster DPI for legibility. Vector text and geometry must remain sharp under deep zoom and large-format reproduction.
+2. Raster photographs, manuscript scans, maps, coins, artifacts, archaeological imagery, and similar evidence must use the highest defensible source resolution reasonably available and must not be unnecessarily resampled downward.
+3. Raster assets must retain source/provenance metadata and must never be upscaled and presented as if new historical detail were recovered.
+4. PNG/PDF/print derivatives are generated from the vector master for a target physical size and output resolution; they are derivatives, not the canonical graphical source.
+5. The renderer must support dimensions substantially larger than a normal poster. Historical density determines canvas/view segmentation; a predetermined poster size must not cause data loss.
+6. Text must remain actual vector text where practical rather than being flattened into a bitmap.
+7. Future interactive viewers may use tiled/level-of-detail delivery for performance, but the underlying chronology coordinates remain identical to the vector master.
+8. Any raster export intended for close inspection should target at least 300 pixels per printed inch at final physical dimensions when technically practical; archival/inspection exports may exceed this.
