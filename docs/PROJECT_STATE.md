@@ -3,59 +3,58 @@
 ## Purpose
 Build a synchronized global human-history knowledge base on one mathematical chronological axis.
 
-## Current baseline
-- Frozen legacy workbook: v0.16
-- Legacy Master Timeline records: HT-0001 through HT-0600 (600 records)
-- Legacy Sources sheet: 242 populated source rows through SRC-0243
-- GitHub is the persistent project-state and normalized-data workspace going forward.
-- The legacy Master Timeline is preserved while data is normalized.
+## Frozen legacy baseline
+- v0.16 Master Timeline: HT-0001 through HT-0600 (600 records)
+- Legacy rows are preserved as evidence/migration input and are not silently rewritten.
+- GitHub is the persistent project-state and normalized-data workspace.
 
 ## Phase 1 normalization — ACTIVE
-A first complete structural normalization pass has been generated as v0.17 from the actual v0.16 workbook.
+Latest generated workbook: v0.18.
 
-Current v0.17 counts:
-- Legacy timeline records preserved: 600
-- Normalized entities: 554
+### v0.18 counts
+- Frozen legacy timeline records: 600
+- Normalized entities: 546
 - Date claims: 600
-- Relationships imported from explicit legacy Related IDs: 376
-- Places & Regions labels: 245
-- Traditions & Corpora legacy labels: 376
-- Exact conceptual duplicate clusters conservatively merged: 46
-- Formula/error scan: clean (0 #REF!, #DIV/0!, #VALUE!, #NAME?, #N/A matches)
+- Relationships: 374
+- High-confidence relationships semantically typed this pass: 33
+- Additional non-exact identity duplicates merged this pass: 8 absorbed entities across 7 canonical groups
+- Places & Regions seed labels: 245
+- Traditions & Corpora seed labels: 376
+- Referential-integrity failures: 0
+- Normalized year-zero violations: 0
+- Formula/error scan: 0
 
-The merge policy is deliberately conservative: false merges are worse than temporarily retaining extra entities. Every merged entity retains all contributing Legacy HT IDs and every legacy row retains its own Date Claim.
+### v0.18 high-confidence identity merges
+- Buddha: HT-0056, HT-0057, HT-0315 -> one Siddhartha Gautama entity with separate date claims.
+- Zarathustra: HT-0065, HT-0066 -> one Zarathustra/Zoroaster entity with competing chronology claims.
+- Jesus: HT-0073, HT-0338 -> one Jesus of Nazareth entity with separate legacy claims.
+- Qin Shi Huang: HT-0067, HT-0342 -> one ruler entity.
+- Terracotta Army: HT-0068, HT-0343 -> one artifact/complex entity.
+- Destruction of Second Temple: HT-0075, HT-0341 -> one event entity.
+- Enoch figure: HT-0034, HT-0337 -> one traditional figure entity; remains separate from 1 Enoch and Qumran manuscript witnesses.
 
-## v0.17 normalized sheets
-- Entities
-- Date Claims
-- Relationships
-- Places & Regions
-- Traditions & Corpora
+### Deliberately NOT merged
+- Second Temple period vs Second Temple completed vs destruction event.
+- Socrates person vs trial/death event.
+- Aristotle person vs founding of Lyceum event.
+- Alexander person vs death event.
+- Enoch figure vs 1 Enoch literary tradition vs manuscript copies.
+- Plato person vs Timaeus/Critias/Atlantis internal chronology.
+These separations are structural requirements, not duplicate-cleanup failures.
 
-Existing legacy sheets remain present:
-- Master Timeline
-- Sources
-- Schema & Rules
-- Source Registry
-- Research Queue
+### Source QA
+A Source QA sheet now records corrections/research without altering frozen legacy rows.
+- HT-0277 malformed Met Amarna URL: verified replacement reference captured from a current Met Akhenaten/Amarna object record.
+- HT-0077 An Shigao approximate end date remains queued for dedicated source review rather than guessing.
 
 ## Next work
-1. Refine non-exact conceptual duplicate clusters not captured by exact normalized-name matching.
-2. Replace generic RELATED_TO relationships with typed semantics where supported.
-3. Refine Places & Regions hierarchy and Traditions & Corpora hierarchy.
-4. Perform targeted source QA/corrections (including known legacy URL/date issues).
-5. Persist canonical normalized CSV/JSON datasets in this repository.
-6. Only after normalization QA is operational, resume expansion at HT-0601.
+1. Persist canonical normalized CSV/JSON datasets in GitHub.
+2. Continue semantic typing of relationships.
+3. Refine Places & Regions hierarchy.
+4. Refine Traditions & Corpora hierarchy.
+5. Complete source-QA sweep and duplicate-candidate validator.
+6. Mark normalization operational.
+7. Resume expansion at HT-0601 only after the above foundation is operational.
 
-## Non-negotiable research rules
-- No AI-invented historical content.
-- Every historical assertion derives from an identifiable source or identifiable textual/traditional corpus.
-- Traditional, religious, legendary, disputed, archaeological, and historically documented material may coexist with explicit classification.
-- Competing chronologies are preserved rather than collapsed.
-- Person, story/tradition, text composition, manuscript copy, artifact, and archaeological discovery are distinct entities/claims.
-- One mathematical time axis; no silent chronology shifting.
-- No-year-zero handling is explicit in normalized date claims.
-- Inclusion is based on prominence, historical significance, synchronization value, or major significance within an important corpus—not mere existence.
-
-## Continuity rule
-Before substantial work, read PROJECT_STATE.md, SCHEMA.md, RESEARCH_RULES.md, and research/QUEUE.md. Commit durable state before ending a work session. Stop only for a genuine decision or blocker requiring user input.
+## Continuity
+Read docs/PROJECT_STATE.md, docs/SCHEMA.md, docs/RESEARCH_RULES.md, research/QUEUE.md, and data/README.md before substantial work. Commit durable state before ending.
