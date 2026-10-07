@@ -239,6 +239,13 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
   title=esc(f'{e["Entity ID"]} | {c["Date Claim ID"]} | {c["Display Date"]} | {e["Classification"]}')
   kind=visual_kind(e)
   svg.append(glyph(kind,xs,yy))
+  if HERO_SLICE and kind in ("person","text","artifact","site"):
+   # Small category medallions give the mural pictorial anchors even when no authentic image exists.
+   # They are symbols, never likenesses.
+   med_y=yy-18
+   svg.append(f'<circle cx="{xs:.1f}" cy="{med_y:.1f}" r="8" fill="#f6edd9" stroke="#8f754e" stroke-width="1"/>')
+   symbol={"person":"P","text":"T","artifact":"A","site":"S"}[kind]
+   svg.append(f'<text x="{xs:.1f}" y="{med_y+3:.1f}" text-anchor="middle" class="meta" font-size="8" font-weight="700">{symbol}</text>')
   if abs(xe-xs)<4:
    # Point events read as museum-map pins rather than generic data dots in the hero panorama.
    if HERO_SLICE and kind=="event":
@@ -292,6 +299,7 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
 if HERO_SLICE:
  key_y=height-92
  svg.append(f'<text x="30" y="{key_y}" class="meta" font-weight="700">VISUAL KEY</text>')
+ svg.append(f'<text x="650" y="{key_y+5}" class="meta">P person • T text • A artifact • S site</text>')
  svg.append(f'<path d="M 120 {key_y-5} L 127 {key_y+2} L 120 {key_y+9} L 113 {key_y+2} Z" fill="#493827"/><text x="136" y="{key_y+5}" class="meta">event</text>')
  svg.append(f'<line x1="205" y1="{key_y+2}" x2="255" y2="{key_y+2}" stroke="#493827" stroke-width="6" stroke-linecap="round"/><text x="266" y="{key_y+5}" class="meta">life / duration</text>')
  svg.append(f'<rect x="370" y="{key_y-8}" width="72" height="18" rx="6" fill="#b89b69" fill-opacity=".28" stroke="#8f754e"/><text x="453" y="{key_y+5}" class="meta">civilization / period</text>')
