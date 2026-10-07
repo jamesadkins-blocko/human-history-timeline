@@ -32,3 +32,19 @@ Immediate priority is visible output:
 ## Native SVG interaction rule
 
 Do not add custom zoom, pan, navigator, minimap, or other viewport controls to the canonical SVG. Standard SVG viewers already provide native zoom/pan. Preserve the artwork as a clean, portable vector document and spend visual space only on historical content. Interactive-web controls, if ever desired, belong in a separate derivative viewer rather than the master SVG.
+
+
+## Final-build directive
+
+Keep the production path simple: canonical database -> accurate shared chronology -> high-resolution/vector SVG -> embedded sourced imagery or neutral fallback.
+
+The original illustrated concept is the visual target, now backed by the full canonical database. Do not add architecture merely for its own sake.
+
+Hard requirements:
+- Timeline placement comes only from canonical date claims; no invented or visually shifted chronology.
+- SVG remains the high-resolution/vector master.
+- Historical imagery is embedded only when the asset is verified and attributable.
+- Never render a missing, failed, transparent, stale, or unresolved image as an empty/ghost image box. If an image cannot be rendered reliably, omit it and use the neutral vector fallback.
+- No AI-invented historical likenesses.
+- Native SVG zoom/pan is sufficient.
+- Prefer completing visible illustrated history over adding new infrastructure.
