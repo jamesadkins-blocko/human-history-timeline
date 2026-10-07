@@ -200,6 +200,12 @@ y_cursor=TOP
 for li,(name,items,lane_h) in enumerate(lane_layouts):
  y0=y_cursor; y_cursor+=lane_h
  svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#f7f0df" if li%2==0 else "#e8ddc5"}" opacity=".72"/>')
+ if HERO_SLICE:
+  # Soft chronological field inside each region: subtle enough for a mural, precise enough for comparison.
+  for gy in range(START,END+1,50):
+   if gy==0: continue
+   gx=x(gy)
+   svg.append(f'<line x1="{gx:.1f}" y1="{y0+38}" x2="{gx:.1f}" y2="{y0+lane_h-8}" stroke="#8f806a" stroke-width=".6" opacity=".18"/>')
  svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
  if HERO_SLICE:
   svg.append(f'<line x1="25" y1="{y0+34}" x2="{LEFT-24}" y2="{y0+34}" class="lane-rule"/>')
@@ -218,7 +224,10 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
     ribbon_y=y0+34
     ribbon_h=24
     svg.append(f'<rect x="{xs:.1f}" y="{ribbon_y:.1f}" width="{max(3,xe-xs):.1f}" height="{ribbon_h}" rx="7" fill="#b89b69" fill-opacity=".28" stroke="#8f754e" stroke-width=".8"><title>{esc(e["Entity ID"])} | {esc(c["Date Claim ID"])} | {esc(c["Display Date"])}</title></rect>')
-    svg.append(f'<text x="{xs+7:.1f}" y="{ribbon_y+16:.1f}" class="meta" font-weight="700">{esc(e["Display Name"] or e["Canonical Name"])}</text>')
+    ribbon_name=esc(e["Display Name"] or e["Canonical Name"])
+    svg.append(f'<text x="{xs+7:.1f}" y="{ribbon_y+16:.1f}" class="meta" font-weight="700">{ribbon_name}</text>')
+    if xe-xs>250:
+     svg.append(f'<text x="{xe-7:.1f}" y="{ribbon_y+16:.1f}" text-anchor="end" class="meta" font-size="9">{esc(c.get("Display Date",""))}</text>')
  for s,en,e,c,xs,xe,t in items:
   yy=y0+TRACK_TOP+t*HERO_TRACK_STEP
   if HERO_SLICE:
