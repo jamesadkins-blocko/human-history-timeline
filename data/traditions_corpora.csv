@@ -1,1 +1,377 @@
-tradition_id,name,type,parent_tradition_id,description,notes
+Tradition ID,Name,Type,Parent Tradition ID,Description,Notes
+TRD-0001,Abbasid / Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0002,Abbasid Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0003,Aboriginal and Torres Strait Islander peoples / British colonies,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0004,Achaemenid / Babylonian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0005,Achaemenid Persian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0006,Adena,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0007,Adena / Eastern Woodlands,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0008,Afghan / U.S.-led coalition / Taliban and others,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0009,African / European / American Atlantic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0010,African / Islamic commercial networks,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0011,African American,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0012,African American / Pan-African,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0013,African American / United States,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0014,African states,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0015,Afro-Eurasian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0016,Afro-Eurasian-American,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0017,Akkadian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0018,Aksumite,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0019,Aksumite Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0020,Al-Qaeda / United States,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0021,Allied / German,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0022,Allied / global anticolonial reception,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0023,American,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0024,American / British imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0025,American aviation,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0026,Ancestral Puebloan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0027,Ancient Egyptian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0028,Arab / Islamic intellectual,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0029,Asante / Akan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0030,Assyrian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0031,Atlantic world,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0032,Austro-Hungarian / Serbian-Bosnian context,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0033,Austronesian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0034,Aviation,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0035,Ayyubid Kurdish / Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0036,Babylonian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0037,Biblical / Abrahamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0038,Biblical / Enochic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0039,Biblical / Genesis,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0040,Biblical / Israelite,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0041,Brazilian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0042,British,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0043,British / South Asian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0044,British imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0045,British imperial / South Asian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0046,British imperial / abolitionist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0047,British industrial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0048,British scientific,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0049,Buddhist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0050,Buddhist / Han,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0051,Buddhist / Parthian / Han,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0052,Buddhist / Tang Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0053,Bulgarian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0054,Bulgarian / Orthodox Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0055,Byzantine,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0056,Byzantine / Eastern Roman,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0057,Byzantine / Sasanian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0058,Byzantine / Seljuk,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0059,Byzantine Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0060,Carolingian / Latin Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0061,Catholic Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0062,Chavín,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0063,Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0064,Chinese / Afro-Eurasian maritime,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0065,Chinese / Communist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0066,Chinese / Confucian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0067,Chinese / Eurasian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0068,Chinese / Japanese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0069,Chinese Nationalist / Communist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0070,Chinese civilians / Imperial Japanese forces,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0071,Chinese communist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0072,Chinese republican,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0073,Chola,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0074,Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0075,Christian / European,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0076,Cold War Europe,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0077,Communications,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0078,Confucian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0079,Daoist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0080,Early Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0081,Early Christian / Jewish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0082,Early Homo sapiens,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0083,Early Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0084,Edo / Benin,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0085,Egyptian / Hittite,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0086,Egyptian / eastern Mediterranean,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0087,Egyptian 18th Dynasty,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0088,Egyptian 19th Dynasty,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0089,Electrical / industrial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0090,English,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0091,English / British,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0092,English / French kingdoms,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0093,English / Powhatan world,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0094,English / Wampanoag world,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0095,Ethiopian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0096,Ethiopian / Fascist Italian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0097,Ethiopian / Italian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0098,Ethiopian Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0099,European,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0100,European / global imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0101,European Jews / Nazi Germany and collaborators,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0102,European imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0103,European imperial / African polities,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0104,European imperial / African societies,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0105,European print culture,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0106,European scientific,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0107,European states,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0108,Evolutionary biology,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0109,Frankish / Carolingian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0110,French,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0111,French scientific,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0112,Fulani / Hausa / Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0113,Fulani / Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0114,German,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0115,German Nazi,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0116,Ghanaian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0117,Global,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0118,Global / Afro-Eurasian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0119,Global aviation,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0120,Global computing,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0121,Global medicine,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0122,Global scientific collaboration,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0123,Global women's movements,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0124,Greek,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0125,Greek / Ottoman,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0126,Greek / Platonic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0127,Greek epic tradition,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0128,Greek tradition,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0129,Gupta,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0130,Haitian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0131,Haitian / Saint-Domingue,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0132,Han,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0133,Han Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0134,Harappan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0135,Haudenosaunee / Iroquois,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0136,Hellenistic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0137,Hellenistic / Seleucid,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0138,Herodian / Judean,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0139,Highland New Guinea,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0140,Hittite,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0141,Hohokam,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0142,Homo sapiens,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0143,Hopewell,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0144,Hopewell / Eastern Woodlands,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0145,Human evolution,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0146,Imperial Japanese / United States,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0147,Inca,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0148,Inca / Spanish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0149,Indian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0150,Indian / Pakistani,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0151,Indian nationalist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0152,Indo-Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0153,Indus / Harappan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0154,Industrial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0155,Industrial / global,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0156,Industrializing societies,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0157,International,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0158,International space science,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0159,Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0160,Islamic / Arabian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0161,Israelite,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0162,Israelite / biblical,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0163,Italian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0164,Italian Fascist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0165,Italian Renaissance,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0166,Jain,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0167,Japanese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0168,Japanese / Heian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0169,Javanese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0170,Jewish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0171,Jewish / Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0172,Jewish / Enochic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0173,Jewish / Hasmonean,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0174,Jewish / Hellenistic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0175,Jewish / Persian-period Judea,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0176,Jewish / Qumran sectarian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0177,Jewish / Second Temple,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0178,Jewish / biblical,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0179,Judahite / Jewish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0180,Judahite / biblical,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0181,Jōmon,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0182,Khmer,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0183,Khmer / Hindu then Buddhist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0184,Khmer / Hindu-Buddhist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0185,Khwarazmian / Islamic intellectual,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0186,Kongo,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0187,Kongo / Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0188,Kongo Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0189,Korean / international,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0190,Kuba,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0191,Kushan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0192,Kushite / Meroitic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0193,Kushite / Nubian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0194,Lakota / United States,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0195,Lapita,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0196,Lapita / Austronesian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0197,Late Bronze Age societies,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0198,Latin American,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0199,Latin American independence,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0200,Latin Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0201,Latin Christian / Islamic / Eastern Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0202,Latin Christian / Levantine,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0203,Latin Christian / Muslim and Eastern Christian polities,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0204,Latin European,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0205,Luba / Lunda,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0206,Lutheran / Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0207,Macedonian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0208,Macedonian / Hellenistic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0209,Magadha,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0210,Malay / Buddhist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0211,Mali / Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0212,Mali / Mande,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0213,Manchu / Qing Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0214,Mande / Mali,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0215,Mauryan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0216,Mauryan / Buddhist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0217,Mauryan / Buddhist patronage,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0218,Maya,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0219,Mesoamerican,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0220,Mesopotamian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0221,Mexica,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0222,Mexica / Aztec,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0223,Mexica / Spanish / Indigenous allies,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0224,Mexica-Texcoco-Tlacopan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0225,Mexican,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0226,Middle Niger,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0227,Ming,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0228,Ming Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0229,Minoan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0230,Mississippian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0231,Moche,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0232,Moche / Andean,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0233,Mongol,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0234,Mongol / Yuan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0235,Mongol / Yuan Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0236,Mongol-Yuan / Japanese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0237,Moroccan / Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0238,Mughal,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0239,Mughal / Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0240,Multiple empires,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0241,Multiple states,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0242,Mycenaean Greek,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0243,Māori / British colonial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0244,Māori oral traditions,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0245,Nazca / Andean,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0246,Nazi persecution / European Jewry,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0247,Neo-Assyrian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0248,Neo-Assyrian / Israelite,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0249,Neo-Babylonian / Judahite,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0250,Neo-Confucian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0251,Neolithic Anatolia,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0252,Neolithic Levant,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0253,Neolithic South Asia,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0254,Neolithic Southwest Asia,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0255,Nok,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0256,Nok / West African Iron Age,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0257,Norse,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0258,Nubian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0259,Old Babylonian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0260,Olmec,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0261,Omani / Swahili,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0262,Ottoman,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0263,Ottoman / Byzantine,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0264,Ottoman / Safavid,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0265,Ottoman / Turkish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0266,Ottoman Armenian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0267,Ottoman Armenian / Ottoman state,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0268,Paleoanthropology,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0269,Pallava,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0270,Pan-African,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0271,Paracas / Andean,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0272,Parthian / Arsacid,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0273,Persian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0274,Persian / Islamic intellectual,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0275,Phoenician,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0276,Platonic tradition,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0277,Pleistocene climate,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0278,Pleistocene peoples,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0279,Polynesian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0280,Polynesian / Māori ancestors,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0281,Portuguese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0282,Portuguese / Indian Ocean worlds,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0283,Powhatan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0284,Powhatan / Algonquian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0285,Pre-Pottery Neolithic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0286,Protestant Christian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0287,Ptolemaic Egyptian / Macedonian Greek,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0288,Pueblo peoples / Spanish colonial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0289,Qin,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0290,Qing,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0291,Qing / British imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0292,Qing / Manchu,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0293,Qing Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0294,Qing Chinese / British & allied imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0295,Qing Chinese / Japanese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0296,Qumran / Second Temple Jewish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0297,Roman,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0298,Roman / Jewish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0299,Ru / Confucian tradition,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0300,Russian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0301,Russian / Japanese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0302,Russian / Ottoman / British / French / Sardinian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0303,Russian / Soviet,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0304,Russian / Soviet / anti-Bolshevik,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0305,Safavid,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0306,Safavid / Iranian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0307,Safavid Persian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0308,Sailendra / Buddhist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0309,Sanskrit / Hindu,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0310,Sasanian Persian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0311,Second Temple Jewish / Qumran-related,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0312,Seljuk Turkic / Persianate Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0313,Shang,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0314,Shona-associated southern African,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0315,Shona-related southern African traditions,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0316,Slavic Christian / Byzantine,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0317,Song,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0318,Song Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0319,Songhai,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0320,Soninke / Ghana,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0321,Soninke / West African,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0322,South African,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0323,South Asian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0324,South Asian / British colonial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0325,South Asian / British imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0326,South Indian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0327,Southeastern Indigenous nations / United States,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0328,Soviet,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0329,Soviet / German Axis,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0330,Soviet / global,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0331,Soviet / post-Soviet,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0332,Spanish / Genoese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0333,Spanish / Inca,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0334,Spanish / Indigenous Mesoamerican alliances / Mexica,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0335,Spanish / Taíno and Caribbean worlds,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0336,Spanish / modern art,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0337,Spanish Republican / Nationalist,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0338,Spanish expedition / multinational crew,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0339,Spanish-sponsored multinational expedition,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0340,Sri Lankan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0341,Sumerian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0342,Sumerian / Mesopotamian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0343,Sumerian / Ur III,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0344,Swahili,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0345,Taiping / Qing,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0346,Taiping / Qing Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0347,Tang,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0348,Tang Chinese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0349,Teotihuacan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0350,Teotihuacan / Maya,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0351,Tiwanaku,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0352,Tokugawa / Japanese,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0353,Turkish,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0354,Turkish republican,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0355,Umayyad Islamic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0356,United States,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0357,United States / Allied,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0358,United States / British Atlantic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0359,United States / Japan,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0360,United States / Japanese civilians and military,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0361,United States / Soviet-led blocs and nonaligned world,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0362,United States / human spaceflight,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0363,Upper Paleolithic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0364,Vedic,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0365,Venetian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0366,Venezuelan / Gran Colombian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0367,Vietnamese / international,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0368,Wampanoag / English,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0369,Wari,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0370,Western Han,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0371,Yoruba / Oyo,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0372,Zapotec / Oaxaca,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0373,Zoroastrian,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0374,Zoroastrian / later traditions,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0375,Zulu,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
+TRD-0376,Zulu / British imperial,Legacy tradition/culture label,,Imported from v0.16 Tradition / Culture field.,Refine corpus/tradition hierarchy without erasing legacy label.
