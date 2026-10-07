@@ -89,6 +89,7 @@ LANES=[
  ("Mesoamerica", {"REG-0117","REG-0159","REG-0187","REG-0154"}),
  ("South America", {"REG-0017","REG-0018","REG-0061","REG-0062","REG-0180","REG-0181","REG-0190","REG-0203","REG-0212"}),
  ("North America", {"REG-0065","REG-0085","REG-0174","REG-0176","REG-0182","REG-0213","REG-0163"}),
+ ("Other / Cross-regional", set()),
  ("Oceania", {"REG-0034","REG-0168","REG-0189","REG-0242","REG-0132","REG-0133"}),
 ]
 
@@ -145,7 +146,10 @@ for c in claims:
  if en<START or s>END: continue
  reg=e["Region ID"]
  lane=next((i for i,(_,ids) in enumerate(LANES) if reg in ids),None)
- if lane is None: continue
+ if lane is None:
+  # Preserve canonical marks rather than silently dropping valid history because a normalized
+  # region label has not yet been assigned to a presentation lane.
+  lane=next(i for i,(n,_) in enumerate(LANES) if n=="Other / Cross-regional")
  marks[lane].append((s,en,e,c))
 
 # Pre-compute collision tracks so each lane grows to fit all canonical marks.
