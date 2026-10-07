@@ -35,6 +35,24 @@ def visual_kind(e):
  if "event" in s or "war" in s or "battle" in s:return "event"
  return "record"
 
+def feature_panel(kind,x0,y0,name,title):
+ # Illustrated vector anchor: a deliberately neutral visual scene, never an invented likeness.
+ # Verified historical imagery will occupy this same panel when present in visual_sources.csv.
+ w=118; h=72; left=x0-w/2; top=y0-h
+ parts=[f'<g class="feature-panel"><rect x="{left:.1f}" y="{top:.1f}" width="{w}" height="{h}" rx="7" fill="#f7edd8" stroke="#806849" stroke-width="1.2" filter="url(#softShadow)"/>']
+ if kind=="site":
+  parts.append(f'<path d="M{left+12:.1f},{top+53:.1f} H{left+106:.1f} M{left+23:.1f},{top+53:.1f} V{top+31:.1f} M{left+47:.1f},{top+53:.1f} V{top+31:.1f} M{left+71:.1f},{top+53:.1f} V{top+31:.1f} M{left+95:.1f},{top+53:.1f} V{top+31:.1f} M{left+14:.1f},{top+31:.1f} H{left+104:.1f} L{x0:.1f},{top+13:.1f} Z" fill="none" stroke="#6d5438" stroke-width="2"/>')
+ elif kind=="document":
+  parts.append(f'<rect x="{x0-23:.1f}" y="{top+12:.1f}" width="46" height="46" rx="2" fill="#fff9ea" stroke="#806849"/><path d="M{x0-15:.1f},{top+23:.1f} H{x0+15:.1f} M{x0-15:.1f},{top+31:.1f} H{x0+15:.1f} M{x0-15:.1f},{top+39:.1f} H{x0+10:.1f} M{x0-15:.1f},{top+47:.1f} H{x0+13:.1f}" stroke="#8b7555"/>')
+ elif kind=="artifact":
+  parts.append(f'<path d="M{x0-19:.1f},{top+17:.1f} Q{x0-27:.1f},{top+48:.1f} {x0:.1f},{top+59:.1f} Q{x0+27:.1f},{top+48:.1f} {x0+19:.1f},{top+17:.1f} Z" fill="#c6a56d" stroke="#6d5438" stroke-width="2"/>')
+ elif kind=="event":
+  parts.append(f'<path d="M{x0:.1f},{top+10:.1f} L{x0+7:.1f},{top+29:.1f} L{x0+28:.1f},{top+35:.1f} L{x0+7:.1f},{top+41:.1f} L{x0:.1f},{top+62:.1f} L{x0-7:.1f},{top+41:.1f} L{x0-28:.1f},{top+35:.1f} L{x0-7:.1f},{top+29:.1f} Z" fill="#9a6040" opacity=".9"/>')
+ else:
+  parts.append(f'<circle cx="{x0:.1f}" cy="{top+28:.1f}" r="13" fill="#d2b98e" stroke="#6d5438"/><path d="M{x0-23:.1f},{top+59:.1f} Q{x0:.1f},{top+35:.1f} {x0+23:.1f},{top+59:.1f}" fill="#d2b98e" stroke="#6d5438"/>')
+ parts.append(f'<title>{title}</title></g>')
+ return "".join(parts)
+
 def glyph(kind,x0,y0):
  if kind=="person":
   return f'<g transform="translate({x0:.1f},{y0:.1f})"><circle cx="0" cy="-5" r="4" fill="#493827"/><path d="M-6,7 Q0,-1 6,7" fill="none" stroke="#493827" stroke-width="2"/></g>'
@@ -179,8 +197,8 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
    svg.append(f'<rect x="{label_x-5:.1f}" y="{label_y-17:.1f}" width="{box_w:.1f}" height="22" rx="4" fill="#fbf6e9" fill-opacity=".94" stroke="#a98f68" stroke-width=".8" filter="url(#softShadow)"/>')
    # Feature anchors get a larger medallion and chronology tether. This remains neutral until a verified image asset exists.
    svg.append(f'<line x1="{xs:.1f}" y1="{yy:.1f}" x2="{xs:.1f}" y2="{yy-27:.1f}" stroke="#a98f68" stroke-width="1"/>')
-   svg.append(f'<circle cx="{xs:.1f}" cy="{yy-34:.1f}" r="13" fill="#efe2c6" stroke="#7d6547" stroke-width="1.4" filter="url(#softShadow)"/>')
-   svg.append(glyph(kind,xs,yy-34))
+   svg.append(feature_panel(kind,xs,yy-28,nm,title))
+   svg.append(f'<line x1="{xs:.1f}" y1="{yy-28:.1f}" x2="{xs:.1f}" y2="{yy-18:.1f}" stroke="#7d6547" stroke-width="1"/>')
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="15">{nm}<title>{title}</title></text>')
   else:
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item">{nm}<title>{title}</title></text>')
