@@ -69,10 +69,10 @@ START=int(sys.argv[1]) if len(sys.argv)>1 else -1500
 END=int(sys.argv[2]) if len(sys.argv)>2 else 500
 if START==0 or END==0 or START>=END: raise SystemExit("Use signed years with no year zero; START must be < END.")
 PIXELS_PER_YEAR=float(sys.argv[3]) if len(sys.argv)>3 else 6.0
+HERO_SLICE=(START==-600 and END==-300)
 LEFT=360 if HERO_SLICE else 520; RIGHT=80 if HERO_SLICE else 120; TOP=190 if HERO_SLICE else 210
 BASE_LANE_H=180
 TRACK_STEP=20
-HERO_SLICE=(START==-600 and END==-300)
 HERO_TRACK_STEP=34 if HERO_SLICE else TRACK_STEP
 TRACK_TOP=43
 
