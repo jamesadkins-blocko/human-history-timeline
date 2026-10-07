@@ -43,6 +43,8 @@ jobs:
         run: |
           mkdir -p build
           cp rendered/*.svg build/
+          python scripts/render_timeline_svg.py -600 -300 12
+          cp rendered/timeline_v1_foundation_600BCE_300BCE.svg build/the_world_600_300_BCE_illustrated.svg
           cp rendered/visual_scene_manifest.json build/
       - uses: actions/upload-artifact@v4
         with:
