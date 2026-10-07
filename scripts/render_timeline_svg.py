@@ -25,6 +25,28 @@ def dash_for(classification):
  if "manuscript" in s or "text" in s:return "6 2"
  if "approx" in s or "disputed" in s:return "3 2"
  return ""
+def visual_kind(e):
+ # Neutral vector glyphs indicate record type only; they are never historical likenesses.
+ s=" ".join([e.get("Record Type",""),e.get("Subtype",""),e.get("Classification","")]).lower()
+ if "manuscript" in s or "text" in s or "literary" in s:return "document"
+ if "artifact" in s or "inscription" in s or "coin" in s:return "artifact"
+ if "site" in s or "monument" in s or "city" in s:return "site"
+ if "person" in s or "figure" in s or "ruler" in s:return "person"
+ if "event" in s or "war" in s or "battle" in s:return "event"
+ return "record"
+
+def glyph(kind,x0,y0):
+ if kind=="person":
+  return f'<g transform="translate({x0:.1f},{y0:.1f})"><circle cx="0" cy="-5" r="4" fill="#493827"/><path d="M-6,7 Q0,-1 6,7" fill="none" stroke="#493827" stroke-width="2"/></g>'
+ if kind=="document":
+  return f'<g transform="translate({x0:.1f},{y0:.1f})"><rect x="-5" y="-8" width="10" height="14" rx="1" fill="#f7f0df" stroke="#493827"/><path d="M-3,-4 H3 M-3,0 H3 M-3,4 H1" stroke="#493827" stroke-width="1"/></g>'
+ if kind=="artifact":
+  return f'<g transform="translate({x0:.1f},{y0:.1f})"><path d="M-5,-6 Q-7,3 0,7 Q7,3 5,-6 Z" fill="#c7a66b" stroke="#493827"/></g>'
+ if kind=="site":
+  return f'<g transform="translate({x0:.1f},{y0:.1f})"><path d="M-7,6 H7 M-5,6 V-2 M0,6 V-2 M5,6 V-2 M-7,-2 H7 L0,-8 Z" fill="none" stroke="#493827" stroke-width="1.5"/></g>'
+ if kind=="event":
+  return f'<g transform="translate({x0:.1f},{y0:.1f})"><path d="M0,-8 L2,-2 L8,0 L2,2 L0,8 L-2,2 L-8,0 L-2,-2 Z" fill="#8d5a3b"/></g>'
+ return f'<circle cx="{x0:.1f}" cy="{y0:.1f}" r="3" fill="#493827"/>'
 START=int(sys.argv[1]) if len(sys.argv)>1 else -1500
 END=int(sys.argv[2]) if len(sys.argv)>2 else 500
 if START==0 or END==0 or START>=END: raise SystemExit("Use signed years with no year zero; START must be < END.")
@@ -142,6 +164,8 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
   yy=y0+TRACK_TOP+t*TRACK_STEP
   cls=esc(e["Classification"]); nm=esc(e["Display Name"] or e["Canonical Name"]); dash=dash_for(e["Classification"])
   title=esc(f'{e["Entity ID"]} | {c["Date Claim ID"]} | {c["Display Date"]} | {e["Classification"]}')
+  kind=visual_kind(e)
+  svg.append(glyph(kind,xs,yy))
   if abs(xe-xs)<4:
    svg.append(f'<circle cx="{xs:.1f}" cy="{yy}" r="5" fill="#493827" filter="url(#softShadow)"><title>{title}</title></circle>')
   else:
