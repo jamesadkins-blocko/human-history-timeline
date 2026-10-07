@@ -15,3 +15,15 @@ Presentation treatments are deliberately conservative:
 A treatment is not an image assertion. Before an external image is incorporated, it must be sourced and defensible for the entity. If no defensible likeness exists, use an artifact, statue, coin, manuscript, site, neutral symbol, or typography. Never generate a face and imply it is historical evidence.
 
 The manifest preserves Entity IDs and Date Claim IDs so visual composition cannot detach from canonical chronology.
+
+
+## Delivery simplification
+
+The provenance/validation framework is now sufficient. Do not add new infrastructure unless a concrete rendering defect requires it.
+
+Immediate priority is visible output:
+1. Build one polished illustrated hero slice (600 BCE–300 BCE).
+2. Use canonical chronology and existing neutral fallbacks.
+3. Add verified historical imagery opportunistically; missing imagery must not block the slice.
+4. Judge success by the rendered panorama, not by additional schemas, registries, validators, or pipeline abstractions.
+5. After visual approval, scale the same composition system outward across the master chronology.
