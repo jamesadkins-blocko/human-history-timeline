@@ -170,7 +170,16 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
    svg.append(f'<circle cx="{xs:.1f}" cy="{yy}" r="5" fill="#493827" filter="url(#softShadow)"><title>{title}</title></circle>')
   else:
    svg.append(f'<line x1="{xs:.1f}" y1="{yy}" x2="{xe:.1f}" y2="{yy}" stroke="#493827" stroke-width="6" stroke-linecap="round" stroke-dasharray="{dash}"><title>{title}</title></line>')
-  svg.append(f'<text x="{xs+6:.1f}" y="{yy-5}" class="item">{nm}<title>{title}</title></text>')
+  # Label cards create a readable museum-caption hierarchy while preserving the exact mark coordinate.
+  tier=(e.get("Display Level") or e.get("Significance Tier") or "").lower()
+  feature=("feature" in tier or "master" in tier)
+  label_x=xs+10; label_y=yy-7
+  if feature:
+   box_w=min(300,max(105,8.0*len(nm)+18))
+   svg.append(f'<rect x="{label_x-5:.1f}" y="{label_y-17:.1f}" width="{box_w:.1f}" height="22" rx="4" fill="#fbf6e9" fill-opacity=".94" stroke="#a98f68" stroke-width=".8" filter="url(#softShadow)"/>')
+   svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="15">{nm}<title>{title}</title></text>')
+  else:
+   svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item">{nm}<title>{title}</title></text>')
 
 # legend
 ly=height-62
