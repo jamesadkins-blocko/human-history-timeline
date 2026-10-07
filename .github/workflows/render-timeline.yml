@@ -63,6 +63,7 @@ jobs:
           }
           failed=[k for k,v in checks.items() if not v]
           if failed:
+              print("HERO_QA_MISSING="+",".join(failed))
               raise SystemExit("Hero SVG QA failed: "+", ".join(failed))
           print("Hero SVG QA PASS:", ", ".join(checks))
           PY
