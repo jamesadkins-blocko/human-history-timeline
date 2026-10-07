@@ -69,7 +69,7 @@ START=int(sys.argv[1]) if len(sys.argv)>1 else -1500
 END=int(sys.argv[2]) if len(sys.argv)>2 else 500
 if START==0 or END==0 or START>=END: raise SystemExit("Use signed years with no year zero; START must be < END.")
 PIXELS_PER_YEAR=float(sys.argv[3]) if len(sys.argv)>3 else 6.0
-LEFT=520; RIGHT=120; TOP=210
+LEFT=360 if HERO_SLICE else 520; RIGHT=80 if HERO_SLICE else 120; TOP=190 if HERO_SLICE else 210
 BASE_LANE_H=180
 TRACK_STEP=20
 HERO_SLICE=(START==-600 and END==-300)
@@ -201,12 +201,15 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
  y0=y_cursor; y_cursor+=lane_h
  svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#f7f0df" if li%2==0 else "#e8ddc5"}" opacity=".72"/>')
  if HERO_SLICE:
+  # Original-atlas style dark regional label block at the left edge.
+  svg.append(f'<rect x="0" y="{y0}" width="{LEFT-8}" height="{lane_h}" fill="#173f62" opacity=".96"/>')
+ if HERO_SLICE:
   # Soft chronological field inside each region: subtle enough for a mural, precise enough for comparison.
   for gy in range(START,END+1,50):
    if gy==0: continue
    gx=x(gy)
    svg.append(f'<line x1="{gx:.1f}" y1="{y0+38}" x2="{gx:.1f}" y2="{y0+lane_h-8}" stroke="#8f806a" stroke-width=".6" opacity=".18"/>')
- svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
+ svg.append(f'<text x="25" y="{y0+27}" class="lane" fill="{"#ffffff" if HERO_SLICE else "#2b241c"}">{esc(name)}</text>')
  if HERO_SLICE:
   svg.append(f'<line x1="25" y1="{y0+34}" x2="{LEFT-24}" y2="{y0+34}" class="lane-rule"/>')
  # In the hero panorama, long-lived civilization/polity/dynasty/period records form
@@ -215,7 +218,7 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
   # A restrained region cartouche gives the wall graphic a museum-panel feel without
   # changing chronology or implying historical relationships.
   cart_w=min(410, max(170, 15*len(name)+36))
-  svg.append(f'<rect x="18" y="{y0+5}" width="{cart_w}" height="31" rx="6" fill="#f6edd9" fill-opacity=".9" stroke="#8f754e" stroke-width="1"/>')
+  svg.append(f'<rect x="18" y="{y0+5}" width="{min(cart_w,LEFT-45)}" height="31" rx="3" fill="#ffffff" fill-opacity=".08" stroke="#d9e6ef" stroke-width=".7"/>')
  if HERO_SLICE:
   backbone_words=("empire","kingdom","dynasty","period","civilization","cultural tradition")
   for s,en,e,c,xs,xe,t in items:
