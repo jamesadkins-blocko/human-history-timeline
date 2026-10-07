@@ -1,1 +1,246 @@
 Region ID,Name,Type,Parent Region ID,Modern Geography,Latitude,Longitude,Pleiades ID,TGN ID,UNESCO ID,Notes
+REG-0001,Aegean,Legacy region label,,Aegean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0002,Aegean / Troy,Legacy region label,,Aegean / Troy,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0003,Afghanistan,Legacy region label,,Afghanistan,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0004,Africa,Legacy region label,,Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0005,Africa / Americas / Europe,Legacy region label,,Africa / Americas / Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0006,Africa / Eurasia,Legacy region label,,Africa / Eurasia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0007,Africa / global,Legacy region label,,Africa / global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0008,Afro-Eurasia,Legacy region label,,Afro-Eurasia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0009,"Agra, India",Legacy region label,,"Agra, India",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0010,Americas,Legacy region label,,Americas,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0011,Americas / Afro-Eurasia,Legacy region label,,Americas / Afro-Eurasia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0012,Anatolia,Legacy region label,,Anatolia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0013,Anatolia / Aegean,Legacy region label,,Anatolia / Aegean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0014,Anatolia / Middle East,Legacy region label,,Anatolia / Middle East,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0015,Anatolia / northern Levant,Legacy region label,,Anatolia / northern Levant,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0016,Ancient Near East,Legacy region label,,Ancient Near East,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0017,Andean highlands,Legacy region label,,Andean highlands,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0018,Andes,Legacy region label,,Andes,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0019,Aotearoa New Zealand,Legacy region label,,Aotearoa New Zealand,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0020,Arabia,Legacy region label,,Arabia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0021,Arabia / West Asia / North Africa,Legacy region label,,Arabia / West Asia / North Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0022,Arabian Peninsula,Legacy region label,,Arabian Peninsula,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0023,Athens,Legacy region label,,Athens,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0024,Athens / literary tradition,Legacy region label,,Athens / literary tradition,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0025,Atlantic,Legacy region label,,Atlantic,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0026,Atlantic (as described by Plato),Legacy region label,,Atlantic (as described by Plato),,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0027,Atlantic / Africa / diaspora,Legacy region label,,Atlantic / Africa / diaspora,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0028,Atlantic / Caribbean,Legacy region label,,Atlantic / Caribbean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0029,Atlantic / Indian Ocean,Legacy region label,,Atlantic / Indian Ocean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0030,Atlantic / global,Legacy region label,,Atlantic / global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0031,Atlantic / legendary,Legacy region label,,Atlantic / legendary,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0032,Atlantic Ocean,Legacy region label,,Atlantic Ocean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0033,Atlantic world,Legacy region label,,Atlantic world,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0034,Australia,Legacy region label,,Australia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0035,Babylon,Legacy region label,,Babylon,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0036,Babylonia,Legacy region label,,Babylonia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0037,Baghdad,Legacy region label,,Baghdad,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0038,Balkans,Legacy region label,,Balkans,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0039,Balochistan / South Asia,Legacy region label,,Balochistan / South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0040,Berlin,Legacy region label,,Berlin,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0041,Berlin / Africa,Legacy region label,,Berlin / Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0042,Berlin / Africa-related,Legacy region label,,Berlin / Africa-related,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0043,Black Sea / Crimea,Legacy region label,,Black Sea / Crimea,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0044,Britain,Legacy region label,,Britain,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0045,Britain / Atlantic world,Legacy region label,,Britain / Atlantic world,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0046,Britain / Crimea,Legacy region label,,Britain / Crimea,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0047,Britain / Europe / Atlantic world,Legacy region label,,Britain / Europe / Atlantic world,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0048,Britain / United States / global,Legacy region label,,Britain / United States / global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0049,British Empire,Legacy region label,,British Empire,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0050,Byzantine Empire,Legacy region label,,Byzantine Empire,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0051,CERN / global,Legacy region label,,CERN / global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0052,Cambodia,Legacy region label,,Cambodia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0053,Canada / global,Legacy region label,,Canada / global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0054,Caribbean,Legacy region label,,Caribbean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0055,Central & East Asia,Legacy region label,,Central & East Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0056,Central & Eastern Europe,Legacy region label,,Central & Eastern Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0057,Central & South Asia,Legacy region label,,Central & South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0058,Central & West Asia,Legacy region label,,Central & West Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0059,Central / South Asia,Legacy region label,,Central / South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0060,Central Africa,Legacy region label,,Central Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0061,Central Andes,Legacy region label,,Central Andes,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0062,Central Andes / Peru,Legacy region label,,Central Andes / Peru,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0063,Central Europe,Legacy region label,,Central Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0064,Central Mexico,Legacy region label,,Central Mexico,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0065,"Chaco Canyon, New Mexico",Legacy region label,,"Chaco Canyon, New Mexico",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0066,China,Legacy region label,,China,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0067,China / Central Asia / South Asia,Legacy region label,,China / Central Asia / South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0068,China / Mongolia,Legacy region label,,China / Mongolia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0069,Codex Sinaiticus,Legacy region label,,Codex Sinaiticus,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0070,Constantinople,Legacy region label,,Constantinople,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0071,Crete / Aegean,Legacy region label,,Crete / Aegean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0072,Deccan / South Asia,Legacy region label,,Deccan / South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0073,Earth orbit,Legacy region label,,Earth orbit,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0074,East Africa / Indian Ocean,Legacy region label,,East Africa / Indian Ocean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0075,East African coast,Legacy region label,,East African coast,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0076,East Asia,Legacy region label,,East Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0077,Eastern Anatolia,Legacy region label,,Eastern Anatolia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0078,Eastern Europe,Legacy region label,,Eastern Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0079,Eastern Iranian / Central Asian sphere,Legacy region label,,Eastern Iranian / Central Asian sphere,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0080,Eastern Mediterranean,Legacy region label,,Eastern Mediterranean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0081,Eastern Mediterranean / Egypt,Legacy region label,,Eastern Mediterranean / Egypt,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0082,Eastern Mediterranean / Sinai,Legacy region label,,Eastern Mediterranean / Sinai,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0083,Eastern Mediterranean / West & South Asia,Legacy region label,,Eastern Mediterranean / West & South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0084,Eastern Mediterranean / West Asia,Legacy region label,,Eastern Mediterranean / West Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0085,Eastern North America,Legacy region label,,Eastern North America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0086,Egypt,Legacy region label,,Egypt,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0087,Egypt / Iraq,Legacy region label,,Egypt / Iraq,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0088,Egypt / Nubia / Levant,Legacy region label,,Egypt / Nubia / Levant,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0089,Egypt / Sinai / Levant,Legacy region label,,Egypt / Sinai / Levant,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0090,Egypt / Syria,Legacy region label,,Egypt / Syria,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0091,England,Legacy region label,,England,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0092,Ethiopia,Legacy region label,,Ethiopia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0093,Ethiopia / Eritrea,Legacy region label,,Ethiopia / Eritrea,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0094,Eurasia,Legacy region label,,Eurasia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0095,Eurasia / North Africa,Legacy region label,,Eurasia / North Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0096,Europe,Legacy region label,,Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0097,Europe / Africa / Asia / Pacific,Legacy region label,,Europe / Africa / Asia / Pacific,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0098,Europe / Americas / Africa / Asia,Legacy region label,,Europe / Americas / Africa / Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0099,Europe / Atlantic / Mediterranean,Legacy region label,,Europe / Atlantic / Mediterranean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0100,Europe / Mediterranean,Legacy region label,,Europe / Mediterranean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0101,Europe / Middle East / Africa / Asia / Pacific,Legacy region label,,Europe / Middle East / Africa / Asia / Pacific,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0102,Europe / North America / Japan,Legacy region label,,Europe / North America / Japan,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0103,Europe / Western Asia,Legacy region label,,Europe / Western Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0104,Europe / global,Legacy region label,,Europe / global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0105,Fertile Crescent,Legacy region label,,Fertile Crescent,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0106,Former Russian Empire,Legacy region label,,Former Russian Empire,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0107,France,Legacy region label,,France,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0108,France / Europe,Legacy region label,,France / Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0109,Germany,Legacy region label,,Germany,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0110,Germany / Europe,Legacy region label,,Germany / Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0111,Global,Legacy region label,,Global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0112,Global oceans,Legacy region label,,Global oceans,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0113,Global science,Legacy region label,,Global science,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0114,Greece / Macedon,Legacy region label,,Greece / Macedon,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0115,Greenland,Legacy region label,,Greenland,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0116,Guatemala,Legacy region label,,Guatemala,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0117,Gulf Coast of Mexico,Legacy region label,,Gulf Coast of Mexico,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0118,Hawaiian Islands,Legacy region label,,Hawaiian Islands,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0119,Hawaiʻi / Pacific,Legacy region label,,Hawaiʻi / Pacific,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0120,Horn of Africa,Legacy region label,,Horn of Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0121,Horn of Africa / Red Sea,Legacy region label,,Horn of Africa / Red Sea,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0122,India,Legacy region label,,India,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0123,Indian Ocean,Legacy region label,,Indian Ocean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0124,Indus Valley,Legacy region label,,Indus Valley,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0125,Iran,Legacy region label,,Iran,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0126,Iran / Caucasus,Legacy region label,,Iran / Caucasus,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0127,Iran / Mesopotamia,Legacy region label,,Iran / Mesopotamia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0128,Iran / Mesopotamia / Caucasus,Legacy region label,,Iran / Mesopotamia / Caucasus,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0129,Iran / West Asia,Legacy region label,,Iran / West Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0130,Iranian world,Legacy region label,,Iranian world,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0131,Iraq,Legacy region label,,Iraq,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0132,Island Melanesia / Western Polynesia,Legacy region label,,Island Melanesia / Western Polynesia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0133,Island Southeast Asia,Legacy region label,,Island Southeast Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0134,Italy,Legacy region label,,Italy,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0135,Italy / France,Legacy region label,,Italy / France,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0136,Ithaca / Aegean,Legacy region label,,Ithaca / Aegean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0137,Japan,Legacy region label,,Japan,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0138,Java,Legacy region label,,Java,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0139,Jerusalem,Legacy region label,,Jerusalem,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0140,Judea,Legacy region label,,Judea,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0141,Judea / Cairo Genizah / Qumran,Legacy region label,,Judea / Cairo Genizah / Qumran,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0142,Judea / Galilee,Legacy region label,,Judea / Galilee,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0143,Judea / broader Jewish tradition,Legacy region label,,Judea / broader Jewish tradition,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0144,Judean Desert,Legacy region label,,Judean Desert,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0145,Korean Peninsula,Legacy region label,,Korean Peninsula,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0146,Latin America,Legacy region label,,Latin America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0147,Levant,Legacy region label,,Levant,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0148,Levant / Mesopotamia,Legacy region label,,Levant / Mesopotamia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0149,Lower Nubia,Legacy region label,,Lower Nubia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0150,"Luoyang, China",Legacy region label,,"Luoyang, China",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0151,Mainland Southeast Asia,Legacy region label,,Mainland Southeast Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0152,Mainz,Legacy region label,,Mainz,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0153,Mali / Western Sudan,Legacy region label,,Mali / Western Sudan,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0154,Maya Lowlands,Legacy region label,,Maya Lowlands,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0155,Mediterranean,Legacy region label,,Mediterranean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0156,Mediterranean / Europe / West Asia / North Africa,Legacy region label,,Mediterranean / Europe / West Asia / North Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0157,Mediterranean / Roman Empire,Legacy region label,,Mediterranean / Roman Empire,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0158,Mediterranean / West Asia,Legacy region label,,Mediterranean / West Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0159,Mesoamerica,Legacy region label,,Mesoamerica,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0160,Mesopotamia,Legacy region label,,Mesopotamia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0161,Mesopotamia / West Asia,Legacy region label,,Mesopotamia / West Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0162,Mexico,Legacy region label,,Mexico,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0163,"Mississippi Valley, North America",Legacy region label,,"Mississippi Valley, North America",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0164,Moon,Legacy region label,,Moon,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0165,Morocco,Legacy region label,,Morocco,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0166,Nanjing,Legacy region label,,Nanjing,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0167,New England,Legacy region label,,New England,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0168,New Guinea,Legacy region label,,New Guinea,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0169,New Zealand,Legacy region label,,New Zealand,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0170,Newfoundland,Legacy region label,,Newfoundland,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0171,"Newfoundland, North America",Legacy region label,,"Newfoundland, North America",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0172,Nigeria / West Africa,Legacy region label,,Nigeria / West Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0173,Nineveh / Mesopotamia,Legacy region label,,Nineveh / Mesopotamia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0174,North America,Legacy region label,,North America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0175,North America / Atlantic,Legacy region label,,North America / Atlantic,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0176,North American Southwest,Legacy region label,,North American Southwest,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0177,North Atlantic / Europe,Legacy region label,,North Atlantic / Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0178,"North Carolina, United States",Legacy region label,,"North Carolina, United States",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0179,North India,Legacy region label,,North India,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0180,North coast Andes,Legacy region label,,North coast Andes,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0181,North coast Peru,Legacy region label,,North coast Peru,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0182,Northeastern North America,Legacy region label,,Northeastern North America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0183,Northern Europe / North Atlantic,Legacy region label,,Northern Europe / North Atlantic,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0184,Northern South America,Legacy region label,,Northern South America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0185,Northern South Asia,Legacy region label,,Northern South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0186,Nubia,Legacy region label,,Nubia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0187,"Oaxaca, Mexico",Legacy region label,,"Oaxaca, Mexico",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0188,Ottoman Empire,Legacy region label,,Ottoman Empire,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0189,Pacific,Legacy region label,,Pacific,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0190,Peru,Legacy region label,,Peru,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0191,Poland / Prussia,Legacy region label,,Poland / Prussia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0192,Primeval biblical world,Legacy region label,,Primeval biblical world,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0193,Qumran,Legacy region label,,Qumran,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0194,Qumran Cave 4,Legacy region label,,Qumran Cave 4,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0195,Roman Empire,Legacy region label,,Roman Empire,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0196,Rome,Legacy region label,,Rome,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0197,Russia,Legacy region label,,Russia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0198,Sahara / West & North Africa,Legacy region label,,Sahara / West & North Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0199,Sahul,Legacy region label,,Sahul,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0200,Sarajevo,Legacy region label,,Sarajevo,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0201,Second Temple Jewish world,Legacy region label,,Second Temple Jewish world,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0202,South Africa,Legacy region label,,South Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0203,South America,Legacy region label,,South America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0204,South Asia,Legacy region label,,South Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0205,South India,Legacy region label,,South India,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0206,South India / Indian Ocean,Legacy region label,,South India / Indian Ocean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0207,Southeast Asia,Legacy region label,,Southeast Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0208,Southeast Europe / Anatolia / Middle East / North Africa,Legacy region label,,Southeast Europe / Anatolia / Middle East / North Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0209,Southeast Europe / West Asia / North Africa,Legacy region label,,Southeast Europe / West Asia / North Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0210,Southeastern Europe,Legacy region label,,Southeastern Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0211,Southern Africa,Legacy region label,,Southern Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0212,Southern Andes,Legacy region label,,Southern Andes,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0213,Southwestern North America,Legacy region label,,Southwestern North America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0214,Spain,Legacy region label,,Spain,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0215,Spain / France,Legacy region label,,Spain / France,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0216,Sri Lanka,Legacy region label,,Sri Lanka,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0217,Sun-Earth L2 / deep space,Legacy region label,,Sun-Earth L2 / deep space,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0218,Syria,Legacy region label,,Syria,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0219,Tidewater Virginia,Legacy region label,,Tidewater Virginia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0220,Trent,Legacy region label,,Trent,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0221,Troy / Anatolia,Legacy region label,,Troy / Anatolia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0222,Turkey,Legacy region label,,Turkey,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0223,United States,Legacy region label,,United States,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0224,United States / global,Legacy region label,,United States / global,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0225,"Ur, Mesopotamia",Legacy region label,,"Ur, Mesopotamia",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0226,Uruk / Mesopotamia,Legacy region label,,Uruk / Mesopotamia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0227,Virginia,Legacy region label,,Virginia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0228,Virginia / North America,Legacy region label,,Virginia / North America,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0229,"Virginia, North America",Legacy region label,,"Virginia, North America",,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0230,West & Central Asia,Legacy region label,,West & Central Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0231,West Africa,Legacy region label,,West Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0232,West Africa to Arabia,Legacy region label,,West Africa to Arabia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0233,West Africa to Mecca,Legacy region label,,West Africa to Mecca,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0234,West Asia,Legacy region label,,West Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0235,West Asia / North Africa,Legacy region label,,West Asia / North Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0236,West Asia / North Africa / Iberia / Central Asia,Legacy region label,,West Asia / North Africa / Iberia / Central Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0237,West Asia / North Africa / Mediterranean,Legacy region label,,West Asia / North Africa / Mediterranean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0238,West/Central Asia,Legacy region label,,West/Central Asia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0239,West/Central Asia / Egypt,Legacy region label,,West/Central Asia / Egypt,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0240,Western & Central Europe,Legacy region label,,Western & Central Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0241,Western Europe,Legacy region label,,Western Europe,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0242,Western Polynesia,Legacy region label,,Western Polynesia,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0243,Western Sudan,Legacy region label,,Western Sudan,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0244,Wittenberg,Legacy region label,,Wittenberg,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0245,Yucatán,Legacy region label,,Yucatán,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
