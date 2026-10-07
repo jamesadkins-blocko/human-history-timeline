@@ -4,8 +4,8 @@ REL-0002,ENT-0005,TEXT_DESCRIBES,ENT-0006,SRC-0031,Legacy explicit relation,v0.2
 REL-0003,ENT-0007,OCCURRED_WITHIN,ENT-0003,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0004,ENT-0011,RESULTED_IN,ENT-0003,SRC-0016,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0005,ENT-0011,ASSOCIATED_WITH,ENT-0004,SRC-0016,Legacy explicit relation,v0.20 final semantic typing; relationship retained conservatively.
-REL-0006,ENT-0015,PART_OF,ENT-0016,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0007,ENT-0015,PART_OF,ENT-0017,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0006,ENT-0015,INCLUDES_PERIOD,ENT-0016,SRC-0035,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
+REL-0007,ENT-0015,INCLUDES_PERIOD,ENT-0017,SRC-0035,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
 REL-0008,ENT-0017,SUCCEEDED_BY,ENT-0018,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0009,ENT-0018,SUCCEEDED_BY,ENT-0019,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0010,ENT-0026,OCCURRED_WITHIN,ENT-0025,SRC-0019,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
@@ -23,13 +23,13 @@ REL-0021,ENT-0041,WORK_ATTESTED_BY_MANUSCRIPT,ENT-0043,SRC-0028,Legacy explicit 
 REL-0022,ENT-0044,ASSOCIATED_WITH,ENT-0045,SRC-0030,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0023,ENT-0045,AUTHORED,ENT-0005,SRC-0031,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0024,ENT-0045,AUTHORED,ENT-0006,SRC-0031,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0025,ENT-0045,FOUNDED_BY,ENT-0046,SRC-0031,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0025,ENT-0045,FOUNDED,ENT-0046,SRC-0031,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
 REL-0026,ENT-0049,CONTAINS_TEXT,ENT-0050,SRC-0032,High-confidence semantic typing,Codex contents
 REL-0027,ENT-0049,CONTAINS_TEXT,ENT-0051,SRC-0032,High-confidence semantic typing,Codex contents
 REL-0028,ENT-0053,ATTRIBUTED_TO,ENT-0052,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0029,ENT-0054,ATTRIBUTED_TO,ENT-0055,SRC-0035,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0031,ENT-0059,SUCCEEDED_BY,ENT-0060,SRC-0037,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0032,ENT-0061,RULED_BY,ENT-0030,SRC-0038,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0032,ENT-0061,RULED,ENT-0030,SRC-0038,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
 REL-0033,ENT-0061,COMMISSIONED_INSCRIPTIONS,ENT-0062,SRC-0038,High-confidence semantic typing,Royal inscriptions
 REL-0035,ENT-0067,RULER_ASSOCIATED_WITH_FUNERARY_COMPLEX,ENT-0068,SRC-0041,High-confidence semantic typing,Mausoleum complex
 REL-0036,ENT-0069,AUTHORED,ENT-0070,SRC-0035,High-confidence semantic typing,Authorship
@@ -46,7 +46,7 @@ REL-0046,ENT-0097,OCCURRED_WITHIN,ENT-0098,SRC-0055,Legacy explicit relation,v0.
 REL-0047,ENT-0100,RESULTED_IN,ENT-0101,SRC-0056,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
 REL-0048,ENT-0101,INCLUDES_EVENT,ENT-0102,SRC-0058,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0049,ENT-0105,ASSOCIATED_WITH,ENT-0106,SRC-0059,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0050,ENT-0107,PART_OF,ENT-0108,SRC-0060,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0050,ENT-0107,INCLUDES_PERIOD,ENT-0108,SRC-0060,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
 REL-0051,ENT-0109,OCCURRED_WITHIN,ENT-0110,SRC-0061,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0052,ENT-0115,PATRON_OF_BUILDING_PROJECT,ENT-0116,SRC-0179,High-confidence semantic typing,Imperial rebuilding
 REL-0053,ENT-0117,PARTICIPATED_IN_EVENT,ENT-0118,SRC-0068,High-confidence semantic typing,Central participant
@@ -61,7 +61,7 @@ REL-0061,ENT-0135,OCCURRED_WITHIN,ENT-0136,SRC-0081,Legacy explicit relation,v0.
 REL-0062,ENT-0138,PART_OF,ENT-0099,SRC-0083,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0063,ENT-0140,PART_OF,ENT-0141,SRC-0085,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0064,ENT-0142,SUCCEEDED_BY,ENT-0093,SRC-0086,Legacy explicit relation,v0.20 semantic typing; explicit relationship retained conservatively.
-REL-0065,ENT-0147,RESULTED_IN,ENT-0114,SRC-0065,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0065,ENT-0147,ENDED,ENT-0114,SRC-0065,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
 REL-0066,ENT-0148,SPONSORED_VOYAGES,ENT-0149,SRC-0088,High-confidence semantic typing,State-sponsored voyages
 REL-0067,ENT-0150,INCLUDES_EVENT,ENT-0147,SRC-0093,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0068,ENT-0150,RULED_BY,ENT-0151,SRC-0093,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
@@ -72,9 +72,9 @@ REL-0072,ENT-0157,INCLUDES_EVENT,ENT-0158,SRC-0098,Legacy explicit relation,v0.2
 REL-0073,ENT-0159,RULED_BY,ENT-0160,SRC-0099,High-confidence semantic typing,Qing emperor
 REL-0074,ENT-0161,ASSOCIATED_WITH,ENT-0162,SRC-0100,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0075,ENT-0163,OCCURRED_WITHIN,ENT-0164,SRC-0101,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0076,ENT-0165,PART_OF,ENT-0166,SRC-0102,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0076,ENT-0165,INCLUDES_COMPONENT,ENT-0166,SRC-0102,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
 REL-0077,ENT-0167,RESULTED_IN,ENT-0168,SRC-0213,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
-REL-0078,ENT-0169,RESULTED_IN,ENT-0140,SRC-0105,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0078,ENT-0169,ENDED,ENT-0140,SRC-0105,Legacy explicit relation,v0.20 directionality audit: relationship type corrected to read literally Subject -> Object; legacy linkage preserved.
 REL-0079,ENT-0169,OCCURRED_WITHIN,ENT-0141,SRC-0105,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0080,ENT-0170,RESULTED_IN,ENT-0142,SRC-0086,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0081,ENT-0171,ASSOCIATED_WITH,ENT-0172,SRC-0106,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
