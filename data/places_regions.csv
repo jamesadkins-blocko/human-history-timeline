@@ -1,1 +1,5 @@
-region_id,name,type,parent_region_id,modern_geography,latitude,longitude,pleiades_id,tgn_id,unesco_id,notes
+Region ID,Name,Type,Parent Region ID,Modern Geography,Latitude,Longitude,Pleiades ID,TGN ID,UNESCO ID,Notes
+REG-0001,Aegean,Legacy region label,,Aegean,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0002,Aegean / Troy,Legacy region label,,Aegean / Troy,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0003,Afghanistan,Legacy region label,,Afghanistan,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
+REG-0004,Africa,Legacy region label,,Africa,,,,,,Imported from v0.16 Region field; refine hierarchy/geocoding in later QA.
