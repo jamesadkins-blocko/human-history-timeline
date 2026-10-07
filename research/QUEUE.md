@@ -1,24 +1,31 @@
 # Migration and Research Queue
 
-## ACTIVE — Phase 1 normalization
-- [x] Preserve v0.16 legacy Master Timeline (HT-0001 through HT-0600) as immutable migration input.
-- [x] Build first-pass normalized Entities table.
-- [x] Conservatively merge 46 exact conceptual duplicate clusters while retaining every Legacy HT ID.
-- [x] Build Date Claims with one preserved claim per legacy timeline row.
-- [x] Import explicit legacy Related IDs into Relationships.
-- [x] Seed Places & Regions from all 245 legacy region labels.
-- [x] Seed Traditions & Corpora from all 376 legacy tradition/culture labels.
-- [x] Add no-year-zero and one-entity/multiple-claims rules to v0.17.
-- [x] Generate v0.17 normalized workbook.
-- [x] Run formula/error validation (clean).
-- [x] Refine first high-confidence non-exact duplicate candidates (Buddha, Zarathustra, Jesus, Enoch figure, Qin Shi Huang/Terracotta, Second Temple destruction); continue lower-confidence candidate review.
-- [ ] Type legacy relationships beyond generic RELATED_TO where sources support the semantics. (33 high-confidence relationships typed in v0.18; continue.)
-- [ ] Refine Places & Regions hierarchy.
-- [ ] Refine Traditions & Corpora hierarchy.
-- [ ] Correct known source-QA defects and validate suspect URLs. (Source QA sheet created; HT-0277 replacement reference verified; An Shigao queued.)
-- [ ] Persist canonical normalized CSV/JSON datasets in GitHub.
-- [ ] Complete referential-integrity and duplicate-candidate validation suite.
-- [ ] Mark Phase 1 normalization operational.
+## COMPLETE — v0.19 canonical migration
+- [x] Preserve frozen v0.16 legacy lineage HT-0001 through HT-0600.
+- [x] Persist canonical normalized datasets in GitHub.
+- [x] Canonical baseline: 546 entities, 600 date claims, 374 relationships, 245 place/region labels, 376 tradition/corpus labels, 242 sources.
+- [x] Validate complete HT-0001..HT-0600 lineage and referential integrity.
 
-## NEXT — Phase 2 expansion
-Resume historical expansion only after normalization is operational. First new legacy-compatible identifier after the frozen v0.16 baseline is HT-0601.
+## ACTIVE — v0.20 Semantic / QA
+- [x] Reconcile relationship controlled vocabulary with canonical data.
+- [x] Review all 374 relationships: 370 specifically typed; 4 intentionally retained RELATED_TO synchronization links.
+- [x] Audit Places & Regions hierarchy and document mixed legacy-label ontology.
+- [x] Audit Traditions & Corpora hierarchy and document mixed legacy-label ontology.
+- [x] Begin targeted Source QA: malformed Amarna reference, An Shigao chronology, Mexican Constitution, Russian Revolution, Nanjing.
+- [x] Repair validator for actual canonical title-case CSV schema.
+- [x] Repair legacy HT lineage regex.
+- [x] GitHub Actions full canonical validation PASS (run 37555425333; commit 445c1c02318b9852250f53963c78f88b98c6b345).
+- [ ] Perform targeted relationship directionality audit/corrections before v1.0 freeze.
+- [ ] Define controlled label-kind vocabulary for Places & Regions; classify obvious non-geographic/astronomical/narrative scopes without inventing parentage.
+- [ ] Define controlled label-kind vocabulary for Traditions & Corpora; classify obvious categories without blindly parsing compound labels.
+- [ ] Finish remaining high-priority source-quality review; lower-priority URL enrichment may continue after render gate.
+- [ ] Freeze v0.20 semantic/QA milestone.
+
+## NEXT — v1.0 normalization operational / render gate
+- [ ] Run final validation after v0.20 canonical mutations.
+- [ ] Freeze normalized migration architecture and rendering contract.
+- [ ] Declare 600-record foundation render-ready.
+- [ ] Rebuild synchronized graphical timeline from canonical dataset.
+
+## AFTER RENDER GATE — Phase 2 expansion
+Resume historical expansion at HT-0601 while the graphical timeline regenerates from the same canonical data model.
