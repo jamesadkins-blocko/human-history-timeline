@@ -34,3 +34,23 @@ The 33 typed rows are preserved. The 341 RELATED_TO rows are semantic debt, not 
 
 ## Guardrail
 RELATED_TO is preferable to an invented semantic relationship. False specificity is worse than unresolved generic linkage.
+
+
+## Relationship semantic review — COMPLETE
+
+All 374 canonical relationship rows were reviewed during v0.20.
+
+Final disposition:
+- 370 relationships carry a specific semantic relationship type.
+- 4 relationships intentionally remain RELATED_TO as cross-regional synchronization/comparison links.
+- 0 RELATED_TO rows remain as unexplained semantic debt.
+
+Intentional synchronization links:
+- REL-0211 — Olmec colossal-head / ceremonial-center florescence ↔ New Guinea early agriculture
+- REL-0212 — Chavín de Huántar florescence ↔ Adena cultures
+- REL-0213 — Adena mound-building tradition ↔ Great houses begin at Chaco Canyon
+- REL-0246 — Hopewell Interaction Sphere ↔ Song dynasty
+
+These rows do not assert causation, contact, descent, or influence. They exist to support the project's core synchronization function.
+
+Next v0.20 workstream: Places & Regions hierarchy, Traditions & Corpora hierarchy, and Source QA.
