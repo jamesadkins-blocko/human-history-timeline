@@ -30,8 +30,10 @@ END=int(sys.argv[2]) if len(sys.argv)>2 else 500
 if START==0 or END==0 or START>=END: raise SystemExit("Use signed years with no year zero; START must be < END.")
 PIXELS_PER_YEAR=float(sys.argv[3]) if len(sys.argv)>3 else 6.0
 LEFT=520; RIGHT=120; TOP=210
-W=int(LEFT+RIGHT+(END-START)*PIXELS_PER_YEAR)
-LANE_H=180
+W=int(LEFT+RIGHT+(CHRONO_SPAN if 'CHRONO_SPAN' in globals() else (END-START))*PIXELS_PER_YEAR)
+BASE_LANE_H=180
+TRACK_STEP=20
+TRACK_TOP=43
 
 LANES=[
  ("Mesopotamia / Persia", {"REG-0035","REG-0036","REG-0160","REG-0161","REG-0173","REG-0225","REG-0226","REG-0125","REG-0127","REG-0128","REG-0129","REG-0130"}),
@@ -62,6 +64,8 @@ def chrono(year):
  return year if year < 0 else year - 1
 
 CHRONO_START=chrono(START); CHRONO_END=chrono(END)
+CHRONO_SPAN=CHRONO_END-CHRONO_START
+W=int(LEFT+RIGHT+CHRONO_SPAN*PIXELS_PER_YEAR)
 def x(year):
  return LEFT+(chrono(year)-CHRONO_START)/(CHRONO_END-CHRONO_START)*(W-LEFT-RIGHT)
 def label_year(y):
@@ -87,7 +91,22 @@ for c in claims:
  if lane is None: continue
  marks[lane].append((s,en,e,c))
 
-height=TOP+len(LANES)*LANE_H+100
+# Pre-compute collision tracks so each lane grows to fit all canonical marks.
+lane_layouts=[]
+for li,(name,_) in enumerate(LANES):
+ items=sorted(marks[li],key=lambda z:(z[0],z[1]))
+ track_ends=[]; placed=[]
+ for s,en,e,c in items:
+  xs=max(x(START),x(max(s,START))); xe=min(x(END),x(min(en,END)))
+  t=next((k for k,v in enumerate(track_ends) if xs>v+8),None)
+  if t is None:
+   track_ends.append(-10**9); t=len(track_ends)-1
+  track_ends[t]=max(xe,xs+65)
+  placed.append((s,en,e,c,xs,xe,t))
+ lane_h=max(BASE_LANE_H, TRACK_TOP+max(1,len(track_ends))*TRACK_STEP+25)
+ lane_layouts.append((name,placed,lane_h))
+
+height=TOP+sum(z[2] for z in lane_layouts)+100
 svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}">']
 svg+=['<rect width="100%" height="100%" fill="#f7f4ed"/>',
 '<style>text{font-family:Arial,sans-serif;fill:#171717}.title{font-size:38px;font-weight:700}.sub{font-size:19px}.lane{font-size:21px;font-weight:700}.tick{font-size:15px}.item{font-size:14px}.meta{font-size:12px;fill:#555}</style>',
@@ -105,21 +124,13 @@ boundary=(x(-1)+x(1))/2
 svg.append(f'<line x1="{boundary:.1f}" y1="118" x2="{boundary:.1f}" y2="{height-55}" stroke="#111" stroke-width="2"/>')
 svg.append(f'<text x="{boundary+5:.1f}" y="122" class="meta">1 BCE | 1 CE (no year 0)</text>')
 
-for li,(name,_) in enumerate(LANES):
- y0=TOP+li*LANE_H
- svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{LANE_H}" fill="{"#ffffff" if li%2==0 else "#efede7"}" opacity=".65"/>')
+y_cursor=TOP
+for li,(name,items,lane_h) in enumerate(lane_layouts):
+ y0=y_cursor; y_cursor+=lane_h
+ svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#ffffff" if li%2==0 else "#efede7"}" opacity=".65"/>')
  svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
- items=sorted(marks[li],key=lambda z:(z[0],z[1]))
- tracks=[-10**9]*7
- for s,en,e,c in items:
-  xs=max(x(START),x(max(s,START))); xe=min(x(END),x(min(en,END)))
-  t=next((k for k,v in enumerate(tracks) if xs>v+8),None)
-  if t is None:
-   # Never discard canonical marks because a presentation lane is crowded.
-   # Extend the track set; a later layout pass may increase lane height.
-   tracks.append(-10**9)
-   t=len(tracks)-1
-  yy=y0+43+t*20; tracks[t]=max(xe,xs+65)
+ for s,en,e,c,xs,xe,t in items:
+  yy=y0+TRACK_TOP+t*TRACK_STEP
   cls=esc(e["Classification"]); nm=esc(e["Display Name"] or e["Canonical Name"]); dash=dash_for(e["Classification"])
   title=esc(f'{e["Entity ID"]} | {c["Date Claim ID"]} | {c["Display Date"]} | {e["Classification"]}')
   if abs(xe-xs)<4:
