@@ -182,7 +182,8 @@ text{font-family:Georgia,"Times New Roman",serif;fill:#211b14}
 </style>''',
 f'<text x="30" y="48" class="title">{"The World, 600–300 BCE" if HERO_SLICE else "Synchronized Human History — v1.0 Foundation"}</text>',
 f'<text x="30" y="78" class="sub">{"Illustrated synchronized panorama • " if HERO_SLICE else "Canonical render • "}{label_year(START)}–{label_year(END)} • one shared chronological axis</text>',
-f'<text x="30" y="103" class="meta">Numeric claims only. {skipped} non-numeric/textual date claims remain in the database and are intentionally not assigned invented coordinates.</text>']
+f'<text x="30" y="103" class="meta">Numeric claims only. {skipped} non-numeric/textual date claims remain in the database and are intentionally not assigned invented coordinates.</text>',
+f'<text x="{W-30}" y="48" text-anchor="end" class="meta">WORLD HISTORY • SYNCHRONIZED</text>' if HERO_SLICE else '']
 
 # axis: skip display year zero. Hero slice gets a denser 50-year museum grid.
 axis_step=50 if HERO_SLICE else 100
@@ -259,6 +260,9 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
     svg.append(f'<a href="{source_url}" target="_blank"><title>{source_label} | {rights}</title><rect x="{xs-57:.1f}" y="{yy-100:.1f}" width="114" height="80" fill="transparent"/></a>')
    svg.append(f'<line x1="{xs:.1f}" y1="{yy-28:.1f}" x2="{xs:.1f}" y2="{yy-18:.1f}" stroke="#7d6547" stroke-width="1"/>')
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="{'18' if HERO_SLICE else '15'}">{nm}<title>{title}</title></text>')
+   if HERO_SLICE:
+    date_caption=esc(c.get("Display Date",""))
+    svg.append(f'<text x="{label_x:.1f}" y="{label_y+15:.1f}" class="meta" font-size="10">{date_caption}</text>')
   else:
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item">{nm}<title>{title}</title></text>')
 
