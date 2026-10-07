@@ -73,6 +73,7 @@ LEFT=520; RIGHT=120; TOP=210
 W=int(LEFT+RIGHT+(CHRONO_SPAN if 'CHRONO_SPAN' in globals() else (END-START))*PIXELS_PER_YEAR)
 BASE_LANE_H=180
 HERO_SLICE=(START==-600 and END==-300)
+HERO_TRACK_STEP=34 if HERO_SLICE else TRACK_STEP
 TRACK_STEP=20
 TRACK_TOP=43
 
@@ -160,7 +161,7 @@ for li,(name,_) in enumerate(LANES):
    track_ends.append(-10**9); t=len(track_ends)-1
   track_ends[t]=max(xe,xs+65)
   placed.append((s,en,e,c,xs,xe,t))
- lane_h=max(BASE_LANE_H, TRACK_TOP+max(1,len(track_ends))*TRACK_STEP+25)
+ lane_h=max(BASE_LANE_H, TRACK_TOP+max(1,len(track_ends))*HERO_TRACK_STEP+45)
  lane_layouts.append((name,placed,lane_h))
 
 height=TOP+sum(z[2] for z in lane_layouts)+100
@@ -196,7 +197,7 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
  svg.append(f'<rect x="0" y="{y0}" width="{W}" height="{lane_h}" fill="{"#f7f0df" if li%2==0 else "#e8ddc5"}" opacity=".72"/>')
  svg.append(f'<text x="25" y="{y0+27}" class="lane">{esc(name)}</text>')
  for s,en,e,c,xs,xe,t in items:
-  yy=y0+TRACK_TOP+t*TRACK_STEP
+  yy=y0+TRACK_TOP+t*HERO_TRACK_STEP
   cls=esc(e["Classification"]); nm=esc(e["Display Name"] or e["Canonical Name"]); dash=dash_for(e["Classification"])
   title=esc(f'{e["Entity ID"]} | {c["Date Claim ID"]} | {c["Display Date"]} | {e["Classification"]}')
   kind=visual_kind(e)
@@ -210,7 +211,7 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
   feature=("feature" in tier or "master" in tier)
   label_x=xs+10; label_y=yy-7
   if feature:
-   box_w=min(300,max(105,8.0*len(nm)+18))
+   box_w=min(360 if HERO_SLICE else 300,max(120 if HERO_SLICE else 105,(9.0 if HERO_SLICE else 8.0)*len(nm)+18))
    svg.append(f'<rect x="{label_x-5:.1f}" y="{label_y-17:.1f}" width="{box_w:.1f}" height="22" rx="4" fill="#fbf6e9" fill-opacity=".94" stroke="#a98f68" stroke-width=".8" filter="url(#softShadow)"/>')
    # Feature anchors get a larger medallion and chronology tether. This remains neutral until a verified image asset exists.
    svg.append(f'<line x1="{xs:.1f}" y1="{yy:.1f}" x2="{xs:.1f}" y2="{yy-27:.1f}" stroke="#a98f68" stroke-width="1"/>')
@@ -234,7 +235,7 @@ for li,(name,items,lane_h) in enumerate(lane_layouts):
     svg.append(f'<text x="{xs:.1f}" y="{yy-80:.1f}" text-anchor="middle" class="meta" font-size="9">SOURCED • {asset_label}</text>')
     svg.append(f'<a href="{source_url}" target="_blank"><title>{source_label} | {rights}</title><rect x="{xs-57:.1f}" y="{yy-100:.1f}" width="114" height="80" fill="transparent"/></a>')
    svg.append(f'<line x1="{xs:.1f}" y1="{yy-28:.1f}" x2="{xs:.1f}" y2="{yy-18:.1f}" stroke="#7d6547" stroke-width="1"/>')
-   svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="15">{nm}<title>{title}</title></text>')
+   svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item" font-size="{'18' if HERO_SLICE else '15'}">{nm}<title>{title}</title></text>')
   else:
    svg.append(f'<text x="{label_x:.1f}" y="{label_y:.1f}" class="item">{nm}<title>{title}</title></text>')
 
