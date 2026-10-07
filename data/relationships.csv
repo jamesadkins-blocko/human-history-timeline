@@ -120,31 +120,31 @@ REL-0120,ENT-0241,RELATED_TO,ENT-0218,,Legacy explicit relation,Imported from v0
 REL-0121,ENT-0242,RELATED_TO,ENT-0218,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0122,ENT-0242,RELATED_TO,ENT-0231,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0123,ENT-0243,RELATED_TO,ENT-0244,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0124,ENT-0245,RELATED_TO,ENT-0246,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0124,ENT-0245,RESULTED_IN,ENT-0246,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0125,ENT-0251,RELATED_TO,ENT-0031,SRC-0140,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0126,ENT-0251,RELATED_TO,ENT-0252,SRC-0140,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0127,ENT-0253,RELATED_TO,ENT-0251,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0126,ENT-0251,ASSOCIATED_WITH,ENT-0252,SRC-0140,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0127,ENT-0253,PART_OF,ENT-0251,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0128,ENT-0253,RELATED_TO,ENT-0103,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0129,ENT-0261,RELATED_TO,ENT-0008,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0130,ENT-0262,RELATED_TO,ENT-0263,SRC-0146,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0131,ENT-0262,RELATED_TO,ENT-0264,SRC-0146,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0132,ENT-0264,RELATED_TO,ENT-0265,SRC-0147,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0133,ENT-0266,RELATED_TO,ENT-0267,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0134,ENT-0268,RELATED_TO,ENT-0269,SRC-0148,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0135,ENT-0270,RELATED_TO,ENT-0271,SRC-0149,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0136,ENT-0272,RELATED_TO,ENT-0273,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0137,ENT-0273,RELATED_TO,ENT-0274,SRC-0150,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0138,ENT-0275,RELATED_TO,ENT-0276,SRC-0151,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0139,ENT-0275,RELATED_TO,ENT-0277,SRC-0151,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0140,ENT-0275,RELATED_TO,ENT-0278,SRC-0151,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0129,ENT-0261,PRECEDED_BY,ENT-0008,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0130,ENT-0262,OCCURRED_WITHIN,ENT-0263,SRC-0146,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0131,ENT-0262,OCCURRED_WITHIN,ENT-0264,SRC-0146,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0132,ENT-0264,PRECEDED_BY,ENT-0265,SRC-0147,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0133,ENT-0266,OCCURRED_WITHIN,ENT-0267,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0134,ENT-0268,RULED_BY,ENT-0269,SRC-0148,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0135,ENT-0270,OCCURRED_WITHIN,ENT-0271,SRC-0149,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0136,ENT-0272,RULED_BY,ENT-0273,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0137,ENT-0273,COMMISSIONED_BY,ENT-0274,SRC-0150,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0138,ENT-0275,RULED_BY,ENT-0276,SRC-0151,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0139,ENT-0275,OCCURRED_WITHIN,ENT-0277,SRC-0151,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0140,ENT-0275,RULED_BY,ENT-0278,SRC-0151,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0141,ENT-0277,RELATED_TO,ENT-0278,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0142,ENT-0279,RELATED_TO,ENT-0280,SRC-0151,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0143,ENT-0280,RELATED_TO,ENT-0281,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0144,ENT-0282,RELATED_TO,ENT-0283,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0145,ENT-0283,RELATED_TO,ENT-0284,SRC-0154,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0146,ENT-0285,RELATED_TO,ENT-0286,SRC-0155,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0147,ENT-0287,RELATED_TO,ENT-0008,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0148,ENT-0288,RELATED_TO,ENT-0008,SRC-0156,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0145,ENT-0283,ASSOCIATED_WITH,ENT-0284,SRC-0154,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0146,ENT-0285,ASSOCIATED_WITH,ENT-0286,SRC-0155,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0147,ENT-0287,ASSOCIATED_WITH,ENT-0008,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0148,ENT-0288,PART_OF,ENT-0008,SRC-0156,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0149,ENT-0289,RELATED_TO,ENT-0281,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0150,ENT-0289,RELATED_TO,ENT-0283,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0151,ENT-0290,RELATED_TO,ENT-0289,SRC-0151,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
@@ -157,115 +157,115 @@ REL-0157,ENT-0295,RELATED_TO,ENT-0296,SRC-0157,Legacy explicit relation,Imported
 REL-0158,ENT-0296,RELATED_TO,ENT-0044,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0159,ENT-0299,RELATED_TO,ENT-0300,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0160,ENT-0301,RELATED_TO,ENT-0302,SRC-0160,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0161,ENT-0301,RELATED_TO,ENT-0303,SRC-0160,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0162,ENT-0302,RELATED_TO,ENT-0304,SRC-0160,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0163,ENT-0303,RELATED_TO,ENT-0010,SRC-0160,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0164,ENT-0304,RELATED_TO,ENT-0011,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0165,ENT-0304,RELATED_TO,ENT-0305,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0161,ENT-0301,RESULTED_IN,ENT-0303,SRC-0160,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0162,ENT-0302,RESULTED_IN,ENT-0304,SRC-0160,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0163,ENT-0303,OCCURRED_WITHIN,ENT-0010,SRC-0160,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0164,ENT-0304,OCCURRED_WITHIN,ENT-0011,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0165,ENT-0304,RESULTED_IN,ENT-0305,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0166,ENT-0305,RELATED_TO,ENT-0307,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0167,ENT-0306,RELATED_TO,ENT-0307,SRC-0161,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0168,ENT-0306,RELATED_TO,ENT-0004,SRC-0161,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0169,ENT-0004,RELATED_TO,ENT-0307,SRC-0162,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0170,ENT-0074,RELATED_TO,ENT-0308,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0171,ENT-0074,RELATED_TO,ENT-0326,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0172,ENT-0052,RELATED_TO,ENT-0309,SRC-0163,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0173,ENT-0310,RELATED_TO,ENT-0311,SRC-0163,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0174,ENT-0056,RELATED_TO,ENT-0313,SRC-0164,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0167,ENT-0306,RULED_BY,ENT-0307,SRC-0161,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0168,ENT-0306,ASSOCIATED_WITH,ENT-0004,SRC-0161,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0169,ENT-0004,COMMISSIONED_BY,ENT-0307,SRC-0162,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0170,ENT-0074,INCLUDES_EVENT,ENT-0308,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0171,ENT-0074,OCCURRED_WITHIN,ENT-0326,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0172,ENT-0052,ATTRIBUTED_TO,ENT-0309,SRC-0163,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0173,ENT-0310,ATTRIBUTED_TO,ENT-0311,SRC-0163,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0174,ENT-0056,FOUNDED_BY,ENT-0313,SRC-0164,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0175,ENT-0313,RELATED_TO,ENT-0315,SRC-0164,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0176,ENT-0314,RELATED_TO,ENT-0056,SRC-0164,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0177,ENT-0314,RELATED_TO,ENT-0058,SRC-0164,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0178,ENT-0314,RELATED_TO,ENT-0030,SRC-0164,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0179,ENT-0061,COMMISSIONED_INSCRIPTIONS,ENT-0315,SRC-0164,High-confidence semantic typing,Royal inscriptions
-REL-0180,ENT-0316,RELATED_TO,ENT-0044,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0180,ENT-0316,ASSOCIATED_WITH,ENT-0044,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0181,ENT-0316,RELATED_TO,ENT-0045,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0182,ENT-0045,RELATED_TO,ENT-0296,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0182,ENT-0045,AUTHORED,ENT-0296,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0183,ENT-0045,RELATED_TO,ENT-0317,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0184,ENT-0317,RELATED_TO,ENT-0318,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0185,ENT-0318,RELATED_TO,ENT-0306,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0186,ENT-0318,RELATED_TO,ENT-0319,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0187,ENT-0320,RELATED_TO,ENT-0321,SRC-0169,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0188,ENT-0320,RELATED_TO,ENT-0071,SRC-0169,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0186,ENT-0318,RESULTED_IN,ENT-0319,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0187,ENT-0320,ASSOCIATED_WITH,ENT-0321,SRC-0169,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0188,ENT-0320,SUCCEEDED_BY,ENT-0071,SRC-0169,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0189,ENT-0321,RELATED_TO,ENT-0071,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0190,ENT-0071,RELATED_TO,ENT-0322,SRC-0170,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0191,ENT-0322,RELATED_TO,ENT-0114,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0190,ENT-0071,RULED_BY,ENT-0322,SRC-0170,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0191,ENT-0322,SUCCEEDED_BY,ENT-0114,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0192,ENT-0323,RELATED_TO,ENT-0321,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0193,ENT-0323,RELATED_TO,ENT-0071,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0194,ENT-0324,RELATED_TO,ENT-0074,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0194,ENT-0324,OCCURRED_WITHIN,ENT-0074,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0195,ENT-0324,RELATED_TO,ENT-0325,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0196,ENT-0325,RELATED_TO,ENT-0074,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0196,ENT-0325,OCCURRED_WITHIN,ENT-0074,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0197,ENT-0325,RELATED_TO,ENT-0326,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0198,ENT-0326,RELATED_TO,ENT-0327,SRC-0166,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0199,ENT-0326,RELATED_TO,ENT-0328,SRC-0166,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0200,ENT-0326,RELATED_TO,ENT-0329,SRC-0166,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0201,ENT-0327,RELATED_TO,ENT-0034,SRC-0166,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0198,ENT-0326,CONTAINS_TEXT,ENT-0327,SRC-0166,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0199,ENT-0326,CONTAINS_TEXT,ENT-0328,SRC-0166,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0200,ENT-0326,CONTAINS_TEXT,ENT-0329,SRC-0166,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0201,ENT-0327,ATTRIBUTED_TO,ENT-0034,SRC-0166,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0202,ENT-0073,RELATED_TO,ENT-0332,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0203,ENT-0073,RELATED_TO,ENT-0333,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0204,ENT-0332,RELATED_TO,ENT-0333,SRC-0171,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0205,ENT-0075,RELATED_TO,ENT-0074,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0206,ENT-0075,RELATED_TO,ENT-0322,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0207,ENT-0067,RELATED_TO,ENT-0018,SRC-0163,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0205,ENT-0075,OCCURRED_WITHIN,ENT-0074,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0206,ENT-0075,OCCURRED_WITHIN,ENT-0322,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0207,ENT-0067,RULED_BY,ENT-0018,SRC-0163,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0208,ENT-0067,RULER_ASSOCIATED_WITH_FUNERARY_COMPLEX,ENT-0068,SRC-0163,High-confidence semantic typing,Mausoleum complex
-REL-0209,ENT-0337,RELATED_TO,ENT-0019,SRC-0165,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0209,ENT-0337,RULED_BY,ENT-0019,SRC-0165,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0210,ENT-0337,RELATED_TO,ENT-0069,SRC-0165,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0211,ENT-0339,RELATED_TO,ENT-0104,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0212,ENT-0340,RELATED_TO,ENT-0094,SRC-0174,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0213,ENT-0341,RELATED_TO,ENT-0098,SRC-0189,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0214,ENT-0342,RELATED_TO,ENT-0343,SRC-0175,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0215,ENT-0342,RELATED_TO,ENT-0345,SRC-0175,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0214,ENT-0342,RULED_BY,ENT-0343,SRC-0175,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0215,ENT-0342,OCCURRED_WITHIN,ENT-0345,SRC-0175,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0216,ENT-0343,RELATED_TO,ENT-0115,SRC-0175,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0217,ENT-0115,PATRON_OF_BUILDING_PROJECT,ENT-0344,SRC-0179,High-confidence semantic typing,Imperial rebuilding
 REL-0218,ENT-0345,RELATED_TO,ENT-0117,SRC-0176,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0219,ENT-0117,PARTICIPATED_IN_EVENT,ENT-0346,SRC-0178,High-confidence semantic typing,Central participant
-REL-0220,ENT-0117,RELATED_TO,ENT-0347,SRC-0178,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0221,ENT-0347,RELATED_TO,ENT-0348,SRC-0176,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0220,ENT-0117,SUCCEEDED_BY,ENT-0347,SRC-0178,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0221,ENT-0347,SUCCEEDED_BY,ENT-0348,SRC-0176,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0222,ENT-0348,RELATED_TO,ENT-0349,SRC-0176,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0223,ENT-0350,RELATED_TO,ENT-0351,SRC-0177,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0224,ENT-0350,RELATED_TO,ENT-0352,SRC-0177,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0223,ENT-0350,OCCURRED_WITHIN,ENT-0351,SRC-0177,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0224,ENT-0350,OCCURRED_WITHIN,ENT-0352,SRC-0177,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0225,ENT-0353,RELATED_TO,ENT-0115,SRC-0180,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0226,ENT-0354,RELATED_TO,ENT-0355,SRC-0179,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0226,ENT-0354,OCCURRED_WITHIN,ENT-0355,SRC-0179,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0227,ENT-0355,RELATED_TO,ENT-0356,SRC-0179,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0228,ENT-0357,RELATED_TO,ENT-0358,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0229,ENT-0135,RELATED_TO,ENT-0359,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0230,ENT-0360,RELATED_TO,ENT-0361,SRC-0181,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0228,ENT-0357,OCCURRED_WITHIN,ENT-0358,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0229,ENT-0135,OCCURRED_WITHIN,ENT-0359,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0230,ENT-0360,OCCURRED_WITHIN,ENT-0361,SRC-0181,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0231,ENT-0362,RELATED_TO,ENT-0363,SRC-0193,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0232,ENT-0121,RELATED_TO,ENT-0364,SRC-0182,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0233,ENT-0121,RELATED_TO,ENT-0365,SRC-0182,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0234,ENT-0366,RELATED_TO,ENT-0367,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0235,ENT-0367,RELATED_TO,ENT-0368,SRC-0183,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0236,ENT-0369,RELATED_TO,ENT-0370,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0237,ENT-0372,RELATED_TO,ENT-0373,SRC-0184,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0232,ENT-0121,OCCURRED_WITHIN,ENT-0364,SRC-0182,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0233,ENT-0121,OCCURRED_WITHIN,ENT-0365,SRC-0182,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0234,ENT-0366,SUCCEEDED_BY,ENT-0367,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0235,ENT-0367,ASSOCIATED_WITH,ENT-0368,SRC-0183,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0236,ENT-0369,ASSOCIATED_WITH,ENT-0370,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0237,ENT-0372,RULED_BY,ENT-0373,SRC-0184,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0238,ENT-0374,RELATED_TO,ENT-0375,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0239,ENT-0376,RELATED_TO,ENT-0129,SRC-0186,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0240,ENT-0139,RELATED_TO,ENT-0377,SRC-0084,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0241,ENT-0139,RELATED_TO,ENT-0378,SRC-0084,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0242,ENT-0379,RELATED_TO,ENT-0380,SRC-0188,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0243,ENT-0380,RELATED_TO,ENT-0139,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0244,ENT-0381,RELATED_TO,ENT-0382,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0239,ENT-0376,ASSOCIATED_WITH,ENT-0129,SRC-0186,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0240,ENT-0139,PART_OF,ENT-0377,SRC-0084,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0241,ENT-0139,ASSOCIATED_WITH,ENT-0378,SRC-0084,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0242,ENT-0379,ASSOCIATED_WITH,ENT-0380,SRC-0188,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0243,ENT-0380,OCCURRED_WITHIN,ENT-0139,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0244,ENT-0381,ASSOCIATED_WITH,ENT-0382,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0245,ENT-0383,RELATED_TO,ENT-0384,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0246,ENT-0385,RELATED_TO,ENT-0386,SRC-0189,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0247,ENT-0386,RELATED_TO,ENT-0387,SRC-0190,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0248,ENT-0386,RELATED_TO,ENT-0388,SRC-0190,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0249,ENT-0389,RELATED_TO,ENT-0390,SRC-0190,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0250,ENT-0390,RELATED_TO,ENT-0391,SRC-0191,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0251,ENT-0390,RELATED_TO,ENT-0124,SRC-0191,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0252,ENT-0391,RELATED_TO,ENT-0124,SRC-0190,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0253,ENT-0124,RELATED_TO,ENT-0392,SRC-0190,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0247,ENT-0386,ASSOCIATED_WITH,ENT-0387,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0248,ENT-0386,ASSOCIATED_WITH,ENT-0388,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0249,ENT-0389,FOUNDED_BY,ENT-0390,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0250,ENT-0390,RULED_BY,ENT-0391,SRC-0191,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0251,ENT-0390,SUCCEEDED_BY,ENT-0124,SRC-0191,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0252,ENT-0391,RULED_BY,ENT-0124,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0253,ENT-0124,OCCURRED_WITHIN,ENT-0392,SRC-0190,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0254,ENT-0393,RELATED_TO,ENT-0394,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0255,ENT-0395,RELATED_TO,ENT-0393,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0256,ENT-0395,RELATED_TO,ENT-0394,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0257,ENT-0396,RELATED_TO,ENT-0397,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0258,ENT-0398,RELATED_TO,ENT-0399,SRC-0192,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0257,ENT-0396,OCCURRED_WITHIN,ENT-0397,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0258,ENT-0398,RESULTED_IN,ENT-0399,SRC-0192,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0259,ENT-0399,RELATED_TO,ENT-0400,SRC-0192,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0260,ENT-0130,RULED_BY,ENT-0401,SRC-0193,High-confidence semantic typing,Ruler of Mali
 REL-0261,ENT-0401,PARTICIPATED_IN_EVENT,ENT-0402,SRC-0193,High-confidence semantic typing,Pilgrimage
 REL-0262,ENT-0403,RELATED_TO,ENT-0404,SRC-0079,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0263,ENT-0405,RELATED_TO,ENT-0406,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0264,ENT-0407,RELATED_TO,ENT-0408,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0265,ENT-0408,RELATED_TO,ENT-0129,SRC-0186,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0266,ENT-0409,RELATED_TO,ENT-0410,SRC-0196,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0265,ENT-0408,ASSOCIATED_WITH,ENT-0129,SRC-0186,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0266,ENT-0409,PART_OF,ENT-0410,SRC-0196,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0267,ENT-0143,RELATED_TO,ENT-0412,SRC-0197,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0268,ENT-0413,RELATED_TO,ENT-0143,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
-REL-0269,ENT-0414,RELATED_TO,ENT-0415,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
+REL-0268,ENT-0413,RESULTED_IN,ENT-0143,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
+REL-0269,ENT-0414,OCCURRED_WITHIN,ENT-0415,,Legacy explicit relation,v0.20 high-confidence semantic typing from explicit entity relationship; legacy linkage preserved.
 REL-0270,ENT-0416,RELATED_TO,ENT-0417,SRC-0199,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0271,ENT-0417,RELATED_TO,ENT-0418,SRC-0199,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
 REL-0272,ENT-0419,RELATED_TO,ENT-0420,,Legacy explicit relation,Imported from v0.16 Related IDs; relationship semantics require refinement.
