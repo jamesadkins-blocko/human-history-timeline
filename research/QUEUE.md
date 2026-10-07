@@ -15,11 +15,11 @@
 - [x] Repair validator for actual canonical title-case CSV schema.
 - [x] Repair legacy HT lineage regex.
 - [x] GitHub Actions full canonical validation PASS (run 37555425333; commit 445c1c02318b9852250f53963c78f88b98c6b345).
-- [ ] Perform targeted relationship directionality audit/corrections before v1.0 freeze.
-- [ ] Define controlled label-kind vocabulary for Places & Regions; classify obvious non-geographic/astronomical/narrative scopes without inventing parentage.
-- [ ] Define controlled label-kind vocabulary for Traditions & Corpora; classify obvious categories without blindly parsing compound labels.
-- [ ] Finish remaining high-priority source-quality review; lower-priority URL enrichment may continue after render gate.
-- [ ] Freeze v0.20 semantic/QA milestone.
+- [x] Perform targeted relationship directionality audit/corrections before v1.0 freeze.
+- [x] Define controlled label-kind vocabulary for Places & Regions; classify obvious non-geographic/astronomical/narrative scopes without inventing parentage.
+- [x] Define controlled label-kind vocabulary for Traditions & Corpora; classify obvious categories without blindly parsing compound labels.
+- [x] Complete high-priority source-quality review required for render gate; lower-priority URL enrichment continues after render gate.
+- [x] Freeze v0.20 structural semantic/QA milestone.
 
 ## NEXT — v1.0 normalization operational / render gate
 - [ ] Run final validation after v0.20 canonical mutations.
