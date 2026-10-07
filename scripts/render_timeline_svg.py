@@ -72,6 +72,7 @@ PIXELS_PER_YEAR=float(sys.argv[3]) if len(sys.argv)>3 else 6.0
 LEFT=520; RIGHT=120; TOP=210
 W=int(LEFT+RIGHT+(CHRONO_SPAN if 'CHRONO_SPAN' in globals() else (END-START))*PIXELS_PER_YEAR)
 BASE_LANE_H=180
+HERO_SLICE=(START==-600 and END==-300)
 TRACK_STEP=20
 TRACK_TOP=43
 
@@ -175,8 +176,8 @@ text{font-family:Georgia,"Times New Roman",serif;fill:#211b14}
 .lane{font-size:22px;font-weight:700;letter-spacing:.3px}.tick{font-size:14px;fill:#6b5a46}
 .item{font-size:14px;font-weight:600}.meta{font-family:Arial,sans-serif;font-size:12px;fill:#6a6258}
 </style>''',
-'<text x="30" y="48" class="title">Synchronized Human History — v1.0 Foundation</text>',
-f'<text x="30" y="78" class="sub">Canonical render • {START*-1} BCE–{END} CE • one shared chronological axis • generated from normalized data</text>',
+f'<text x="30" y="48" class="title">{"The World, 600–300 BCE" if HERO_SLICE else "Synchronized Human History — v1.0 Foundation"}</text>',
+f'<text x="30" y="78" class="sub">{"Illustrated synchronized panorama • " if HERO_SLICE else "Canonical render • "}{label_year(START)}–{label_year(END)} • one shared chronological axis</text>',
 f'<text x="30" y="103" class="meta">Numeric claims only. {skipped} non-numeric/textual date claims remain in the database and are intentionally not assigned invented coordinates.</text>']
 
 # axis: skip display year zero
