@@ -191,10 +191,11 @@ for yr in range(START,END+1,axis_step):
  if yr==0: continue
  xx=x(yr); svg.append(f'<line x1="{xx:.1f}" y1="125" x2="{xx:.1f}" y2="{height-55}" stroke="#bbb" stroke-width="1"/>')
  svg.append(f'<text x="{xx:.1f}" y="145" text-anchor="middle" class="tick">{esc(label_year(yr))}</text>')
-# explicit BCE/CE boundary at mathematical midpoint between -1 and +1
-boundary=(x(-1)+x(1))/2
-svg.append(f'<line x1="{boundary:.1f}" y1="118" x2="{boundary:.1f}" y2="{height-55}" stroke="#111" stroke-width="2"/>')
-svg.append(f'<text x="{boundary+5:.1f}" y="122" class="meta">1 BCE | 1 CE (no year 0)</text>')
+# Emit the BCE/CE boundary only when both adjacent historical years are in view.
+if START <= -1 and END >= 1:
+ boundary=(x(-1)+x(1))/2
+ svg.append(f'<line x1="{boundary:.1f}" y1="118" x2="{boundary:.1f}" y2="{height-55}" stroke="#111" stroke-width="2"/>')
+ svg.append(f'<text x="{boundary+5:.1f}" y="122" class="meta">1 BCE | 1 CE (no year 0)</text>')
 
 y_cursor=TOP
 for li,(name,items,lane_h) in enumerate(lane_layouts):
